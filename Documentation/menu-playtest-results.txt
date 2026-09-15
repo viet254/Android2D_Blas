@@ -1,0 +1,11 @@
+PASS Main menu controller starts
+PASS Touch, keyboard and controller event system exists
+PASS Cropped original 640x360 background loaded
+PASS Original 22-frame Penitent menu animation loaded
+PASS Original Majestic Extended bitmap font loaded
+PASS New Game, Continue, Options and Extras created
+PASS Menu input module has default pointer, touch and navigation actions
+PASS Main menu exposes guarded save purge flow
+PASS Menu labels do not block pointer clicks on buttons
+PASS Main menu labels use the original bitmap font
+RESULT: PASSED

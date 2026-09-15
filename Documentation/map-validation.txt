@@ -1,0 +1,8 @@
+Source-aware map validation · 2026-09-14T00:29:54
+D17Z01S01: 427 source nodes; sections AUDIO,DECO,LAYOUT,LOGIC,MAIN
+D17Z01S02: 371 source nodes; sections AUDIO,DECO,LAYOUT,LOGIC,MAIN
+D17Z01S05: 267 source nodes; sections AUDIO,DECO,LAYOUT,LOGIC,MAIN
+D17Z01S11: 268 source nodes; sections AUDIO,DECO,LAYOUT,LOGIC,MAIN
+D17Z01S03: 150 source nodes; sections AUDIO,DECO,LAYOUT,LOGIC,MAIN
+Referenced renderers: 940; intentionally empty source references: 48; errors: 0
+This checks source parity, not whether every apparent opening is an error. Door openings, masks, shader behavior and runtime state still require visual review.

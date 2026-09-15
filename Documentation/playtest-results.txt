@@ -1,0 +1,202 @@
+Suite revision: source-parity + blood-platforms 2026-09-12
+PASS Five rooms restored
+PASS Player uses mobile-source base Life 88 and Fervour 60
+PASS Core progression flags available
+PASS Main menu scene generated
+PASS Separate safe-area HUD and control canvases
+PASS Original portrait and gauge art loaded
+PASS Original flask and Tears art loaded
+PASS Original Majestic Extended bitmap font loaded
+PASS Original Android touch-control and joystick art loaded
+PASS Health gauge uses original tiled frame without procedural outline
+PASS Original health and fervour gauge proportions restored
+PASS Original loss layer, bar end and fervour divisions restored
+PASS Character menu provides map, inventory, relic, prayer and skill pages
+FAIL HUD and character menu labels use the original bitmap font
+PASS Original prayer, relic, rosary bead and sword metadata catalog imported
+PASS Original inventory prefab effect components preserved in runtime catalog
+PASS All original inventory icons load from Resources
+PASS Character menu provides seven reusable inventory icon slots
+PASS Owned prayer can be equipped through the shared inventory state
+PASS PR01 uses source cost, ten-second duration and attack-speed modifier
+PASS Equipped prayer can be removed without losing ownership
+PASS PR16 preserves mobile 30 percent Tears multiplier
+PASS PR16 applies mobile Tears multiplier to source enemy reward
+PASS Owned rosary bead can be equipped in a persistent slot
+PASS Equipped rosary bead can be removed without losing ownership
+PASS RB01 applies its source 10 percent normal-damage reduction
+PASS HE03 applies its source Strength plus eight modifier
+PASS Character inventory opens centered and pauses gameplay
+PASS Closing character inventory resumes gameplay
+PASS Android touch layout enters drag-remap mode with persistent button keys
+PASS Finishing touch remap returns to gameplay controls
+PASS HUD uses cropped original portrait frame
+PASS HUD uses cropped original Tears frame
+PASS HUD and controls constrained to device safe area
+PASS Locked dash button is hidden
+PASS Unlocked dash button is visible
+PASS Prayer and special touch buttons stay hidden before unlock
+PASS Unlocked prayer and special touch buttons appear
+PASS Expanded original audio samples attached
+PASS Execution prompt and hit sounds restored from source FMOD bank
+PASS Acolyte and NewFlagellant preserve the mobile 5 second execution window
+PASS Movement, ladder, damage, healing and plunge sounds restored from source FMOD bank
+PASS Charged and lunge sounds restored from source FMOD bank
+PASS Fervorous Blood cast, flight, hit, vanish and explosion sounds restored
+PASS Prayer activation, duration, protection and inventory sounds restored
+PASS Directional combat and locomotion source clips available
+PASS Original separate sword-slash renderer clips available
+PASS Original charged projectile flight, impact and vanish clips available
+PASS Fervorous Blood flight, vanish and explosion clips available
+PASS Mobile prayer beam, cherub, guardian, flame and toxic clips available
+PASS Source ladder trigger zones restored
+PASS Player sprite feet align with motor origin
+PASS D17Z01S01 terrain colliders
+PASS D17Z01S01 visible sprite renderers
+PASS D17Z01S01 preserves every mobile source transform
+PASS D17Z01S01 preserves every mobile source renderer
+PASS D17Z01S01 preserves mobile parallax layer count
+PASS D17Z01S01 preserves mobile camera boundaries
+PASS D17Z01S01 grounded arrival (-988.00, 20.03, 0.00)
+PASS D17Z01S01 player feet touch arrival surface
+PASS D17Z01S01 safe arrival
+PASS D17Z01S01 sprite shader supported
+PASS D17Z01S01 reciprocal door E -> D17Z01S02/W
+PASS D17Z01S02 terrain colliders
+PASS D17Z01S02 visible sprite renderers
+PASS D17Z01S02 preserves every mobile source transform
+PASS D17Z01S02 preserves every mobile source renderer
+PASS D17Z01S02 preserves mobile parallax layer count
+PASS D17Z01S02 preserves mobile camera boundaries
+PASS D17Z01S02 grounded arrival (-945.30, 8.03, 0.00)
+PASS D17Z01S02 player feet touch arrival surface
+PASS D17Z01S02 safe arrival
+PASS D17Z01S02 acolyte feet align with ground origin
+PASS D17Z01S02 acolyte uses mobile balance health and Tears
+PASS D17Z01S02 sprite shader supported
+PASS D17Z01S02 reciprocal door W -> D17Z01S01/E
+PASS D17Z01S02 reciprocal door E -> D17Z01S05/W
+PASS D17Z01S05 terrain colliders
+PASS D17Z01S05 visible sprite renderers
+PASS D17Z01S05 preserves every mobile source transform
+PASS D17Z01S05 preserves every mobile source renderer
+PASS D17Z01S05 preserves mobile parallax layer count
+PASS D17Z01S05 preserves mobile camera boundaries
+PASS D17Z01S05 grounded arrival (-871.48, 9.03, 0.00)
+PASS D17Z01S05 player feet touch arrival surface
+PASS D17Z01S05 safe arrival
+PASS D17Z01S05 flagellant feet align with ground origin
+PASS D17Z01S05 flagellant uses mobile balance health and Tears
+PASS D17Z01S05 sprite shader supported
+PASS D17Z01S05 reciprocal door E -> D17Z01S11/W
+PASS D17Z01S05 reciprocal door W -> D17Z01S02/E
+PASS D17Z01S11 terrain colliders
+PASS D17Z01S11 visible sprite renderers
+PASS D17Z01S11 preserves every mobile source transform
+PASS D17Z01S11 preserves every mobile source renderer
+PASS D17Z01S11 preserves mobile parallax layer count
+PASS D17Z01S11 preserves mobile camera boundaries
+PASS D17Z01S11 grounded arrival (-826.75, 9.03, 0.00)
+PASS D17Z01S11 player feet touch arrival surface
+PASS D17Z01S11 safe arrival
+PASS Warden completes the original falling intro before combat
+PASS D17Z01S11 elderbrother feet align with ground origin
+PASS Warden uses mobile balance health and Tears
+PASS D17Z01S11 sprite shader supported
+PASS D17Z01S11 reciprocal door E -> D17Z01S03/W
+PASS D17Z01S11 reciprocal door W -> D17Z01S05/E
+PASS D17Z01S03 terrain colliders
+PASS D17Z01S03 visible sprite renderers
+PASS D17Z01S03 preserves every mobile source transform
+PASS D17Z01S03 preserves every mobile source renderer
+PASS D17Z01S03 preserves mobile parallax layer count
+PASS D17Z01S03 preserves mobile camera boundaries
+PASS D17Z01S03 grounded arrival (-786.00, 8.03, 0.00)
+PASS D17Z01S03 player feet touch arrival surface
+PASS D17Z01S03 safe arrival
+PASS D17Z01S03 sprite shader supported
+PASS D17Z01S03 reciprocal door W -> D17Z01S11/E
+PASS Ordinary sword damage does not incorrectly expose an execution
+PASS Successful parry grants the mobile 5 second execution window
+PASS Execution-ready enemy shows original animated prompt above its head
+PASS Execution prompt renders a restored source animation frame
+PASS Execution exposes the contextual USE button
+PASS Enemy execution uses family-specific original animation
+PASS Original composite execution hides duplicate live player renderer
+PASS Execution crosses Player to the far-side mobile endpoint
+PASS Execution grants Fervour and source enemy Tears
+PASS Completed composite execution frame is disposed before live Player returns
+PASS Player renderer and normal camera return after complete original execution clip
+PASS Player remains on the far side shown by the final execution frame
+PASS Execution endpoint mirrors correctly for approaches from both sides
+PASS Dash plus Attack triggers source-tier lunge and damages target
+PASS Held Attack releases original charged clip at source tier timing
+PASS Charged hit fires at source 0.36 second animation event
+PASS Tier-three charged projectile uses the fixed effect pool
+PASS Charged projectile flies and resolves against an enemy
+PASS Charged projectile resolves against terrain before its range limit
+PASS Fervorous Blood uses the fixed effect pool
+PASS RANGED_3 explodes at the far point before returning
+PASS RANGED_2 and RANGED_3 complete their boomerang return
+PASS Three source-linked blood platforms (actual 3)
+PASS Relic absent disables every blood collider
+PASS Owned but unequipped relic stays disabled
+PASS Player falls through disabled platform
+PASS Equipped relic reveals first platform
+PASS Equipping does not reveal the whole chain
+PASS Player lands on enabled blood platform
+PASS Standing on first platform reveals linked successor
+PASS Linked platform expires after source delay
+PASS Unequipping immediately disables all colliders
+PASS Right wall preserves source Tiled height 12
+PASS Idle player does not drift sideways on terrain
+PASS Player walks using runtime motor
+PASS Dash lowers the player collision capsule
+PASS Dash invulnerability does not flash the Player damage tint
+PASS Dash starts the original running-dust animation
+PASS Dash creates the source-style pooled afterimage trail
+PASS Low dash passes beneath a confined opening
+PASS Player cannot stand while full capsule intersects low wall
+PASS Standing capsule returns after leaving low opening
+PASS Player settles on ground after low dash verification
+PASS Buffered jump raises player
+PASS Player lands after jump
+PASS Down + jump activates one-way drop-through window
+PASS Basic attack raises its original separate sword-slash renderer
+PASS Locked dash input is rejected
+PASS Player climbs restored ladder trigger
+PASS Proximity to Prie Dieu does not auto-trigger prayer
+PASS Proximity to Prie Dieu exposes interaction
+PASS Short interaction hold does not save/heal
+PASS Held Prie Dieu interaction completes animation and restores
+PASS Forward attack parried
+PASS Damage reduces health
+PASS Damage invulnerability blocks immediate repeat
+PASS Flask consumes charge and heals by the mobile source amount
+PASS Checkpoint restores flask charges
+PASS Heavy damage starts the original throwback transition
+PASS Heavy damage launches Player into the throwback arc
+PASS Death returns to saved checkpoint
+PASS Warden exists
+PASS Warden enters phase two at half health
+PASS Warden defeat opens encounter
+PASS Warden death resolves to the original corpse and cleansing beat
+PASS Mobile RangeAttack (SPECIAL) touch button instantiated above Dash
+PASS RangeAttack placed at exact mobile source coordinates (-101, -179.6)
+PASS RangeAttack button uses authentic 171x171 source scale
+PASS Player HUD Health, Fervour and Flasks aligned to medallion origin x=146
+PASS UI_BOSS_HEALTH root instantiated in Static UI Canvas
+PASS Bile flask full and empty textures load from Resources
+PASS BlasInventoryUI, BlasMapUI, BlasOptionsUI initialized on TouchControls
+PASS BlasInventoryUI opens with 7 categories and 16 slots
+PASS Thorn lore modal popup opens with authentic Deosgracias text
+PASS BlasInventoryUI closes cleanly
+PASS BlasMapUI opens with FondoMapa mountain background and Metroidvania grid
+PASS BlasMapUI closes cleanly
+PASS BlasOptionsUI opens with twisted column statue and diamond selector
+PASS BlasOptionsUI closes cleanly
+PASS HUD and touch controls remain inside 16x9 safe display
+PASS HUD and touch controls remain inside 18x9 safe display
+PASS HUD and touch controls remain inside 19_5x9 safe display
+PASS HUD and touch controls remain inside 20x9 safe display
+RESULT: FAILED

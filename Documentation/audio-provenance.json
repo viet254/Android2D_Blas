@@ -1,0 +1,278 @@
+[
+  {
+    "bank": "Master Bank",
+    "stream": 12,
+    "name": "PENITENT_DASH",
+    "file": "PENITENT_DASH.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 28,
+    "name": "PENITENT_SIMPLE_DAMAGE_DEFAULT",
+    "file": "PENITENT_SIMPLE_DAMAGE_DEFAULT.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 35,
+    "name": "PENITENT_RUN_STONE_3",
+    "file": "PENITENT_RUN_STONE_3.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 64,
+    "name": "PENITENT_GUARD",
+    "file": "PENITENT_GUARD.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 66,
+    "name": "PENITENT_JUMP_FALL_STONE",
+    "file": "PENITENT_JUMP_FALL_STONE.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 70,
+    "name": "PENITENT_RUN_STONE_4",
+    "file": "PENITENT_RUN_STONE_4.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 78,
+    "name": "PENITENT_RUN_STONE_2",
+    "file": "PENITENT_RUN_STONE_2.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 102,
+    "name": "PENITENT_COMBO_FINAL_DOWN",
+    "file": "PENITENT_COMBO_FINAL_DOWN.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 110,
+    "name": "PENITENT_RUN_STONE_7",
+    "file": "PENITENT_RUN_STONE_7.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 114,
+    "name": "PENITENT_PARRY_SLOW",
+    "file": "PENITENT_PARRY_SLOW.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 117,
+    "name": "PENITENT_SLASH_AIR_3",
+    "file": "PENITENT_SLASH_AIR_3.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 119,
+    "name": "RANGE_ATTACK_DISSAPEAR",
+    "file": "RANGE_ATTACK_DISSAPEAR.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 121,
+    "name": "ELDER_BROTHER_CORPSE_WAVE_2",
+    "file": "ELDER_BROTHER_CORPSE_WAVE_2.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 135,
+    "name": "RANGE_ATTACK",
+    "file": "RANGE_ATTACK.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 171,
+    "name": "FLASK_REFILL",
+    "file": "FLASK_REFILL.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 195,
+    "name": "ELDER_BROTHER_PRE_ATTACK",
+    "file": "ELDER_BROTHER_PRE_ATTACK.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 215,
+    "name": "ELDER_BROTHER_JUMP",
+    "file": "ELDER_BROTHER_JUMP.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 307,
+    "name": "PENITENT_ACTIVATE_PRAYER",
+    "file": "PENITENT_ACTIVATE_PRAYER.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 355,
+    "name": "ELDER_BROTHER_DEATH_VOICE_2",
+    "file": "ELDER_BROTHER_DEATH_VOICE_2.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 357,
+    "name": "RANGE_ATTACK_FLY",
+    "file": "RANGE_ATTACK_FLY.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 371,
+    "name": "RANGE_ATTACK_EXPLODE",
+    "file": "RANGE_ATTACK_EXPLODE.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 376,
+    "name": "EQUIP_PRAYER",
+    "file": "EQUIP_PRAYER.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 441,
+    "name": "NO_PRAYER",
+    "file": "NO_PRAYER.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 508,
+    "name": "ELDER_BROTHER_LANDING",
+    "file": "ELDER_BROTHER_LANDING.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 524,
+    "name": "ELDER_BROTHER_CORPSE_WAVE",
+    "file": "ELDER_BROTHER_CORPSE_WAVE.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 557,
+    "name": "ELDER_BROTHER_ATTACK",
+    "file": "ELDER_BROTHER_ATTACK.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 587,
+    "name": "USE_FLASK",
+    "file": "USE_FLASK.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 626,
+    "name": "FERVOR_START_PRAYER",
+    "file": "FERVOR_START_PRAYER.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 629,
+    "name": "PENITENT_SLASH_AIR_2",
+    "file": "PENITENT_SLASH_AIR_2.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 634,
+    "name": "ELDER_BROTHER_DEATH",
+    "file": "ELDER_BROTHER_DEATH.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 700,
+    "name": "PENITENT_RUN_STONE_1",
+    "file": "PENITENT_RUN_STONE_1.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 725,
+    "name": "FERVOR_END_PRAYER",
+    "file": "FERVOR_END_PRAYER.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 743,
+    "name": "PRAYER_INVINCIBILITY",
+    "file": "PRAYER_INVINCIBILITY.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 790,
+    "name": "ELDER_BROTHER_ATTACK_HIT",
+    "file": "ELDER_BROTHER_ATTACK_HIT.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 812,
+    "name": "RANGE_ATTACK_HIT",
+    "file": "RANGE_ATTACK_HIT.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 819,
+    "name": "ELDER_BROTHER_ATTACK_VOICE",
+    "file": "ELDER_BROTHER_ATTACK_VOICE.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 826,
+    "name": "PENITENT_RUN_STONE_6",
+    "file": "PENITENT_RUN_STONE_6.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 840,
+    "name": "PENITENT_RUN_STONE_8",
+    "file": "PENITENT_RUN_STONE_8.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 887,
+    "name": "PENITENT_SLASH_AIR_4",
+    "file": "PENITENT_SLASH_AIR_4.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 900,
+    "name": "PENITENT_SLASH_AIR_1",
+    "file": "PENITENT_SLASH_AIR_1.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 902,
+    "name": "PENITENT_RUN_STONE_5",
+    "file": "PENITENT_RUN_STONE_5.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 908,
+    "name": "ELDER_BROTHER_JUMP_VOICE",
+    "file": "ELDER_BROTHER_JUMP_VOICE.wav"
+  },
+  {
+    "bank": "Master Bank",
+    "stream": 911,
+    "name": "ELDER_BROTHER_CORPSE_WAVE_3",
+    "file": "ELDER_BROTHER_CORPSE_WAVE_3.wav"
+  },
+  {
+    "bank": "BossMusic",
+    "stream": 1,
+    "name": "Elder Brother_MASTER",
+    "file": "Elder_Brother_MASTER.wav"
+  },
+  {
+    "bank": "BackgroundLayer",
+    "stream": 29,
+    "name": "Brotherhood",
+    "file": "Brotherhood.wav"
+  },
+  {
+    "bank": "BackgroundLayer",
+    "stream": 61,
+    "name": "Brotherhood_Ambient",
+    "file": "Brotherhood_Ambient.wav"
+  }
+]
