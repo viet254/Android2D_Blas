@@ -86,6 +86,7 @@ desktop.ini
 # ==========================================
 # Python & Scratch / Temporary Files
 # ==========================================
+*.py
 __pycache__/
 *.py[cod]
 *$py.class
