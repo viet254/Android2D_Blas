@@ -1,0 +1,378 @@
+Run UTC: 2026-10-06T11:01:08.7731013Z
+PASS Saved scene starts without rebuilding
+P1 PASS Generated scene starts
+P1 PASS New pilgrimage starts with zero Tears and no free ranged skill
+P1 PASS New pilgrimage has two rosary slots and source Mea Culpa level zero
+P1 PASS Enough Tears cannot bypass the Mea Culpa gate
+P1 PASS Mea Culpa level one allows its first source skill
+P1 PASS Owned prerequisite cannot bypass Mea Culpa level three
+P1 PASS Level three purchase deducts the source cost exactly once
+P1 PASS v5 migration removes the unpurchased ranged grant and retains purchased skills, currency and equipped beads
+P1 PASS v5 migration keeps a purchased ranged skill
+P1 PASS Two unlocked knots reject a third bead without replacing an equipped bead
+P1 PASS Persisted rosary progression makes its newly opened slot usable
+P1 PASS Save v6 persists source progression and acquired skills in the isolated save
+P1 PASS Generated catalog retains all 124 null sprite keys
+P1 PASS Animation events and all source float tracks survive extraction
+P1 PASS Runtime clears and restores the renderer through every source null window
+P1 PASS Door exit alpha follows the source float curve halfway through its fade
+P1 PASS Changing clips restores animation-owned alpha and visibility
+P1 PASS Flagellant animation emits no hit before 0.52 seconds
+P1 PASS Flagellant first hit is emitted at the source 0.52-second event
+P1 PASS Flagellant second hit waits until the source 1.10-second event
+P1 PASS Nonlooping hit events fire exactly twice and never replay after completion
+P1 PASS A large time step dispatches source events once in each completed loop
+P1 PASS S05 restores LOGIC_166 as the source one-way floor at height nine
+P1 PASS S05 contains no authored replacement bridge
+P1 PASS S05 preserves the source closed passage and blocks its inactive ladder sensor
+P1 PASS Player walks over the restored source floor at five units per second
+P1 PASS S05 open passage retains the original LadderTrigger with its parent rotation and usable sensor
+P1 PASS Player also crosses the source one-way floor in the open passage state
+P1 PASS Source floor supports dropping through instead of acting as a solid replacement block; feet=(-836.00, 7.84, 0.00), first surface=GEO_BlockOWD (128x32) (1) layer 9
+P1 PASS Jump launches with the source ten-unit impulse
+P1 PASS Parry remains active inside its source chance window
+P1 PASS Parry chance closes after 0.30 seconds
+P1 PASS PR01 equip does not refill Fervour
+P1 PASS PR01 cast applies its source cost and real ten-second duration
+P1 PASS PR01 applies the source maximum attack animation speed of 1.5
+P1 PASS PR01 effect remains active before ten seconds
+P1 PASS PR01 effect expires at its source duration
+P1 PASS PR04 equip does not refill Fervour
+P1 PASS PR04 cast applies its source cost and real ten-second duration
+P1 PASS PR04 effect remains active before ten seconds
+P1 PASS PR04 effect expires at its source duration
+P1 PASS PR04 restores the source fifteen percent of dealt damage
+P1 PASS PR101 retains its source cost, effect type and complete component settings
+P1 PASS PR101 uses its explicit adapter or refuses the cast without spending resources
+P1 PASS PR201 retains its source cost, effect type and complete component settings
+P1 PASS PR201 uses its explicit adapter or refuses the cast without spending resources
+P1 PASS PR202 retains its source cost, effect type and complete component settings
+P1 PASS PR202 uses its explicit adapter or refuses the cast without spending resources
+P1 PASS PR203 retains its source cost, effect type and complete component settings
+P1 PASS PR203 uses its explicit adapter or refuses the cast without spending resources
+P1 PASS Flagellant combat fixture exists
+P1 PASS Flagellant deals no premature timer-based damage
+P1 PASS Flagellant event applies source Strength ten on its first hit
+P1 PASS Flagellant second source event applies ten damage without a duplicate timer hit
+P1 PASS The shared Penance/ranged control is visible at full opacity before buying a skill
+P1 PASS Tapping the locked control explains its unlock gate without granting or casting a skill
+P1 PASS Shared control does not sacrifice resources before the source 0.25-second hold
+P1 PASS New-game Penance trades exactly fifteen Life and twenty-five Tears for twenty-five Fervour
+P1 PASS Penance plays the source animation without requiring or granting RANGED_1
+P1 PASS Penance uses its decoded original FervorSelfDamage audio sample
+P1 PASS Penance blocks movement while its source animation is playing
+P1 PASS Penance retains its animation lock through the source 1.5-second clip
+P1 PASS Holding past animation completion cannot sacrifice again without a fresh press
+P1 PASS Releasing a Penance hold cannot also fire a projectile or show the tap-only unlock hint
+P1 PASS A fresh press allows another Penance after the first animation completes
+P1 PASS Self-sacrifice bypasses damage invulnerability and clamps restored Fervour to its maximum
+P1 PASS Penance refuses Life equal to its cost and cannot kill the player
+P1 PASS Life just above the source cost can pay for Penance safely
+P1 PASS Penance preserves the source strict Tears-greater-than-cost condition
+P1 PASS One Tear above the starting Penance cost permits the sacrifice
+P1 PASS Mea Culpa level two raises the Penance cost to seventy-five Tears with the same strict gate
+P1 PASS Penance consumes the source twenty-five plus twenty-five times Mea Culpa level cost
+P1 PASS Penance cannot begin in the air
+P1 PASS An airborne hold cannot queue a sacrifice upon landing
+P1 PASS An attack in progress blocks Penance without consuming resources
+P1 PASS A blocked hold cannot turn into a delayed sacrifice after the attack ends
+P1 PASS Blocked gameplay input cannot initiate Penance
+P1 PASS Enemy damage interrupts Penance without leaving the input locked
+P1 PASS Learning ranged preserves Penance on hold and suppresses ranged casting on its release
+P1 PASS Clearing gameplay input cancels a partial hold without sacrificing or firing
+P1 PASS Keyboard F does not fire the shared skill on key down
+P1 PASS A quick keyboard F press fires a learned ranged attack on release
+P1 PASS Holding keyboard F performs Penance once and suppresses ranged on release
+P1 PASS Clearing input disarms keyboard F until a new press and prevents a release-only cast
+P1 PASS Restore clears the Penance animation lock without repeating its resource exchange
+P1 PASS Ranged skill can be earned through the source level-two, 2000-Tears purchase
+P1 PASS Purchasing ranged preserves the mobile button appearance
+P1 PASS The restored touch button spends seven source Fervour and launches one sword projectile
+P1 PASS Insufficient ranged Fervour gives feedback without silently substituting a lunge
+P1 PASS Pressing the learned shared control waits for tap/hold resolution before firing
+P1 PASS Sliding off the shared touch control cancels rather than firing a projectile
+P1 PASS acolyte starts a real pending attack before the interruption test
+P1 PASS acolyte ordinary player slash enters Hurt without granting an execution
+P1 PASS acolyte Hurt blocks both overlapping contact and the cancelled pending attack
+P1 PASS acolyte AI preserves the full Hurt clip/recovery and stops horizontal movement
+P1 PASS acolyte another hit renews Hurt without leaking damage
+P1 PASS acolyte recovers and starts fresh AI without resuming a cancelled hit
+P1 PASS acolyte healthy contact becomes dangerous again after Hurt ends
+P1 PASS acolyte stun suppresses contact even without an execution prompt
+P1 PASS acolyte expired stun returns to a working AI state
+P1 PASS acolyte damage during parry stun preserves the execution window and cannot hurt Player
+P1 PASS acolyte death cannot leave contact damage enabled
+P1 PASS acolyte inactive enemy cannot cause contact damage
+P1 PASS flagellant starts a real pending attack before the interruption test
+P1 PASS flagellant ordinary player slash enters Hurt without granting an execution
+P1 PASS flagellant Hurt blocks both overlapping contact and the cancelled pending attack
+P1 PASS flagellant AI preserves the full Hurt clip/recovery and stops horizontal movement
+P1 PASS flagellant another hit renews Hurt without leaking damage
+P1 PASS flagellant recovers and starts fresh AI without resuming a cancelled hit
+P1 PASS flagellant healthy contact becomes dangerous again after Hurt ends
+P1 PASS flagellant stun suppresses contact even without an execution prompt
+P1 PASS flagellant expired stun returns to a working AI state
+P1 PASS flagellant damage during parry stun preserves the execution window and cannot hurt Player
+P1 PASS flagellant death cannot leave contact damage enabled
+P1 PASS flagellant inactive enemy cannot cause contact damage
+P1 PASS fool ordinary player slash enters Hurt without granting an execution
+P1 PASS fool Hurt blocks both overlapping contact and the cancelled pending attack
+P1 PASS fool AI preserves the full Hurt clip/recovery and stops horizontal movement
+P1 PASS fool another hit renews Hurt without leaking damage
+P1 PASS fool recovers and starts fresh AI without resuming a cancelled hit
+P1 PASS fool healthy contact becomes dangerous again after Hurt ends
+P1 PASS fool stun suppresses contact even without an execution prompt
+P1 PASS fool expired stun returns to a working AI state
+P1 PASS fool death cannot leave contact damage enabled
+P1 PASS fool inactive enemy cannot cause contact damage
+P1 PASS wheelcarrier starts a real pending attack before the interruption test
+P1 PASS wheelcarrier ordinary player slash enters Hurt without granting an execution
+P1 PASS wheelcarrier Hurt blocks both overlapping contact and the cancelled pending attack
+P1 PASS wheelcarrier AI preserves the full Hurt clip/recovery and stops horizontal movement
+P1 PASS wheelcarrier another hit renews Hurt without leaking damage
+P1 PASS wheelcarrier recovers and starts fresh AI without resuming a cancelled hit
+P1 PASS wheelcarrier healthy contact becomes dangerous again after Hurt ends
+P1 PASS wheelcarrier stun suppresses contact even without an execution prompt
+P1 PASS wheelcarrier expired stun returns to a working AI state
+P1 PASS wheelcarrier death cannot leave contact damage enabled
+P1 PASS wheelcarrier inactive enemy cannot cause contact damage
+P1 PASS Hidden MudCrawler cannot inflict invisible contact damage
+P1 PASS mudcrawler ordinary player slash enters Hurt without granting an execution
+P1 PASS mudcrawler Hurt blocks both overlapping contact and the cancelled pending attack
+P1 PASS mudcrawler AI preserves the full Hurt clip/recovery and stops horizontal movement
+P1 PASS mudcrawler another hit renews Hurt without leaking damage
+P1 PASS mudcrawler recovers and starts fresh AI without resuming a cancelled hit
+P1 PASS mudcrawler healthy contact becomes dangerous again after Hurt ends
+P1 PASS mudcrawler stun suppresses contact even without an execution prompt
+P1 PASS mudcrawler expired stun returns to a working AI state
+P1 PASS mudcrawler death cannot leave contact damage enabled
+P1 PASS mudcrawler inactive enemy cannot cause contact damage
+P1 PASS First visit activates the source altar and grants one Mea Culpa level
+P1 PASS Reusing the same altar cannot grant repeated Mea Culpa levels
+PASS Ranged cost is the source seven Fervour
+PASS HE01 applies its source 25 percent ranged cost reduction
+PASS HE01 zero-value multiplier increases ranged strength
+PASS HE201 doubles strength without requiring an additive value
+PASS HE11 multiplies the source parry window
+PASS HE04 applies both increased damage and its defense drawback
+PASS Conditional Heart stays inactive above its life threshold
+PASS Conditional Heart activates below twenty percent life
+PASS Empty-flask defense bead stays inactive while a flask remains
+PASS Empty-flask bead applies source damage reduction followed by flat Defense
+PASS Unpurchased added skills are not implicitly equipped
+PASS COMBO_third upgrade requires its parent
+PASS COMBO_1 purchase uses source cost, tier and ownership
+PASS COMBO_1 cannot be bought twice
+PASS COMBO_2 purchase uses source cost, tier and ownership
+PASS COMBO_2 cannot be bought twice
+PASS COMBO_3 purchase uses source cost, tier and ownership
+PASS COMBO_3 cannot be bought twice
+PASS VERTICAL_third upgrade requires its parent
+PASS VERTICAL_1 purchase uses source cost, tier and ownership
+PASS VERTICAL_1 cannot be bought twice
+PASS VERTICAL_2 purchase uses source cost, tier and ownership
+PASS VERTICAL_2 cannot be bought twice
+PASS VERTICAL_3 purchase uses source cost, tier and ownership
+PASS VERTICAL_3 cannot be bought twice
+PASS Safe replacement preserves a valid previous save
+PASS Unreadable primary recovers from a validated backup
+PASS Saving after corruption does not overwrite the valid backup with corrupt data
+PASS Invalid save payload is rejected before altering the primary
+PASS Disabled screen shake is applied in gameplay
+PASS First combo upgrade uses the source center-finisher motion
+PASS Second combo upgrade selects the source upward finisher
+PASS Down finisher remains unavailable before combo tier three
+PASS Third combo upgrade preserves the complete 1.70-second downward finisher
+PASS VERTICAL_1 waits for the source hold threshold
+PASS VERTICAL_1 starts from actual held airborne input
+PASS VERTICAL_1 lands and deals source three-times-strength area damage
+PASS VERTICAL_2 waits for the source hold threshold
+PASS VERTICAL_2 starts from actual held airborne input
+PASS VERTICAL_2 lands and deals source three-times-strength area damage
+PASS VERTICAL_3 waits for the source hold threshold
+PASS VERTICAL_3 starts from actual held airborne input
+PASS VERTICAL_3 lands and deals source three-times-strength area damage
+PASS PR101 required source timeline loads from the supplemental or main catalog
+PASS PR201 required source timeline loads from the supplemental or main catalog
+PASS PR202 required source timeline loads from the supplemental or main catalog
+PASS PR203 required source timeline loads from the supplemental or main catalog
+PASS PR07 required source timeline loads from the supplemental or main catalog
+PASS PR09 required source timeline loads from the supplemental or main catalog
+PASS PR10 required source timeline loads from the supplemental or main catalog
+PASS Lorquiana waits for the source cast event before consuming Fervour or firing
+PASS Lorquiana's first source shot deals ninety and its successful hit restores four Fervour
+PASS Lorquiana fires its second independent shot after 0.15 seconds
+PASS Lorquiana fires three source shots without a generic extra attack
+PASS Lorquiana disposes beams and impact actors after its effect
+PASS Lorquiana preserves its authored zero collision mask and reaches a target behind terrain
+PASS Lorquiana mirrors its source attack direction when facing left
+PASS Taranto's twenty-unit vertical collider hits above ground and its temporal flag stops Fervour collection
+PASS Taranto repeats source twenty-damage hits every 0.12 seconds
+PASS Taranto releases all six column actors after completion
+PASS Taranto's summon line stops subsequent columns at the authored terrain collision
+PASS Guardian appears at its master and follows the authored two-unit offset
+PASS Guardian waits for its WeaponAttack animation event at 0.53 seconds
+PASS Guardian applies its source Strength of 180 through the horizontal capsule
+PASS Guardian's Heavy source hit gains eight Fervour
+PASS Guardian destroys projectiles inside its capsule while preserving projectiles in the enclosing rectangle's corner
+PASS Guardian's rounded capsule excludes a target in the enclosing rectangle's corner
+PASS The player's shield command starts Guardian's source guard action
+PASS Guardian's guard protects the master from attack and contact damage
+PASS Guardian releases protection after both guard animations finish
+PASS Guardian's vanish animation releases its actor after the source duration
+PASS Unequipping Guardian immediately releases its summoned actor
+PASS Miriam waits for the player's sword command instead of automatically selecting enemies
+PASS Miriam's source polygon deals one hundred damage and stuns a surviving ordinary enemy
+PASS Miriam's OptionalStunt source hit gains four Fervour without Heavy context
+PASS Miriam destroys projectiles inside its source polygon while preserving the polygon rectangle's corner
+PASS Miriam's grounded attack begins its source twelve-shard summon line
+PASS Miriam completes all twelve authored shard summons
+PASS Miriam keeps landing shards alive through their loops and fades, then releases all actors
+PASS Miriam opens its hit window without damaging a target outside the current polygon
+PASS Miriam's moving source polygon hits a target that enters after WeaponAttack
+PASS Miriam destroys a projectile entering after its hit window has already opened
+PASS Miriam's already-damaged set prevents repeated damage and Fervour even after leaving and re-entering the window
+PASS WeaponAttackFinished closes Miriam's hitbox for late enemies and projectiles
+PASS Miriam's independently summoned landing shard deals the source forty damage
+PASS Miriam preserves its native cached one-hundred damage hit when Life changes after casting
+PASS Miriam captures a conditionally active stat 15 multiplier when its entity spawns
+PASS Miriam's forty-damage landing shards also scale with stat 15
+PASS Guardian preserves its native cached one-hundred-eighty damage hit when Life changes after casting
+PASS Guardian captures a conditionally active stat 15 multiplier when its entity spawns
+PASS Miriam does not apply PrayerStrength stat 27 to its general-damage source hit
+PASS San Telmo's beams cannot damage enemies before the first reveal-and-charge pulse
+PASS San Telmo opens its ten-damage beams after the reveal and charge sequence
+PASS One San Telmo beam damages an enemy only once during its 0.3-second attack window
+PASS A later San Telmo link independently damages an enemy at a crossing of two source beams
+PASS San Telmo emits the source three base pulses at 1.2-second intervals
+PASS San Telmo completes sequential core fades and releases all beam actors
+PASS HE01's five-second addition grants floor(5 * 0.6) extra San Telmo pulses
+PASS San Telmo also cleans up its longer sequence with HE01 equipped
+PASS Player death cancels San Telmo cores and beams immediately
+PASS The source return prayer refuses an airborne cast
+PASS The return prayer requires an activated source checkpoint
+PASS Changing rooms cancels a summoned prayer and its animation callbacks
+PASS Solea consumes sixty and activates a melee buff without an immediate area strike
+PASS Solea applies its source strength multiplier 2.5
+PASS Solea removes its multiplier after ten seconds
+PASS One held Penance broadcasts and persists exactly one framework PENANCE signal
+PASS Update-event bead restores Fervour on its one-second source interval
+PASS Bidirectional parry bead allows a valid guard from behind
+PASS Actual ranged input charges precisely 5.25 with HE01
+PASS Taranto charges forty and reaches a target fourteen units above ground using its source twenty-unit collider
+PASS Taranto applies repeated hits at the source 0.12-second tick interval
+PASS Taranto cleans up columns at the end of its effect
+PASS PR202 charges forty and waits before teleporting
+PASS PR202 returns to the activated Prie Dieu without granting free healing, flasks or Fervour
+PASS Imported Cvstodia map retains 993 source cells and 809 counted discovery cells
+PASS New exploration starts at zero instead of a fabricated hundred percent
+PASS Entering a real source cell adds its exact share of world discovery
+PASS Repeated visits do not duplicate discovery
+PASS Cell boundary crossing selects the next source cell without overlap
+PASS Placing a map pin immediately saves its exact source-cell key
+PASS Removing a pin immediately persists its removal
+PASS A lethal gameplay hit creates one persisted Guilt fragment
+PASS Guilt uses source curves to reduce maximum and gain of Fervour
+PASS Nearby deaths link fragments using the source twenty-unit distance
+PASS Recovering a linked fragment restores all linked guilt, 33 percent Life and 50 percent Fervour
+PASS Immaculate Bead prevents Guilt and advances exactly one death stage
+PASS Changed death-bead ownership and equipment are saved after the death event
+PASS Gameplay LoadSave recovers actual progression from the valid previous backup
+PASS INVENTORY_OPEN has a source-bank sample
+PASS INVENTORY_CLOSE has a source-bank sample
+PASS INVENTORY_EQUIP has a source-bank sample
+PASS INVENTORY_SCROLL has a source-bank sample
+PASS ITEM_ADDED has a source-bank sample
+PASS GUILT_RECOVER has a source-bank sample
+PASS VERTICAL_ATTACK_START has a source-bank sample
+PASS VERTICAL_ATTACK_LV2 has a source-bank sample
+PASS VERTICAL_ATTACK_LV3 has a source-bank sample
+PASS D17Z01S02 selects its regional music and looped ambience
+PASS D01Z01S01 selects its regional music and looped ambience
+PASS D01Z02S01 selects its regional music and looped ambience
+PASS SFX mute also silences environmental ambience
+PASS Supplemental prefabs add four rooms while retaining all twelve saved-scene rooms
+PASS D17Z01S04 preserves every authored node in its isolated prefab
+PASS D17Z01S07 preserves every authored node in its isolated prefab
+PASS D17Z01S08 preserves every authored node in its isolated prefab
+PASS D17Z01S09 preserves every authored node in its isolated prefab
+PASS S05 shortcut remains locked before the source S04 switch flag
+PASS S04 restores the exact original shortcut SlashReceiver
+PASS A strike outside the S04 sensor does not unlock the shortcut
+PASS Striking the S04 receiver persists its original shortcut flag
+PASS Returning to S05 opens only the original GateOpen ladder group and allows its south door
+PASS Supplemental S08 contains the second source Mea Culpa altar
+PASS Source altar upgrades Mea Culpa and Strength together
+PASS Revisiting an altar cannot grant another Strength or Mea Culpa upgrade
+PASS The entry room restores its source cherub instead of silently excluding its spawn
+PASS Hitting the captive frees one cherub and saves its original persistent id
+PASS Further hits cannot count a rescued cherub twice
+PASS A rescued cherub stays absent after leaving and re-entering
+PASS The forest restores its separately configured five-second cherub path
+PASS Actual Tirso interaction opens source dialogue and blocks gameplay input
+PASS Closing a quest dialogue preserves the offered item and restores input
+PASS Tirso consumes the first herb and rewards the source empty flask QI66
+PASS A delivered herb cannot be rewarded twice
+PASS Tirso accepts source herb QI20
+PASS Tirso accepts source herb QI37
+PASS Tirso accepts source herb QI63
+PASS Tirso accepts source herb QI64
+PASS Tirso accepts source herb QI65
+PASS All six herbs grant Tirso's source knot and ordered Tears rewards
+PASS Soledad consumes QI44 and adds precisely one saved rosary slot
+PASS Soledad consumes QI52 and adds precisely one saved rosary slot
+PASS Soledad consumes QI53 and adds precisely one saved rosary slot
+PASS Soledad consumes QI54 and adds precisely one saved rosary slot
+PASS Soledad consumes QI55 and adds precisely one saved rosary slot
+PASS Soledad consumes QI56 and adds precisely one saved rosary slot
+PASS Eight rosary slots complete Soledad's source quest and prevent further knot consumption
+PASS Completion of Bloody Baptism removes Guilt and persists the cutscene marker
+PASS Both original CTS02 video and safe source-frame preview are packaged
+PASS Cherubs and both NPC quest flags survive save serialization
+PASS PR01 correctly decodes source enum zero (StopFervourRecolection) from Unity's hex list
+PASS PR01 correctly decodes source invulnerability instead of treating YAML octal integers as bit flags
+PASS PR03 correctly decodes source enum zero (StopFervourRecolection) from Unity's hex list
+PASS PR03 correctly decodes source invulnerability instead of treating YAML octal integers as bit flags
+PASS PR04 correctly decodes source enum zero (StopFervourRecolection) from Unity's hex list
+PASS PR04 correctly decodes source invulnerability instead of treating YAML octal integers as bit flags
+PASS PR09 correctly decodes source enum zero (StopFervourRecolection) from Unity's hex list
+PASS PR09 correctly decodes source invulnerability instead of treating YAML octal integers as bit flags
+PASS PR11 correctly decodes source enum zero (StopFervourRecolection) from Unity's hex list
+PASS PR11 correctly decodes source invulnerability instead of treating YAML octal integers as bit flags
+PASS PR14 correctly decodes source enum zero (StopFervourRecolection) from Unity's hex list
+PASS PR14 correctly decodes source invulnerability instead of treating YAML octal integers as bit flags
+PASS PR16 correctly decodes source enum zero (StopFervourRecolection) from Unity's hex list
+PASS PR16 correctly decodes source invulnerability instead of treating YAML octal integers as bit flags
+PASS Source PR03 temporal invulnerability blocks an actual incoming hit
+PASS PR03 removes its invulnerability after its source two seconds
+PASS HE201 means DisableUnEquipSword, while its enum does not suppress Guilt
+PASS HE201 respects its source permanent sword-equip restriction
+PASS HE06 prevents actual flask usage without consuming a flask
+PASS RB42 summons its original animated familiar and source clip
+PASS Unequipping RB42 disposes its familiar
+PASS Air impulse 1 respects source base two strikes per airborne sequence
+PASS Air impulse 2 respects source base two strikes per airborne sequence
+PASS Air impulse 3 respects source base two strikes per airborne sequence
+PASS Air impulse 4 respects source base two strikes per airborne sequence
+PASS Air impulse 1 respects RB21 source bonus third strikes per airborne sequence
+PASS Air impulse 2 respects RB21 source bonus third strikes per airborne sequence
+PASS Air impulse 3 respects RB21 source bonus third strikes per airborne sequence
+PASS Air impulse 4 respects RB21 source bonus third strikes per airborne sequence
+PASS RB15 restores source HardLanding recovery speed three
+PASS Breakable event seven applies the source three-Fervour bead reward
+PASS RB28 blocks both incoming attack and contact damage during actual flask animation
+PASS RB28 protection ends with the flask animation
+PASS RB103 converts one actual flask into Fervour and allows use at full Life
+PASS RB102 uses its reduced flask heal then restores one Life per second at the source base flask level
+PASS An actual incoming hit cancels RB102 passive flask regeneration
+PASS RB16 receives execution context from a real kill and grants its source probabilistic flask reward
+PASS The same RB16 chance does not grant execution or heavy rewards for an ordinary kill
+PASS RB16 receives heavy-weapon kill context without changing EnemyController
+PASS Casting PR16 activates its Tears buff without an invented generic AoE attack
+PASS PR16 source thirty-percent Tears bonus is applied once through the shared stat pipeline
+PASS Expired PR16 does not retain its Tears bonus
+PASS Disabled HowToPlay suppresses actual source tutorial sensors
+PASS Enabled HowToPlay displays a localized source tutorial at its original sensor
+PASS Bloody Baptism enters its actual playback sequence before chapter victory
+PASS Changing rooms safely cancels the cutscene without falsely marking it complete
+RESULT: PASSED

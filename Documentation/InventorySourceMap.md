@@ -1,0 +1,8 @@
+# Inventory source mapping
+
+- Original mobile UI hierarchy and RectTransforms: `D:\game\Bla_mobile_map\ExportedProject\Assets\#Design\Scenes\UI\GenericElements.unity`, object `UI_NEWINVENTORY` (640 × 360), with seven category tabs and separate normal, quest, and skill layouts. `Tools/audit_inventory_layout.py` prints its hierarchy without modifying the source.
+- Original inventory art and icons: `D:\game\Bla_mobile_map\ExportedProject\Assets\Sprite` and `D:\game\Sprites\Blasphemo_Texture2D\Texture2D`; restored copies under `Assets/Brotherhood/Resources/UI/Sprites` and `Assets/Brotherhood/Resources/Inventory`.
+- Original item localization: `D:\game\Bla_loc_map\ExportedProject\Assets\Resources\inventory\Languages.prefab`. Skill localization is in the English-labelled Vietnamese column of `I2Languages.prefab`; imported into `Assets/Brotherhood/Resources/Localization/SourceVietnamese.json`.
+- Original skill price/prerequisite: `D:\game\Bla_mobile_map\ExportedProject\Assets\Resources\skill\*.asset`. `Tools/import_source_skills.py` copies all 15 records into `Assets/Brotherhood/Resources/Inventory/skill-source.json`.
+
+The runtime inventory preserves the source's 16:9 content frame on wider/taller displays, retains seven tabs, uses source sprites, provides page navigation, selection, equipment, scrollable descriptions/lore, and keyboard/gamepad back navigation. Charging, lunge, and ranged skill branches can be unlocked for original Tears costs with parent-skill prerequisites and saved. Combo and vertical skill effects do not yet have source-equivalent gameplay implementations in this restored project's controller; their purchase controls remain disabled rather than falsely reporting an upgrade.

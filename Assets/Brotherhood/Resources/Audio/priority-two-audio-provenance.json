@@ -1,0 +1,152 @@
+{
+  "openCloseAlias": "ChangeTab is used for opening and closing the restored inventory; no distinct source Open/Close sample was identified.",
+  "samples": [
+    {
+      "bank": "Master Bank",
+      "stream": 141,
+      "sourceSample": "CHANGE_SELECTION",
+      "runtimeKey": "INVENTORY_SCROLL",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\INVENTORY_SCROLL.wav"
+    },
+    {
+      "bank": "Master Bank",
+      "stream": 224,
+      "sourceSample": "CHANGE_TAB",
+      "runtimeKey": "INVENTORY_OPEN",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\INVENTORY_OPEN.wav"
+    },
+    {
+      "bank": "Master Bank",
+      "stream": 224,
+      "sourceSample": "CHANGE_TAB",
+      "runtimeKey": "INVENTORY_CLOSE",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\INVENTORY_CLOSE.wav"
+    },
+    {
+      "bank": "Master Bank",
+      "stream": 892,
+      "sourceSample": "EQUIP_ITEM",
+      "runtimeKey": "INVENTORY_EQUIP",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\INVENTORY_EQUIP.wav"
+    },
+    {
+      "bank": "Master Bank",
+      "stream": 467,
+      "sourceSample": "UNEQUIP_ITEM",
+      "runtimeKey": "INVENTORY_UNEQUIP",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\INVENTORY_UNEQUIP.wav"
+    },
+    {
+      "bank": "Master Bank",
+      "stream": 54,
+      "sourceSample": "VERTICAL_ATTACK_HIT",
+      "runtimeKey": "VERTICAL_ATTACK_HIT",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\VERTICAL_ATTACK_HIT.wav"
+    },
+    {
+      "bank": "Master Bank",
+      "stream": 129,
+      "sourceSample": "VERTICAL_ATTACK_FALL",
+      "runtimeKey": "VERTICAL_ATTACK_FALL",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\VERTICAL_ATTACK_FALL.wav"
+    },
+    {
+      "bank": "Master Bank",
+      "stream": 928,
+      "sourceSample": "VERTICAL_ATTACK_START",
+      "runtimeKey": "VERTICAL_ATTACK_START",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\VERTICAL_ATTACK_START.wav"
+    },
+    {
+      "bank": "Master Bank",
+      "stream": 346,
+      "sourceSample": "VERTICAL_ATTACK_HIT_LV2",
+      "runtimeKey": "VERTICAL_ATTACK_LV2",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\VERTICAL_ATTACK_LV2.wav"
+    },
+    {
+      "bank": "Master Bank",
+      "stream": 760,
+      "sourceSample": "VERTICAL_ATTACK_HIT_LV3",
+      "runtimeKey": "VERTICAL_ATTACK_LV3",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\VERTICAL_ATTACK_LV3.wav"
+    },
+    {
+      "bank": "Master Bank",
+      "stream": 541,
+      "sourceSample": "CHERUB_RESCUE",
+      "runtimeKey": "CHERUB_RESCUE",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\CHERUB_RESCUE.wav"
+    },
+    {
+      "bank": "Master Bank",
+      "stream": 722,
+      "sourceSample": "CHERUB_FLY",
+      "runtimeKey": "CHERUB_FLY",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\CHERUB_FLY.wav"
+    },
+    {
+      "bank": "Master Bank",
+      "stream": 22,
+      "sourceSample": "ESDRAS_THUNDER",
+      "runtimeKey": "TARANTO_THUNDER",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\TARANTO_THUNDER.wav"
+    },
+    {
+      "bank": "KeyEvents",
+      "stream": 2,
+      "sourceSample": "Quest_Item",
+      "runtimeKey": "ITEM_ADDED",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ITEM_ADDED.wav"
+    },
+    {
+      "bank": "KeyEvents",
+      "stream": 18,
+      "sourceSample": "USE_QUEST_ITEM",
+      "runtimeKey": "GUILT_RECOVER",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\GUILT_RECOVER.wav"
+    },
+    {
+      "bank": "CutScenes",
+      "stream": 5,
+      "sourceSample": "Blood Baptism",
+      "runtimeKey": "CTS02_FOLEY",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\CTS02_FOLEY.wav"
+    },
+    {
+      "bank": "BackgroundLayer",
+      "stream": 61,
+      "sourceSample": "Brotherhood_Ambient",
+      "runtimeKey": "Brotherhood_Ambient",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\Brotherhood_Ambient.wav"
+    },
+    {
+      "bank": "BackgroundLayer",
+      "stream": 75,
+      "sourceSample": "Forest_Music",
+      "runtimeKey": "Forest_Music",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\Forest_Music.wav"
+    },
+    {
+      "bank": "BackgroundLayer",
+      "stream": 43,
+      "sourceSample": "Forest_ambient",
+      "runtimeKey": "Forest_ambient",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\Forest_ambient.wav"
+    },
+    {
+      "bank": "BackgroundLayer",
+      "stream": 7,
+      "sourceSample": "Albero_MASTER",
+      "runtimeKey": "Albero_MASTER",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\Albero_MASTER.wav"
+    },
+    {
+      "bank": "BackgroundLayer",
+      "stream": 23,
+      "sourceSample": "Ambient_Village_Exterior",
+      "runtimeKey": "Ambient_Village_Exterior",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\Ambient_Village_Exterior.wav"
+    }
+  ]
+}

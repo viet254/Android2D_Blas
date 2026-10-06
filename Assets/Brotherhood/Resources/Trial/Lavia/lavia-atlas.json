@@ -1,0 +1,837 @@
+{
+  "source": "D:\\game\\Sprites\\Arcade - Red Earth - Enemies & Bosses - Lavia.png",
+  "source_sha256": "80b98894c47852812289ded712fa7765019ecffdb2354bd75a4021ce6921f6b9",
+  "cell": [
+    416,
+    256
+  ],
+  "columns": 6,
+  "pixelsPerUnit": 96,
+  "groups": {
+    "Idle": {
+      "start": 0,
+      "count": 6
+    },
+    "Windup": {
+      "start": 6,
+      "count": 4
+    },
+    "Dive": {
+      "start": 10,
+      "count": 6
+    },
+    "Slash": {
+      "start": 16,
+      "count": 6
+    },
+    "Cast": {
+      "start": 22,
+      "count": 5
+    },
+    "Hurt": {
+      "start": 27,
+      "count": 3
+    },
+    "Death": {
+      "start": 30,
+      "count": 9
+    }
+  },
+  "frames": [
+    {
+      "state": "Idle",
+      "sourceIndex": 191,
+      "sourceRect": [
+        1448,
+        2060,
+        192,
+        208
+      ],
+      "atlasIndex": 0,
+      "pastedAt": [
+        178,
+        23
+      ],
+      "torsoAnchor": [
+        46,
+        133
+      ]
+    },
+    {
+      "state": "Idle",
+      "sourceIndex": 192,
+      "sourceRect": [
+        1271,
+        2061,
+        176,
+        207
+      ],
+      "atlasIndex": 1,
+      "pastedAt": [
+        194,
+        25
+      ],
+      "torsoAnchor": [
+        30,
+        131
+      ]
+    },
+    {
+      "state": "Idle",
+      "sourceIndex": 193,
+      "sourceRect": [
+        1641,
+        2076,
+        208,
+        192
+      ],
+      "atlasIndex": 2,
+      "pastedAt": [
+        162,
+        39
+      ],
+      "torsoAnchor": [
+        62,
+        117
+      ]
+    },
+    {
+      "state": "Idle",
+      "sourceIndex": 194,
+      "sourceRect": [
+        1850,
+        2076,
+        224,
+        192
+      ],
+      "atlasIndex": 3,
+      "pastedAt": [
+        142,
+        54
+      ],
+      "torsoAnchor": [
+        82,
+        102
+      ]
+    },
+    {
+      "state": "Idle",
+      "sourceIndex": 195,
+      "sourceRect": [
+        1078,
+        2078,
+        192,
+        190
+      ],
+      "atlasIndex": 4,
+      "pastedAt": [
+        194,
+        41
+      ],
+      "torsoAnchor": [
+        30,
+        115
+      ]
+    },
+    {
+      "state": "Idle",
+      "sourceIndex": 196,
+      "sourceRect": [
+        2075,
+        2107,
+        224,
+        161
+      ],
+      "atlasIndex": 5,
+      "pastedAt": [
+        150,
+        80
+      ],
+      "torsoAnchor": [
+        74,
+        76
+      ]
+    },
+    {
+      "state": "Windup",
+      "sourceIndex": 157,
+      "sourceRect": [
+        899,
+        1686,
+        201,
+        148
+      ],
+      "atlasIndex": 6,
+      "pastedAt": [
+        124,
+        97
+      ],
+      "torsoAnchor": [
+        100,
+        59
+      ]
+    },
+    {
+      "state": "Windup",
+      "sourceIndex": 158,
+      "sourceRect": [
+        1323,
+        1687,
+        189,
+        147
+      ],
+      "atlasIndex": 7,
+      "pastedAt": [
+        136,
+        98
+      ],
+      "torsoAnchor": [
+        88,
+        58
+      ]
+    },
+    {
+      "state": "Windup",
+      "sourceIndex": 159,
+      "sourceRect": [
+        1513,
+        1690,
+        189,
+        144
+      ],
+      "atlasIndex": 8,
+      "pastedAt": [
+        135,
+        97
+      ],
+      "torsoAnchor": [
+        89,
+        59
+      ]
+    },
+    {
+      "state": "Windup",
+      "sourceIndex": 160,
+      "sourceRect": [
+        2543,
+        1690,
+        250,
+        144
+      ],
+      "atlasIndex": 9,
+      "pastedAt": [
+        135,
+        79
+      ],
+      "torsoAnchor": [
+        89,
+        77
+      ]
+    },
+    {
+      "state": "Dive",
+      "sourceIndex": 219,
+      "sourceRect": [
+        210,
+        2317,
+        208,
+        144
+      ],
+      "atlasIndex": 10,
+      "pastedAt": [
+        164,
+        86
+      ],
+      "torsoAnchor": [
+        60,
+        70
+      ]
+    },
+    {
+      "state": "Dive",
+      "sourceIndex": 220,
+      "sourceRect": [
+        998,
+        2317,
+        208,
+        144
+      ],
+      "atlasIndex": 11,
+      "pastedAt": [
+        111,
+        75
+      ],
+      "torsoAnchor": [
+        113,
+        81
+      ]
+    },
+    {
+      "state": "Dive",
+      "sourceIndex": 221,
+      "sourceRect": [
+        1689,
+        2317,
+        224,
+        144
+      ],
+      "atlasIndex": 12,
+      "pastedAt": [
+        62,
+        86
+      ],
+      "torsoAnchor": [
+        162,
+        70
+      ]
+    },
+    {
+      "state": "Dive",
+      "sourceIndex": 222,
+      "sourceRect": [
+        789,
+        2333,
+        208,
+        128
+      ],
+      "atlasIndex": 13,
+      "pastedAt": [
+        85,
+        77
+      ],
+      "torsoAnchor": [
+        139,
+        79
+      ]
+    },
+    {
+      "state": "Dive",
+      "sourceIndex": 223,
+      "sourceRect": [
+        1207,
+        2333,
+        240,
+        128
+      ],
+      "atlasIndex": 14,
+      "pastedAt": [
+        63,
+        86
+      ],
+      "torsoAnchor": [
+        161,
+        70
+      ]
+    },
+    {
+      "state": "Dive",
+      "sourceIndex": 224,
+      "sourceRect": [
+        1448,
+        2333,
+        240,
+        128
+      ],
+      "atlasIndex": 15,
+      "pastedAt": [
+        66,
+        88
+      ],
+      "torsoAnchor": [
+        158,
+        68
+      ]
+    },
+    {
+      "state": "Slash",
+      "sourceIndex": 103,
+      "sourceRect": [
+        1,
+        998,
+        224,
+        192
+      ],
+      "atlasIndex": 16,
+      "pastedAt": [
+        151,
+        59
+      ],
+      "torsoAnchor": [
+        73,
+        93
+      ]
+    },
+    {
+      "state": "Slash",
+      "sourceIndex": 104,
+      "sourceRect": [
+        1801,
+        998,
+        272,
+        192
+      ],
+      "atlasIndex": 17,
+      "pastedAt": [
+        124,
+        63
+      ],
+      "torsoAnchor": [
+        100,
+        89
+      ]
+    },
+    {
+      "state": "Slash",
+      "sourceIndex": 105,
+      "sourceRect": [
+        226,
+        1014,
+        208,
+        176
+      ],
+      "atlasIndex": 18,
+      "pastedAt": [
+        151,
+        61
+      ],
+      "torsoAnchor": [
+        73,
+        91
+      ]
+    },
+    {
+      "state": "Slash",
+      "sourceIndex": 106,
+      "sourceRect": [
+        435,
+        1014,
+        256,
+        176
+      ],
+      "atlasIndex": 19,
+      "pastedAt": [
+        22,
+        79
+      ],
+      "torsoAnchor": [
+        202,
+        73
+      ]
+    },
+    {
+      "state": "Slash",
+      "sourceIndex": 110,
+      "sourceRect": [
+        1592,
+        1030,
+        208,
+        160
+      ],
+      "atlasIndex": 20,
+      "pastedAt": [
+        115,
+        74
+      ],
+      "torsoAnchor": [
+        109,
+        78
+      ]
+    },
+    {
+      "state": "Slash",
+      "sourceIndex": 112,
+      "sourceRect": [
+        2492,
+        1030,
+        336,
+        160
+      ],
+      "atlasIndex": 21,
+      "pastedAt": [
+        65,
+        71
+      ],
+      "torsoAnchor": [
+        159,
+        81
+      ]
+    },
+    {
+      "state": "Cast",
+      "sourceIndex": 160,
+      "sourceRect": [
+        2543,
+        1690,
+        250,
+        144
+      ],
+      "atlasIndex": 22,
+      "pastedAt": [
+        135,
+        79
+      ],
+      "torsoAnchor": [
+        89,
+        77
+      ]
+    },
+    {
+      "state": "Cast",
+      "sourceIndex": 161,
+      "sourceRect": [
+        1101,
+        1695,
+        221,
+        139
+      ],
+      "atlasIndex": 23,
+      "pastedAt": [
+        118,
+        104
+      ],
+      "torsoAnchor": [
+        106,
+        52
+      ]
+    },
+    {
+      "state": "Cast",
+      "sourceIndex": 162,
+      "sourceRect": [
+        227,
+        1697,
+        217,
+        137
+      ],
+      "atlasIndex": 24,
+      "pastedAt": [
+        150,
+        86
+      ],
+      "torsoAnchor": [
+        74,
+        70
+      ]
+    },
+    {
+      "state": "Cast",
+      "sourceIndex": 163,
+      "sourceRect": [
+        680,
+        1698,
+        218,
+        136
+      ],
+      "atlasIndex": 25,
+      "pastedAt": [
+        108,
+        95
+      ],
+      "torsoAnchor": [
+        116,
+        61
+      ]
+    },
+    {
+      "state": "Cast",
+      "sourceIndex": 164,
+      "sourceRect": [
+        1909,
+        1698,
+        205,
+        136
+      ],
+      "atlasIndex": 26,
+      "pastedAt": [
+        156,
+        90
+      ],
+      "torsoAnchor": [
+        68,
+        66
+      ]
+    },
+    {
+      "state": "Hurt",
+      "sourceIndex": 216,
+      "sourceRect": [
+        2139,
+        2301,
+        160,
+        160
+      ],
+      "atlasIndex": 27,
+      "pastedAt": [
+        160,
+        54
+      ],
+      "torsoAnchor": [
+        64,
+        102
+      ]
+    },
+    {
+      "state": "Hurt",
+      "sourceIndex": 217,
+      "sourceRect": [
+        419,
+        2302,
+        192,
+        159
+      ],
+      "atlasIndex": 28,
+      "pastedAt": [
+        178,
+        72
+      ],
+      "torsoAnchor": [
+        46,
+        84
+      ]
+    },
+    {
+      "state": "Hurt",
+      "sourceIndex": 218,
+      "sourceRect": [
+        1,
+        2317,
+        208,
+        144
+      ],
+      "atlasIndex": 29,
+      "pastedAt": [
+        167,
+        84
+      ],
+      "torsoAnchor": [
+        57,
+        72
+      ]
+    },
+    {
+      "state": "Death",
+      "sourceIndex": 225,
+      "sourceRect": [
+        2300,
+        2333,
+        224,
+        128
+      ],
+      "atlasIndex": 30,
+      "pastedAt": [
+        119,
+        109
+      ],
+      "torsoAnchor": [
+        105,
+        85
+      ]
+    },
+    {
+      "state": "Death",
+      "sourceIndex": 226,
+      "sourceRect": [
+        2525,
+        2349,
+        304,
+        112
+      ],
+      "atlasIndex": 31,
+      "pastedAt": [
+        19,
+        128
+      ],
+      "torsoAnchor": [
+        205,
+        66
+      ]
+    },
+    {
+      "state": "Death",
+      "sourceIndex": 227,
+      "sourceRect": [
+        2830,
+        2349,
+        304,
+        112
+      ],
+      "atlasIndex": 32,
+      "pastedAt": [
+        16,
+        125
+      ],
+      "torsoAnchor": [
+        208,
+        69
+      ]
+    },
+    {
+      "state": "Death",
+      "sourceIndex": 228,
+      "sourceRect": [
+        3135,
+        2349,
+        288,
+        112
+      ],
+      "atlasIndex": 33,
+      "pastedAt": [
+        26,
+        137
+      ],
+      "torsoAnchor": [
+        198,
+        57
+      ]
+    },
+    {
+      "state": "Death",
+      "sourceIndex": 229,
+      "sourceRect": [
+        3424,
+        2381,
+        320,
+        80
+      ],
+      "atlasIndex": 34,
+      "pastedAt": [
+        6,
+        160
+      ],
+      "torsoAnchor": [
+        218,
+        34
+      ]
+    },
+    {
+      "state": "Death",
+      "sourceIndex": 270,
+      "sourceRect": [
+        997,
+        2816,
+        256,
+        144
+      ],
+      "atlasIndex": 35,
+      "pastedAt": [
+        45,
+        90
+      ],
+      "torsoAnchor": [
+        179,
+        104
+      ]
+    },
+    {
+      "state": "Death",
+      "sourceIndex": 274,
+      "sourceRect": [
+        1511,
+        2848,
+        320,
+        112
+      ],
+      "atlasIndex": 36,
+      "pastedAt": [
+        7,
+        127
+      ],
+      "torsoAnchor": [
+        217,
+        67
+      ]
+    },
+    {
+      "state": "Death",
+      "sourceIndex": 278,
+      "sourceRect": [
+        2153,
+        2880,
+        320,
+        80
+      ],
+      "atlasIndex": 37,
+      "pastedAt": [
+        7,
+        159
+      ],
+      "torsoAnchor": [
+        217,
+        35
+      ]
+    },
+    {
+      "state": "Death",
+      "sourceIndex": 282,
+      "sourceRect": [
+        3437,
+        2880,
+        320,
+        80
+      ],
+      "atlasIndex": 38,
+      "pastedAt": [
+        7,
+        159
+      ],
+      "torsoAnchor": [
+        217,
+        35
+      ]
+    }
+  ],
+  "projectiles": [
+    {
+      "sourceIndex": 174,
+      "sourceRect": [
+        1559,
+        1899,
+        160,
+        160
+      ],
+      "pastedAt": [
+        16,
+        16
+      ]
+    },
+    {
+      "sourceIndex": 175,
+      "sourceRect": [
+        1720,
+        1899,
+        160,
+        160
+      ],
+      "pastedAt": [
+        16,
+        16
+      ]
+    },
+    {
+      "sourceIndex": 176,
+      "sourceRect": [
+        1881,
+        1899,
+        160,
+        160
+      ],
+      "pastedAt": [
+        16,
+        16
+      ]
+    },
+    {
+      "sourceIndex": 180,
+      "sourceRect": [
+        2042,
+        1931,
+        160,
+        128
+      ],
+      "pastedAt": [
+        16,
+        32
+      ]
+    }
+  ]
+}

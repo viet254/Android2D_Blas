@@ -1,0 +1,14 @@
+PASS Main menu controller starts
+PASS Touch, keyboard and controller event system exists
+PASS Original Landing logo texture loaded
+PASS Original main-menu background and Penitent source atlas loaded
+PASS Original pilgrimage slot art loaded
+PASS Original Majestic Extended bitmap font loaded
+PASS Original AC01 icon and unlocked achievement panel load from source atlas
+PASS Menu input module has default pointer, touch and navigation actions
+PASS Pilgrimage, Options, Extras and Exit created
+PASS Three save slots, Continue and Back created
+PASS Menu labels do not block pointer clicks on buttons
+PASS Main menu uses the original font or a Vietnamese-capable display font
+PASS Mode selection is Vietnamese in the same frame it is built
+RESULT: PASSED

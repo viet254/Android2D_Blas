@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 87207fb8ab349c9418be2e61f0346499
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6246250804983441467
+    second: OptionsUIAtlas_0
+  - first:
+      213: 3833896385707830843
+    second: OptionsUIAtlas_1
+  - first:
+      213: -4528828771249021303
+    second: OptionsUIAtlas_2
+  - first:
+      213: -8518560181513027604
+    second: OptionsUIAtlas_3
+  - first:
+      213: 6694270846337914215
+    second: OptionsUIAtlas_4
+  - first:
+      213: -659909048033139418
+    second: OptionsUIAtlas_5
+  - first:
+      213: -2650584332714283360
+    second: OptionsUIAtlas_6
+  - first:
+      213: 8723869839128648071
+    second: OptionsUIAtlas_7
+  - first:
+      213: -3889991269822147966
+    second: OptionsUIAtlas_8
+  - first:
+      213: 5521439390836174103
+    second: OptionsUIAtlas_9
+  - first:
+      213: -1243176185427493703
+    second: OptionsUIAtlas_10
+  - first:
+      213: 6337233091999358089
+    second: OptionsUIAtlas_11
+  - first:
+      213: -7681793079409856098
+    second: OptionsUIAtlas_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+  filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OptionsUIAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 512
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38290953042fa650800000000000000
+      internalID: 6246250804983441467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsUIAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 475
+        width: 104
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ee4cf237cb43530800000000000000
+      internalID: 3833896385707830843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsUIAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 477
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e12213a3e5621c0800000000000000
+      internalID: -4528828771249021303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsUIAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 478
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceff02fe5aef7c980800000000000000
+      internalID: -8518560181513027604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsUIAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 465
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7659932fdd3d6ec50800000000000000
+      internalID: 6694270846337914215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsUIAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 180
+        width: 69
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6252be7973887d6f0800000000000000
+      internalID: -659909048033139418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsUIAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 470
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae6951c79b373bd0800000000000000
+      internalID: -2650584332714283360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsUIAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 412
+        width: 387
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789d10cc569611970800000000000000
+      internalID: 8723869839128648071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsUIAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 360
+        width: 387
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28251e6dc89f30ac0800000000000000
+      internalID: -3889991269822147966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsUIAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 307
+        width: 387
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71da3a34fd710ac40800000000000000
+      internalID: 5521439390836174103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsUIAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 251
+        width: 387
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc7e5298d95fbee0800000000000000
+      internalID: -1243176185427493703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsUIAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 387
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cd87bcbef52f750800000000000000
+      internalID: 6337233091999358089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionsUIAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 146
+        width: 387
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91b8b7e4e9c46590800000000000000
+      internalID: -7681793079409856098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OptionsUIAtlas_0: 6246250804983441467
+      OptionsUIAtlas_1: 3833896385707830843
+      OptionsUIAtlas_10: -1243176185427493703
+      OptionsUIAtlas_11: 6337233091999358089
+      OptionsUIAtlas_12: -7681793079409856098
+      OptionsUIAtlas_2: -4528828771249021303
+      OptionsUIAtlas_3: -8518560181513027604
+      OptionsUIAtlas_4: 6694270846337914215
+      OptionsUIAtlas_5: -659909048033139418
+      OptionsUIAtlas_6: -2650584332714283360
+      OptionsUIAtlas_7: 8723869839128648071
+      OptionsUIAtlas_8: -3889991269822147966
+      OptionsUIAtlas_9: 5521439390836174103
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

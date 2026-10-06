@@ -1,0 +1,264 @@
+Run UTC: 2026-10-06T11:18:59.0369598Z
+PASS All seventeen original mobile prayers are present
+PASS PR01 begins the source AuraTransform without spending mana early
+PASS PR01 waits for the 0.55-second animation event
+PASS PR01 spends its original Fervour cost once
+PASS PR01 ignores repeat input during the casting animation
+PASS PR01 explicitly releases its transient effects
+PASS PR03 begins the source AuraTransform without spending mana early
+PASS PR03 waits for the 0.55-second animation event
+PASS PR03 spends its original Fervour cost once
+PASS PR03 ignores repeat input during the casting animation
+PASS PR03 explicitly releases its transient effects
+PASS PR04 begins the source AuraTransform without spending mana early
+PASS PR04 waits for the 0.55-second animation event
+PASS PR04 spends its original Fervour cost once
+PASS PR04 ignores repeat input during the casting animation
+PASS PR04 explicitly releases its transient effects
+PASS PR05 begins the source AuraTransform without spending mana early
+PASS PR05 waits for the 0.55-second animation event
+PASS PR05 spends its original Fervour cost once
+PASS PR05 ignores repeat input during the casting animation
+PASS PR05 explicitly releases its transient effects
+PASS PR07 begins the source AuraTransform without spending mana early
+PASS PR07 waits for the 0.55-second animation event
+PASS PR07 spends its original Fervour cost once
+PASS PR07 ignores repeat input during the casting animation
+PASS PR07 explicitly releases its transient effects
+PASS PR08 begins the source AuraTransform without spending mana early
+PASS PR08 waits for the 0.55-second animation event
+PASS PR08 spends its original Fervour cost once
+PASS PR08 ignores repeat input during the casting animation
+PASS PR08 explicitly releases its transient effects
+PASS PR09 begins the source AuraTransform without spending mana early
+PASS PR09 waits for the 0.55-second animation event
+PASS PR09 spends its original Fervour cost once
+PASS PR09 ignores repeat input during the casting animation
+PASS PR09 explicitly releases its transient effects
+PASS PR10 begins the source AuraTransform without spending mana early
+PASS PR10 waits for the 0.55-second animation event
+PASS PR10 spends its original Fervour cost once
+PASS PR10 ignores repeat input during the casting animation
+PASS PR10 explicitly releases its transient effects
+PASS PR11 begins the source AuraTransform without spending mana early
+PASS PR11 waits for the 0.55-second animation event
+PASS PR11 spends its original Fervour cost once
+PASS PR11 ignores repeat input during the casting animation
+PASS PR11 explicitly releases its transient effects
+PASS PR12 begins the source AuraTransform without spending mana early
+PASS PR12 waits for the 0.55-second animation event
+PASS PR12 spends its original Fervour cost once
+PASS PR12 ignores repeat input during the casting animation
+PASS PR12 explicitly releases its transient effects
+PASS PR14 begins the source AuraTransform without spending mana early
+PASS PR14 waits for the 0.55-second animation event
+PASS PR14 spends its original Fervour cost once
+PASS PR14 ignores repeat input during the casting animation
+PASS PR14 explicitly releases its transient effects
+PASS PR15 begins the source AuraTransform without spending mana early
+PASS PR15 waits for the 0.55-second animation event
+PASS PR15 spends its original Fervour cost once
+PASS PR15 ignores repeat input during the casting animation
+PASS PR15 explicitly releases its transient effects
+PASS PR16 begins the source AuraTransform without spending mana early
+PASS PR16 waits for the 0.55-second animation event
+PASS PR16 spends its original Fervour cost once
+PASS PR16 ignores repeat input during the casting animation
+PASS PR16 explicitly releases its transient effects
+PASS PR101 begins the source AuraTransform without spending mana early
+PASS PR101 waits for the 0.55-second animation event
+PASS PR101 spends its original Fervour cost once
+PASS PR101 ignores repeat input during the casting animation
+PASS PR101 explicitly releases its transient effects
+PASS PR201 begins the source AuraTransform without spending mana early
+PASS PR201 waits for the 0.55-second animation event
+PASS PR201 spends its original Fervour cost once
+PASS PR201 ignores repeat input during the casting animation
+PASS PR201 explicitly releases its transient effects
+PASS PR202 begins the source AuraTransform without spending mana early
+PASS PR202 waits for the 0.55-second animation event
+PASS PR202 spends its original Fervour cost once
+PASS PR202 ignores repeat input during the casting animation
+PASS PR202 explicitly releases its transient effects
+PASS PR203 begins the source AuraTransform without spending mana early
+PASS PR203 waits for the 0.55-second animation event
+PASS PR203 spends its original Fervour cost once
+PASS PR203 ignores repeat input during the casting animation
+PASS PR203 explicitly releases its transient effects
+PASS Insufficient Fervour cannot start a prayer or consume mana
+PASS Prayers require grounded casting as in the mobile source
+PASS An active timed prayer prevents another cast
+PASS Damage before the cast event cancels the invocation without spending Fervour
+PASS RB108 speeds up both prayer pose and event timing
+PASS PR01 accepts the Heart's five-second effect extension
+PASS PR01 attack speed observes the source 1.5 maximum
+PASS PR01 periodically generates its source purple trail
+PASS PR01 removes its timed stat after fifteen seconds with HE01
+PASS Saeta restores fifteen percent from an ordinary successful hit
+PASS Saeta also restores Life from a heavy weapon hit
+PASS Saeta cannot heal after the prayer expires
+PASS Solea multiplies sword Strength by 2.5
+PASS Solea uses the upgraded source sword slash and strikes an enemy
+PASS Solea restores normal Strength at expiry
+PASS Zambra adds thirty percent Tears once and begins its kill effect
+PASS Zambra's active harvest effect is not restarted by another kill
+PASS Zambra's trail and stop-Fervour component expire at twenty-five seconds even with the duration Heart
+PASS Zambra's extended Tears stat continues for the remaining five seconds
+PASS Zambra removes its Tears stat when the extended prayer ends
+PASS Debla's fixed two-second invulnerability is not extended by the Heart
+PASS Prayer source timeline loads: penitentBeam_startToWarning
+PASS Prayer source timeline loads: penitentBeam_warningToAttack
+PASS Prayer source timeline loads: penitentBeam_attackLoop
+PASS Prayer source timeline loads: penitentBeam_fade
+PASS Prayer source timeline loads: prayerHealingEffect
+PASS Prayer source timeline loads: AlliedCherub_flying
+PASS Prayer source timeline loads: penitent_blueFireFull
+PASS Prayer source timeline loads: PrayerShieldSprite
+PASS Prayer source timeline loads: penitent_guardian_lady_anim
+PASS Prayer source timeline loads: penitent_prayerPR12Action
+PASS Prayer source timeline loads: prayerPR12EnemyImpact
+PASS Prayer source timeline loads: pontiffOldman_toxicBurstToFog
+PASS Prayer source timeline loads: pontiffOldman_fogToIdle
+PASS Debla charges forty and starts its fifty-five-damage column at the source cast event
+PASS Debla waits the source 0.28-second interval between damage ticks
+PASS Debla applies its second column tick instead of one broad instant hit
+PASS Debla enables its player blue tint after the source 0.4-second delay
+PASS Debla deals exactly four source ticks during its one-second damage loop
+PASS Debla restores player color after its source 0.8-second tint interval
+PASS Debla beam and independent impact sprites expire completely
+PASS Debla uses the source twelve-unit upward column collider
+PASS Debla does not damage an enemy beyond its 6.8-unit column width
+PASS Campanillero charges sixty and deploys a finite court without instant area damage
+PASS Campanillero deploys cherubs at half-second intervals and waits for target acquisition
+PASS The newly deployed source cherub waits its one-second attack cooldown before charging
+PASS An allied cherub visibly charges its railgun before dealing damage
+PASS An allied cherub must finish its full 0.6-second railgun charge before dealing damage
+PASS An allied cherub fires once with its mobile forty-damage base strength
+PASS Exactly seven source cherubs are consumed after seven attacks, with no perpetual area pulses
+PASS Spent cherubs and their departure effects release all actors
+PASS Allied cherubs follow their owner while no enemy is inside the source ten-unit targeting range
+PASS Unused allied cherubs are stored when their fixed fifteen-second source duration ends
+PASS Zarabanda charges forty at the cast event before its first physical shield hit
+PASS Zarabanda charges forty and its two orbiting circles damage enemies they physically touch
+PASS Zarabanda does not grant the invulnerability flag
+PASS Zarabanda leaves the player vulnerable to an unblocked direct enemy hit
+PASS Zarabanda expands to the original two-unit orbit radius
+PASS Zarabanda contracts its two shields for one second after the ten-second buff ends
+PASS Zarabanda disposes both shields after contraction
+PASS Tiento charges forty and waits for an incoming hit before showing the thorned lady
+PASS Tiento blocks an incoming strike and shows its original hurt-trigger protection animation
+PASS Tiento also blocks contact without duplicating an already playing protection animation
+PASS The thorned lady fades after the source protection animation
+PASS Tiento removes invulnerability after eight seconds and allows subsequent damage
+PASS Cante Jondo charges sixty and hits the first enemy for its original two-hundred-ten damage
+PASS Cante Jondo preserves the mobile half-second delay between targets
+PASS Cante Jondo reaches an enemy behind the player inside its circular area
+PASS Cante Jondo releases invocation and enemy impact sprites
+PASS Cante Jondo reaches elevated targets within its original twenty-unit radius
+PASS Cante Jondo excludes enemies beyond its twenty-unit radius
+PASS Verdiales charges twenty and launches exactly two ground-crawling source discs
+PASS Verdiales damages an intersecting enemy and retains its source two-second casting protection
+PASS Paused Verdiales projectiles cannot move or deal extra damage
+PASS Verdiales removes both projectiles and casting protection after two seconds
+PASS Crimson Mist charges forty and creates one stationary cloud without an immediate generic hit
+PASS A blood cloud waits its source half-second area-effect interval
+PASS A blood cloud deals the source twenty-five damage at each area-effect tick
+PASS An existing blood cloud stays behind and continues damaging its own occupants when the player moves
+PASS Crimson Mist creates another cloud at the player's new location on its one-second source interval
+PASS Existing blood clouds finish their three-second lifetimes after the ten-second emitter stops
+PASS Crimson Mist releases every cloud after emission and individual lifetimes finish
+PASS PR12 world fixture uses the actual restored source cherub captor
+PASS Actual Cante Jondo input rescues the source cherub and records its persistent original ID
+PASS PR12 world fixture uses the actual restored source cherub captor
+PASS Cante Jondo excludes a captor in the corner outside its circle even inside a twenty-unit square
+PASS PR14 world fixture uses the actual restored source cherub captor
+PASS Actual Verdiales input rescues a source cherub intersecting a moving crawler polygon
+PASS PR14 world fixture uses the actual restored source cherub captor
+PASS Verdiales does not rescue a captor above the crawler's physical polygon
+PASS PR14 world fixture uses the actual restored source cherub captor
+PASS World polygon hits exclude a captor inside the bounding rectangle but beyond the actual sloping edge
+PASS PR05 world fixture uses the actual restored source cherub captor
+PASS A cherub railgun cannot rescue a captor beyond the original fifteen-unit beam endpoint
+PASS A cherub railgun rescues a captor overlapping the actual oriented beam
+PASS PR08 world fixture uses the actual restored source cherub captor
+PASS A Zarabanda circle excludes the captor at a square corner outside the source shield radius
+PASS A Zarabanda circle rescues a captor physically overlapping its source radius
+PASS PR03 keeps its visual lifetime paused when gameplay delta is zero
+PASS PR03 releases its temporary effects when player prayer state is reset
+PASS PR03 releases all temporary prayer effects on player death
+PASS PR05 keeps its visual lifetime paused when gameplay delta is zero
+PASS PR05 releases its temporary effects when player prayer state is reset
+PASS PR05 releases all temporary prayer effects on player death
+PASS PR08 keeps its visual lifetime paused when gameplay delta is zero
+PASS PR08 releases its temporary effects when player prayer state is reset
+PASS PR08 releases all temporary prayer effects on player death
+PASS PR11 keeps its visual lifetime paused when gameplay delta is zero
+PASS PR11 releases its temporary effects when player prayer state is reset
+PASS PR11 releases all temporary prayer effects on player death
+PASS PR12 keeps its visual lifetime paused when gameplay delta is zero
+PASS PR12 releases its temporary effects when player prayer state is reset
+PASS PR12 releases all temporary prayer effects on player death
+PASS PR14 keeps its visual lifetime paused when gameplay delta is zero
+PASS PR14 releases its temporary effects when player prayer state is reset
+PASS PR14 releases all temporary prayer effects on player death
+PASS PR15 keeps its visual lifetime paused when gameplay delta is zero
+PASS PR15 releases its temporary effects when player prayer state is reset
+PASS PR15 releases all temporary prayer effects on player death
+PASS Lorquiana waits for the source cast event before consuming Fervour or firing
+PASS Lorquiana's first source shot deals ninety and its successful hit restores four Fervour
+PASS Lorquiana fires its second independent shot after 0.15 seconds
+PASS Lorquiana fires three source shots without a generic extra attack
+PASS Lorquiana disposes beams and impact actors after its effect
+PASS Lorquiana preserves its authored zero collision mask and reaches a target behind terrain
+PASS Lorquiana mirrors its source attack direction when facing left
+PASS Taranto's twenty-unit vertical collider hits above ground and its temporal flag stops Fervour collection
+PASS Taranto repeats source twenty-damage hits every 0.12 seconds
+PASS Taranto releases all six column actors after completion
+PASS Taranto's summon line stops subsequent columns at the authored terrain collision
+PASS Guardian appears at its master and follows the authored two-unit offset
+PASS Guardian waits for its WeaponAttack animation event at 0.53 seconds
+PASS Guardian applies its source Strength of 180 through the horizontal capsule
+PASS Guardian's Heavy source hit gains eight Fervour
+PASS Guardian destroys projectiles inside its capsule while preserving projectiles in the enclosing rectangle's corner
+PASS Guardian's rounded capsule excludes a target in the enclosing rectangle's corner
+PASS The player's shield command starts Guardian's source guard action
+PASS Guardian's guard protects the master from attack and contact damage
+PASS Guardian releases protection after both guard animations finish
+PASS Guardian's vanish animation releases its actor after the source duration
+PASS Unequipping Guardian immediately releases its summoned actor
+PASS Miriam waits for the player's sword command instead of automatically selecting enemies
+PASS Miriam's source polygon deals one hundred damage and stuns a surviving ordinary enemy
+PASS Miriam's OptionalStunt source hit gains four Fervour without Heavy context
+PASS Miriam destroys projectiles inside its source polygon while preserving the polygon rectangle's corner
+PASS Miriam's grounded attack begins its source twelve-shard summon line
+PASS Miriam completes all twelve authored shard summons
+PASS Miriam keeps landing shards alive through their loops and fades, then releases all actors
+PASS Miriam opens its hit window without damaging a target outside the current polygon
+PASS Miriam's moving source polygon hits a target that enters after WeaponAttack
+PASS Miriam destroys a projectile entering after its hit window has already opened
+PASS Miriam's already-damaged set prevents repeated damage and Fervour even after leaving and re-entering the window
+PASS WeaponAttackFinished closes Miriam's hitbox for late enemies and projectiles
+PASS Miriam's independently summoned landing shard deals the source forty damage
+PASS Miriam preserves its native cached one-hundred damage hit when Life changes after casting
+PASS Miriam captures a conditionally active stat 15 multiplier when its entity spawns
+PASS Miriam's forty-damage landing shards also scale with stat 15
+PASS Guardian preserves its native cached one-hundred-eighty damage hit when Life changes after casting
+PASS Guardian captures a conditionally active stat 15 multiplier when its entity spawns
+PASS Miriam does not apply PrayerStrength stat 27 to its general-damage source hit
+PASS San Telmo's beams cannot damage enemies before the first reveal-and-charge pulse
+PASS San Telmo opens its ten-damage beams after the reveal and charge sequence
+PASS One San Telmo beam damages an enemy only once during its 0.3-second attack window
+PASS A later San Telmo link independently damages an enemy at a crossing of two source beams
+PASS San Telmo emits the source three base pulses at 1.2-second intervals
+PASS San Telmo completes sequential core fades and releases all beam actors
+PASS HE01's five-second addition grants floor(5 * 0.6) extra San Telmo pulses
+PASS San Telmo also cleans up its longer sequence with HE01 equipped
+PASS Player death cancels San Telmo cores and beams immediately
+PASS The source return prayer refuses an airborne cast
+PASS The return prayer requires an activated source checkpoint
+PASS Changing rooms cancels a summoned prayer and its animation callbacks
+PASS A paused prayer clock leaves effect lifetimes unchanged
+PASS Changing rooms releases prayer actors and stat effects
+PASS Death clears the shields and other prayer effects
+PASS Unequipping a prayer removes its temporary stats and trails
+RESULT: PASSED

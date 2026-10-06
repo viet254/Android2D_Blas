@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: c1323fce2d1a2ad4a815a1c8e6165bd7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8705657613178741144
+    second: lavia-body-atlas_0
+  - first:
+      213: -8409845875770786732
+    second: lavia-body-atlas_1
+  - first:
+      213: -8307866161119918400
+    second: lavia-body-atlas_2
+  - first:
+      213: -1430096390264579459
+    second: lavia-body-atlas_3
+  - first:
+      213: -8596973307940043763
+    second: lavia-body-atlas_4
+  - first:
+      213: 3024341673735395814
+    second: lavia-body-atlas_5
+  - first:
+      213: 3636010282568617298
+    second: lavia-body-atlas_6
+  - first:
+      213: 2619797699980579687
+    second: lavia-body-atlas_7
+  - first:
+      213: -3724858782510712893
+    second: lavia-body-atlas_8
+  - first:
+      213: -1790451255090402316
+    second: lavia-body-atlas_9
+  - first:
+      213: -6824356295140247359
+    second: lavia-body-atlas_10
+  - first:
+      213: -1406697523072824652
+    second: lavia-body-atlas_11
+  - first:
+      213: 3554653522753973273
+    second: lavia-body-atlas_12
+  - first:
+      213: 340146726966638196
+    second: lavia-body-atlas_13
+  - first:
+      213: -4892559815271026913
+    second: lavia-body-atlas_14
+  - first:
+      213: 9181879106260519643
+    second: lavia-body-atlas_15
+  - first:
+      213: -2487022601983320222
+    second: lavia-body-atlas_16
+  - first:
+      213: 2967129232510738383
+    second: lavia-body-atlas_17
+  - first:
+      213: 1735578768221894679
+    second: lavia-body-atlas_18
+  - first:
+      213: 1355480509103351043
+    second: lavia-body-atlas_19
+  - first:
+      213: -8353864185083096476
+    second: lavia-body-atlas_20
+  - first:
+      213: 7647739955071858202
+    second: lavia-body-atlas_21
+  - first:
+      213: 227017632635088117
+    second: lavia-body-atlas_22
+  - first:
+      213: 3374879882382926033
+    second: lavia-body-atlas_23
+  - first:
+      213: -4084335553017919756
+    second: lavia-body-atlas_24
+  - first:
+      213: -6798395935019863099
+    second: lavia-body-atlas_25
+  - first:
+      213: -5846440512481228482
+    second: lavia-body-atlas_26
+  - first:
+      213: 4705614612012490717
+    second: lavia-body-atlas_27
+  - first:
+      213: 4834028821661358555
+    second: lavia-body-atlas_28
+  - first:
+      213: -7423057069087739977
+    second: lavia-body-atlas_29
+  - first:
+      213: -1568157454479733189
+    second: lavia-body-atlas_30
+  - first:
+      213: -4392541835960030401
+    second: lavia-body-atlas_31
+  - first:
+      213: -7331876165335762347
+    second: lavia-body-atlas_32
+  - first:
+      213: -8539998662984101438
+    second: lavia-body-atlas_33
+  - first:
+      213: 2551780658080421650
+    second: lavia-body-atlas_34
+  - first:
+      213: 731086906947312092
+    second: lavia-body-atlas_35
+  - first:
+      213: -3766190293506586967
+    second: lavia-body-atlas_36
+  - first:
+      213: 7731587890114200372
+    second: lavia-body-atlas_37
+  - first:
+      213: -3667457703564949921
+    second: lavia-body-atlas_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 96
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lavia-body-atlas_0
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1562
+        width: 180
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891a1b18975b0d870800000000000000
+      internalID: 8705657613178741144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_1
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1561
+        width: 177
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cf5e6bbb93a4b80800000000000000
+      internalID: -8409845875770786732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_2
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1562
+        width: 205
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c685f05eb784bc80800000000000000
+      internalID: -8307866161119918400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_3
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1559
+        width: 217
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a16b7f8e6472ce0800000000000000
+      internalID: -1430096390264579459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_4
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1562
+        width: 190
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0408bc335a61b880800000000000000
+      internalID: -8596973307940043763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_5
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 1564
+        width: 212
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e998668abe98f920800000000000000
+      internalID: 3024341673735395814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1302
+        width: 202
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d8b2c6614b57230800000000000000
+      internalID: 3636010282568617298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_7
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1293
+        width: 187
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7635abab0246b5420800000000000000
+      internalID: 2619797699980579687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_8
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1305
+        width: 181
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c774f52ca4ae4cc0800000000000000
+      internalID: -3724858782510712893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_9
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1312
+        width: 242
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb2fa8d11a0727e0800000000000000
+      internalID: -1790451255090402316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_10
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1307
+        width: 207
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8f6774b140b41a0800000000000000
+      internalID: -6824356295140247359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_11
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 1325
+        width: 197
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba82d64e086a7ce0800000000000000
+      internalID: -1406697523072824652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1058
+        width: 222
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c675bab8aa45130800000000000000
+      internalID: 3554653522753973273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_13
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1079
+        width: 208
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476bb5065a178b400800000000000000
+      internalID: 340146726966638196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_14
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1068
+        width: 238
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f6b6815c22a1cb0800000000000000
+      internalID: -4892559815271026913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_15
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1069
+        width: 227
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda4d3346669c6f70800000000000000
+      internalID: 9181879106260519643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_16
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1037
+        width: 220
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f9a6cce125c7dd0800000000000000
+      internalID: -2487022601983320222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_17
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1028
+        width: 257
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcfda72015c5d2920800000000000000
+      internalID: 2967129232510738383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 791
+        width: 200
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7187397b1b3061810800000000000000
+      internalID: 1735578768221894679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_19
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 769
+        width: 251
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30522156752afc210800000000000000
+      internalID: 1355480509103351043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_20
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 801
+        width: 198
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462934ac8cc111c80800000000000000
+      internalID: -8353864185083096476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_21
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 799
+        width: 327
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16be9c38fa322a60800000000000000
+      internalID: 7647739955071858202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_22
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 800
+        width: 242
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fce6f68557862300800000000000000
+      internalID: 227017632635088117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_23
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 782
+        width: 195
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0eb054f5bf5de20800000000000000
+      internalID: 3374879882382926033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 548
+        width: 205
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f64eda44768157c0800000000000000
+      internalID: -4084335553017919756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_25
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 540
+        width: 207
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c37ea2aaee37a1a0800000000000000
+      internalID: -6798395935019863099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_26
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 545
+        width: 195
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e398a1564554ddea0800000000000000
+      internalID: -5846440512481228482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_27
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 553
+        width: 154
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf54e6ee83bd4140800000000000000
+      internalID: 4705614612012490717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_28
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 538
+        width: 189
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9102df99be51340800000000000000
+      internalID: 4834028821661358555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_29
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 541
+        width: 199
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfa299bce00cf890800000000000000
+      internalID: -7423057069087739977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_30
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 282
+        width: 216
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ecad58a19cc3ae0800000000000000
+      internalID: -1568157454479733189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_31
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 278
+        width: 290
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b6f8e097e8a03c0800000000000000
+      internalID: -4392541835960030401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_32
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 281
+        width: 278
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a320c3971ff3a90800000000000000
+      internalID: -7331876165335762347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_33
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 270
+        width: 287
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1958e7674db7980800000000000000
+      internalID: -8539998662984101438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_34
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 275
+        width: 318
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21798951dfeb96320800000000000000
+      internalID: 2551780658080421650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_35
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 283
+        width: 256
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9988c1ba7552a00800000000000000
+      internalID: 731086906947312092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 20
+        width: 318
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a60407d1edcbbbc0800000000000000
+      internalID: -3766190293506586967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_37
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 20
+        width: 318
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43308fbe83e1c4b60800000000000000
+      internalID: 7731587890114200372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lavia-body-atlas_38
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 20
+        width: 318
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56cd3e46a29a1dc0800000000000000
+      internalID: -3667457703564949921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lavia-body-atlas_0: 8705657613178741144
+      lavia-body-atlas_1: -8409845875770786732
+      lavia-body-atlas_10: -6824356295140247359
+      lavia-body-atlas_11: -1406697523072824652
+      lavia-body-atlas_12: 3554653522753973273
+      lavia-body-atlas_13: 340146726966638196
+      lavia-body-atlas_14: -4892559815271026913
+      lavia-body-atlas_15: 9181879106260519643
+      lavia-body-atlas_16: -2487022601983320222
+      lavia-body-atlas_17: 2967129232510738383
+      lavia-body-atlas_18: 1735578768221894679
+      lavia-body-atlas_19: 1355480509103351043
+      lavia-body-atlas_2: -8307866161119918400
+      lavia-body-atlas_20: -8353864185083096476
+      lavia-body-atlas_21: 7647739955071858202
+      lavia-body-atlas_22: 227017632635088117
+      lavia-body-atlas_23: 3374879882382926033
+      lavia-body-atlas_24: -4084335553017919756
+      lavia-body-atlas_25: -6798395935019863099
+      lavia-body-atlas_26: -5846440512481228482
+      lavia-body-atlas_27: 4705614612012490717
+      lavia-body-atlas_28: 4834028821661358555
+      lavia-body-atlas_29: -7423057069087739977
+      lavia-body-atlas_3: -1430096390264579459
+      lavia-body-atlas_30: -1568157454479733189
+      lavia-body-atlas_31: -4392541835960030401
+      lavia-body-atlas_32: -7331876165335762347
+      lavia-body-atlas_33: -8539998662984101438
+      lavia-body-atlas_34: 2551780658080421650
+      lavia-body-atlas_35: 731086906947312092
+      lavia-body-atlas_36: -3766190293506586967
+      lavia-body-atlas_37: 7731587890114200372
+      lavia-body-atlas_38: -3667457703564949921
+      lavia-body-atlas_4: -8596973307940043763
+      lavia-body-atlas_5: 3024341673735395814
+      lavia-body-atlas_6: 3636010282568617298
+      lavia-body-atlas_7: 2619797699980579687
+      lavia-body-atlas_8: -3724858782510712893
+      lavia-body-atlas_9: -1790451255090402316
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

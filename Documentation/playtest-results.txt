@@ -1,0 +1,593 @@
+Suite revision: source-parity + blood-platforms 2026-09-12
+PASS All twelve original rooms remain alongside four isolated supplemental source rooms
+PASS Player uses mobile-source base Life 88 and Fervour 60
+PASS Core progression flags available
+PASS Main menu scene generated
+PASS Separate safe-area HUD and control canvases
+PASS Original portrait and gauge art loaded
+PASS Original flask and Tears art loaded
+PASS Original Majestic Extended bitmap font loaded
+PASS Original Android touch-control and joystick art loaded
+PASS Health gauge uses original tiled frame without procedural outline
+PASS Original health and fervour gauge proportions restored
+PASS Original loss layer, bar end and fervour divisions restored
+PASS Character menu provides map, inventory, relic, prayer and skill pages
+PASS HUD and character menu use source fonts with Vietnamese-capable fallback
+PASS Warden name comes from Vietnamese text in the source English slot
+PASS Deogracias dialogue comes from the source Vietnamese English-slot text
+PASS Inventory captions load original Vietnamese I2 entries
+PASS Skill descriptions use the source Vietnamese UnlockableSkill entries
+PASS Original prayer, relic, rosary bead and sword metadata catalog imported
+PASS Skill costs and prerequisites match original mobile assets
+PASS Skill purchase requires the source Mea Culpa level even with enough Tears
+PASS Second skill tier requires the original first-tier prerequisite
+PASS Skill purchases deduct source Tears costs and persist the unlocked tier
+PASS Original inventory prefab effect components preserved in runtime catalog
+PASS All original inventory icons load from Resources
+PASS Character menu provides seven reusable inventory icon slots
+PASS Owned prayer can be equipped through the shared inventory state
+PASS PR01 uses source cost, ten-second duration and attack-speed modifier
+PASS Equipped prayer can be removed without losing ownership
+PASS PR16 preserves mobile 30 percent Tears multiplier
+PASS PR16 applies mobile Tears multiplier to source enemy reward
+PASS Owned rosary bead can be equipped in a persistent slot
+PASS Equipped rosary bead can be removed without losing ownership
+PASS RB01 applies its source 10 percent normal-damage reduction
+PASS HE03 applies its source Strength plus eight modifier below twenty percent Life
+PASS Character inventory opens centered and pauses gameplay
+PASS Closing character inventory resumes gameplay
+PASS Android touch layout enters drag-remap mode with persistent button keys
+PASS Finishing touch remap returns to gameplay controls
+PASS HUD uses cropped original portrait frame
+PASS HUD uses cropped original Tears frame
+PASS HUD and controls constrained to device safe area
+PASS Locked dash button is hidden
+PASS Unlocked dash button is visible
+PASS New-game ranged control is visible at full opacity as in the mobile opening HUD
+PASS Unlocked prayer appears while the special touch button keeps its source appearance
+PASS Cheat panel and touch launcher are created alongside the map
+PASS Cheat launcher matches the map's 48-pixel size and sits immediately to its left
+PASS Touch opens the cheat panel, pauses gameplay and clears held combat input
+PASS Open cheat panel blocks gameplay updates and cannot start an attack while paused
+PASS Cheat Tears work immediately while the normal Mea Culpa purchase gate remains enforced
+PASS Two Mea Culpa cheat increments immediately enable the real level-two ranged purchase gate
+PASS Mea Culpa cheat clamps the upper bound at seven
+PASS Mea Culpa cheat clamps the lower bound at zero
+PASS The larger Tears cheat adds ten thousand without replacing existing currency
+PASS Cheat heal uses the player's real maximum Life
+PASS Cheat Fervour refill uses the player's real maximum Fervour
+PASS Full cheat restore replenishes Life, Fervour and flasks while keeping the panel paused
+PASS Charged cheat grants all owned tiers consistently
+PASS Ranged cheat clamps at tier three and updates ownership, availability and the selected skill
+PASS Cheat panel can select lunge when both special skills are available
+PASS Blood platform cheat updates actual relic ownership and equipment
+PASS Cheat panel fits inside the current mobile safe area
+PASS Blood platform cheat can unequip the relic without discarding ownership
+PASS Removing lunge switches back to the available ranged skill and removes its ownership
+PASS Removing ranged clears all higher ownership and availability without negative tiers
+PASS Closing the cheat panel resumes gameplay and returns the HUD
+PASS Repeated cheat opening and closing cannot leave the game paused
+PASS Cheat room travel reaches the Mea Culpa altar without automatically granting an altar upgrade
+PASS Expanded original audio samples attached
+PASS Execution prompt and hit sounds restored from source FMOD bank
+PASS Acolyte and NewFlagellant preserve the mobile 5 second execution window
+PASS Movement, ladder, damage, healing and plunge sounds restored from source FMOD bank
+PASS Charged and lunge sounds restored from source FMOD bank
+PASS Fervorous Blood cast, flight, hit, vanish and explosion sounds restored
+PASS Prayer activation, duration, protection and inventory sounds restored
+PASS Directional combat and locomotion source clips available
+PASS Original separate sword-slash renderer clips available
+PASS Original charged projectile flight, impact and vanish clips available
+PASS Fervorous Blood flight, vanish and explosion clips available
+PASS Mobile prayer beam, cherub, guardian, flame and toxic clips available
+PASS Original airborne upward attack and slash clips are available
+PASS Space+W+J in one frame jumps and plays the original airborne upward attack and slash
+PASS W+J while already airborne uses the original upward attack instead of a horizontal slash
+PASS W+J on the ground plays the original grounded upward slash
+PASS Source ladder trigger zones restored
+PASS Player sprite feet align with motor origin
+PASS D17Z01S01 terrain colliders
+PASS D17Z01S01 visible sprite renderers
+PASS D17Z01S01 preserves every mobile source transform
+PASS D17Z01S01 preserves every mobile source renderer
+PASS D17Z01S01 preserves mobile parallax layer count
+PASS D17Z01S01 preserves mobile camera boundaries
+PASS D17Z01S01 grounded arrival (-988.00, 20.03, 0.00)
+PASS D17Z01S01 player feet touch arrival surface
+PASS D17Z01S01 safe arrival
+PASS D17Z01S01 sprite shader supported
+PASS D17Z01S01 reciprocal door E -> D17Z01S02/W
+PASS D17Z01S02 terrain colliders
+PASS D17Z01S02 visible sprite renderers
+PASS D17Z01S02 preserves every mobile source transform
+PASS D17Z01S02 preserves every mobile source renderer
+PASS D17Z01S02 preserves mobile parallax layer count
+PASS D17Z01S02 preserves mobile camera boundaries
+PASS D17Z01S02 grounded arrival (-945.30, 8.03, 0.00)
+PASS D17Z01S02 player feet touch arrival surface
+PASS D17Z01S02 safe arrival
+PASS D17Z01S02 acolyte has original source animation
+PASS D17Z01S02 acolyte has health and Tears reward
+PASS D17Z01S02 flagellant has original source animation
+PASS D17Z01S02 flagellant has health and Tears reward
+PASS D17Z01S02 sprite shader supported
+PASS D17Z01S02 reciprocal door W -> D17Z01S01/E
+PASS D17Z01S02 reciprocal door E -> D17Z01S05/W
+PASS D17Z01S05 terrain colliders
+PASS D17Z01S05 visible sprite renderers
+PASS D17Z01S05 preserves every mobile source transform
+PASS D17Z01S05 preserves every mobile source renderer
+PASS D17Z01S05 preserves mobile parallax layer count
+PASS D17Z01S05 preserves mobile camera boundaries
+PASS D17Z01S05 grounded arrival (-871.48, 9.03, 0.00)
+PASS D17Z01S05 player feet touch arrival surface
+PASS D17Z01S05 safe arrival
+PASS D17Z01S05 flagellant has original source animation
+PASS D17Z01S05 flagellant has health and Tears reward
+PASS D17Z01S05 acolyte has original source animation
+PASS D17Z01S05 acolyte has health and Tears reward
+PASS D17Z01S05 sprite shader supported
+PASS D17Z01S05 reciprocal door E -> D17Z01S11/W
+PASS D17Z01S05 reciprocal door W -> D17Z01S02/E
+PASS D17Z01S05 reciprocal door S -> D17Z01S04/N
+PASS D17Z01S11 terrain colliders
+PASS D17Z01S11 visible sprite renderers
+PASS D17Z01S11 preserves every mobile source transform
+PASS D17Z01S11 preserves every mobile source renderer
+PASS D17Z01S11 preserves mobile parallax layer count
+PASS D17Z01S11 preserves mobile camera boundaries
+PASS D17Z01S11 grounded arrival (-826.75, 9.03, 0.00)
+PASS D17Z01S11 player feet touch arrival surface
+PASS D17Z01S11 safe arrival
+PASS Warden waits for the original 4x10 BossFight trigger before combat
+PASS D17Z01S11 elderbrother has original source animation
+PASS Warden uses source 400 health and zero purge reward
+PASS D17Z01S11 sprite shader supported
+PASS D17Z01S11 reciprocal door E -> D17Z01S03/W
+PASS D17Z01S11 reciprocal door W -> D17Z01S05/E
+PASS D17Z01S03 terrain colliders
+PASS D17Z01S03 visible sprite renderers
+PASS D17Z01S03 preserves every mobile source transform
+PASS D17Z01S03 preserves every mobile source renderer
+PASS D17Z01S03 preserves mobile parallax layer count
+PASS D17Z01S03 preserves mobile camera boundaries
+PASS D17Z01S03 grounded arrival (-786.00, 8.03, 0.00)
+PASS D17Z01S03 player feet touch arrival surface
+PASS D17Z01S03 safe arrival
+PASS D17Z01S03 sprite shader supported
+PASS D17Z01S03 reciprocal door E -> D01Z01S07/W
+PASS D17Z01S03 reciprocal door W -> D17Z01S11/E
+PASS D01Z01S07 terrain colliders
+PASS D01Z01S07 visible sprite renderers
+PASS D01Z01S07 preserves every mobile source transform
+PASS D01Z01S07 preserves every mobile source renderer
+PASS D01Z01S07 preserves mobile parallax layer count
+PASS D01Z01S07 preserves mobile camera boundaries
+PASS D01Z01S07 grounded arrival (-743.02, 9.03, 0.00)
+PASS D01Z01S07 player feet touch arrival surface
+PASS D01Z01S07 safe arrival
+PASS D01Z01S07 sprite shader supported
+PASS D01Z01S07 reciprocal door W -> D17Z01S03/E
+PASS D01Z01S07 reciprocal door E -> D01Z01S01/W
+PASS D01Z01S01 terrain colliders
+PASS D01Z01S01 visible sprite renderers
+PASS D01Z01S01 preserves every mobile source transform
+PASS D01Z01S01 preserves every mobile source renderer
+PASS D01Z01S01 grounded arrival (-723.00, 9.03, 0.00)
+PASS D01Z01S01 player feet touch arrival surface
+PASS D01Z01S01 safe arrival
+PASS D01Z01S01 fool has original source animation
+PASS D01Z01S01 fool has health and Tears reward
+PASS D01Z01S01 fool has original source animation
+PASS D01Z01S01 fool has health and Tears reward
+PASS D01Z01S01 fool has original source animation
+PASS D01Z01S01 fool has health and Tears reward
+PASS D01Z01S01 fool has original source animation
+PASS D01Z01S01 fool has health and Tears reward
+PASS D01Z01S01 fool has original source animation
+PASS D01Z01S01 fool has health and Tears reward
+PASS D01Z01S01 sprite shader supported
+PASS D01Z01S01 reciprocal door W -> D01Z01S07/E
+PASS D01Z01S01 reciprocal door E -> D01Z01S02/W
+PASS D01Z01S02 terrain colliders
+PASS D01Z01S02 visible sprite renderers
+PASS D01Z01S02 preserves every mobile source transform
+PASS D01Z01S02 preserves every mobile source renderer
+PASS D01Z01S02 grounded arrival (-666.00, 9.03, 0.00)
+PASS D01Z01S02 player feet touch arrival surface
+PASS D01Z01S02 safe arrival
+PASS D01Z01S02 wheelcarrier has original source animation
+PASS D01Z01S02 wheelcarrier has health and Tears reward
+PASS D01Z01S02 mudcrawler has original source animation
+PASS D01Z01S02 mudcrawler has health and Tears reward
+PASS D01Z01S02 mudcrawler has original source animation
+PASS D01Z01S02 mudcrawler has health and Tears reward
+PASS D01Z01S02 fool has original source animation
+PASS D01Z01S02 fool has health and Tears reward
+PASS D01Z01S02 fool has original source animation
+PASS D01Z01S02 fool has health and Tears reward
+PASS D01Z01S02 fool has original source animation
+PASS D01Z01S02 fool has health and Tears reward
+PASS D01Z01S02 mudcrawler has original source animation
+PASS D01Z01S02 mudcrawler has health and Tears reward
+PASS D01Z01S02 mudcrawler has original source animation
+PASS D01Z01S02 mudcrawler has health and Tears reward
+PASS D01Z01S02 mudcrawler has original source animation
+PASS D01Z01S02 mudcrawler has health and Tears reward
+PASS D01Z01S02 sprite shader supported
+PASS D01Z01S02 reciprocal door E -> D01Z01S03/W
+PASS D01Z01S02 reciprocal door W -> D01Z01S01/E
+PASS D01Z01S03 terrain colliders
+PASS D01Z01S03 visible sprite renderers
+PASS D01Z01S03 preserves every mobile source transform
+PASS D01Z01S03 preserves every mobile source renderer
+PASS D01Z01S03 grounded arrival (-581.22, 15.03, 0.00)
+PASS D01Z01S03 player feet touch arrival surface
+PASS D01Z01S03 safe arrival
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 fool has original source animation
+PASS D01Z01S03 fool has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 wheelcarrier has original source animation
+PASS D01Z01S03 wheelcarrier has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 wheelcarrier has original source animation
+PASS D01Z01S03 wheelcarrier has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 wheelcarrier has original source animation
+PASS D01Z01S03 wheelcarrier has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 fool has original source animation
+PASS D01Z01S03 fool has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 wheelcarrier has original source animation
+PASS D01Z01S03 wheelcarrier has health and Tears reward
+PASS D01Z01S03 mudcrawler has original source animation
+PASS D01Z01S03 mudcrawler has health and Tears reward
+PASS D01Z01S03 sprite shader supported
+PASS D01Z01S03 reciprocal door E -> D01Z02S01/W
+PASS D01Z01S03 reciprocal door W -> D01Z01S02/E
+PASS D01Z02S01 terrain colliders
+PASS D01Z02S01 visible sprite renderers
+PASS D01Z02S01 preserves every mobile source transform
+PASS D01Z02S01 preserves every mobile source renderer
+PASS D01Z02S01 grounded arrival (-512.69, 11.03, 0.00)
+PASS D01Z02S01 player feet touch arrival surface
+PASS D01Z02S01 safe arrival
+PASS D01Z02S01 sprite shader supported
+PASS D01Z02S01 reciprocal door W -> D01Z01S03/E
+PASS D01Z02S01 reciprocal door E -> D01Z02S02/W
+PASS D01Z02S02 terrain colliders
+PASS D01Z02S02 visible sprite renderers
+PASS D01Z02S02 preserves every mobile source transform
+PASS D01Z02S02 preserves every mobile source renderer
+PASS D01Z02S02 grounded arrival (-479.00, 2.03, 0.00)
+PASS D01Z02S02 player feet touch arrival surface
+PASS D01Z02S02 safe arrival
+PASS D01Z02S02 sprite shader supported
+PASS D01Z02S02 reciprocal door W -> D01Z02S01/E
+PASS D01Z02S02 reciprocal door SW -> D01Z02S06/E
+PASS D01Z02S06 terrain colliders
+PASS D01Z02S06 visible sprite renderers
+PASS D01Z02S06 preserves every mobile source transform
+PASS D01Z02S06 preserves every mobile source renderer
+PASS D01Z02S06 grounded arrival (-494.00, -3.98, 0.00)
+PASS D01Z02S06 player feet touch arrival surface
+PASS D01Z02S06 safe arrival
+PASS D01Z02S06 sprite shader supported
+PASS D01Z02S06 reciprocal door E -> D01Z02S02/SW
+PASS D17Z01S04 terrain colliders
+PASS D17Z01S04 visible sprite renderers
+PASS D17Z01S04 preserves every mobile source transform
+PASS D17Z01S04 preserves every mobile source renderer
+PASS D17Z01S04 preserves mobile parallax layer count
+PASS D17Z01S04 preserves mobile camera boundaries
+PASS D17Z01S04 grounded arrival (-834.78, -4.98, 0.00)
+PASS D17Z01S04 player feet touch arrival surface
+PASS D17Z01S04 safe arrival
+PASS D17Z01S04 sprite shader supported
+PASS D17Z01S04 reciprocal door N -> D17Z01S05/S
+PASS D17Z01S04 reciprocal door S -> D17Z01S07/N
+PASS D17Z01S07 terrain colliders
+PASS D17Z01S07 visible sprite renderers
+PASS D17Z01S07 preserves every mobile source transform
+PASS D17Z01S07 preserves every mobile source renderer
+PASS D17Z01S07 preserves mobile parallax layer count
+PASS D17Z01S07 preserves mobile camera boundaries
+PASS D17Z01S07 grounded arrival (-860.94, -24.98, 0.00)
+PASS D17Z01S07 player feet touch arrival surface
+PASS D17Z01S07 safe arrival
+PASS D17Z01S07 sprite shader supported
+PASS D17Z01S07 reciprocal door N -> D17Z01S04/S
+PASS D17Z01S07 reciprocal door NW -> D17Z01S09/E
+PASS D17Z01S07 reciprocal door SW -> D17Z01S08/E
+PASS D17Z01S08 terrain colliders
+PASS D17Z01S08 visible sprite renderers
+PASS D17Z01S08 preserves every mobile source transform
+PASS D17Z01S08 preserves every mobile source renderer
+PASS D17Z01S08 preserves mobile parallax layer count
+PASS D17Z01S08 preserves mobile camera boundaries
+PASS D17Z01S08 grounded arrival (-874.03, -34.98, 0.00)
+PASS D17Z01S08 player feet touch arrival surface
+PASS D17Z01S08 safe arrival
+PASS D17Z01S08 sprite shader supported
+PASS D17Z01S08 reciprocal door E -> D17Z01S07/SW
+PASS D17Z01S09 terrain colliders
+PASS D17Z01S09 visible sprite renderers
+PASS D17Z01S09 preserves every mobile source transform
+PASS D17Z01S09 preserves every mobile source renderer
+PASS D17Z01S09 preserves mobile parallax layer count
+PASS D17Z01S09 preserves mobile camera boundaries
+PASS D17Z01S09 grounded arrival (-873.69, -12.98, 0.00)
+PASS D17Z01S09 player feet touch arrival surface
+PASS D17Z01S09 safe arrival
+PASS D17Z01S09 sprite shader supported
+PASS D17Z01S09 reciprocal door E -> D17Z01S07/NW
+PASS Acolyte stops its source running animation when terrain blocks actual movement
+PASS Shock receiver verification has source objects and real touch controls
+PASS Dragging the mobile joystick upward selects the actual upward slash
+PASS A ground upward slash cannot reach the high mechanism
+PASS An airborne horizontal slash cannot activate the high mechanism
+PASS Touch jump plus upward attack uses the source airborne clip at 30 FPS, side -1
+PASS Real mobile jump/upward slash opens the mechanism at 30 FPS, side -1; feet=(-774.80, 9.52, 0.00), receiver=(-774.00, 14.00, 0.00)
+PASS Touch jump plus upward attack uses the source airborne clip at 30 FPS, side 1
+PASS Real mobile jump/upward slash opens the mechanism at 30 FPS, side 1; feet=(-773.20, 9.52, 0.00), receiver=(-774.00, 14.00, 0.00)
+PASS Touch jump plus upward attack uses the source airborne clip at 60 FPS, side -1
+PASS Real mobile jump/upward slash opens the mechanism at 60 FPS, side -1; feet=(-774.80, 9.44, 0.00), receiver=(-774.00, 14.00, 0.00)
+PASS Touch jump plus upward attack uses the source airborne clip at 60 FPS, side 1
+PASS Real mobile jump/upward slash opens the mechanism at 60 FPS, side 1; feet=(-773.20, 9.44, 0.00), receiver=(-774.00, 14.00, 0.00)
+PASS Touch jump plus upward attack uses the source airborne clip at 120 FPS, side -1
+PASS Real mobile jump/upward slash opens the mechanism at 120 FPS, side -1; feet=(-774.80, 9.42, 0.00), receiver=(-774.00, 14.00, 0.00)
+PASS Touch jump plus upward attack uses the source airborne clip at 120 FPS, side 1
+PASS Real mobile jump/upward slash opens the mechanism at 120 FPS, side 1; feet=(-773.20, 9.42, 0.00), receiver=(-774.00, 14.00, 0.00)
+PASS Real keyboard W/Space/J opens the same mechanism without purchased skills
+PASS Striking the mechanism persists its open state in the isolated verification save
+PASS The physically struck mechanism remains open after leaving and returning
+PASS A slash touching the source receiver's lower edge hits even when its center is above the slash
+PASS A slash beyond the receiver's one-unit bounds does not open the gate
+PASS D17Z01S03 source SlashReceiver begins with a blocking, closed Gate
+PASS D17Z01S03 closed Gate physically stops the Penitent before the eastern exit
+PASS Held movement into the closed Gate does not play a stationary running animation
+PASS D17Z01S03 Gate cannot open without striking the original receiver
+PASS Ordinary horizontal slash cannot hit the high D17Z01S03 receiver
+PASS D17Z01S03 uses both original Master Bank GateOpen and BellReceiverActivate sounds
+PASS Original upward slash can hit D17Z01S03 SlashReceiver and play Gate and Switch animations
+PASS D17Z01S03 TriggerReceiver activates only once
+PASS D17Z01S03 opened Gate lets the Penitent reach the eastern exit
+PASS D17Z01S03 Gate and switch settle on the original opened frames
+PASS D17Z01S03 Gate remains open after leaving and returning to the room
+PASS D17Z01S05 restores source PenitenceGateOpen startOpen=1, disabling its barrier and showing the original open sprite
+PASS D17Z01S05 east door targets the Warden room
+PASS Player can physically cross the originally-open D17Z01S05 gate to the boss door
+PASS Walking through D17Z01S05 east door enters the Warden room
+PASS Original mobile doors connect the Holy Line to the Mea Culpa altar room
+PASS D01Z01S01 restores original forest floor-fill meshes
+PASS D01Z01S02 restores original forest floor-fill meshes
+PASS D01Z01S03 restores original forest floor-fill meshes
+PASS D01Z01S01 imports the original LOGIC GEO_Block floor collider over the gap
+PASS D01Z01S01 player remains supported while traversing the restored source floor (x=-704.27, y=9.03, ground=True, bridge=-708.00..-704.00, top=9.00)
+PASS D01Z01S03 imports the original LOGIC GEO_Block floor collider over the gap
+PASS D01Z01S03 player remains supported while traversing the restored source floor (x=-592.27, y=9.03, ground=True, bridge=-596.00..-592.00, top=9.00)
+PASS D01Z01S01 keeps the surface camera high and switches only at the source underground trigger
+PASS D01Z01S01 resolves a surface pit before the player disappears into the black lower camera region
+PASS D01Z01S03 keeps the surface camera high and switches only at the source underground trigger
+PASS D01Z01S03 resolves a surface pit before the player disappears into the black lower camera region
+PASS D01Z01S01 enables five source Fool spawns and excludes disabled WheelCarriers
+PASS D01Z01S02/S03 restore enabled source monster spawns, excluding cherub captor
+PASS Forest monster life and Tears values match mobile prefab Stats
+PASS D01Z01S01 conditional Deogracias remains hidden in the normal campaign
+PASS Original Verdiales projectile and forest monster clips imported
+PASS Verdiales hit/end effect imports all 15 source BlueFireExplosion frames
+PASS Penitent renderer keeps the source Player layer above ledge soil
+PASS PR14 Verdiales projectile uses its source BlueFireDisc animation, not the Pontiff toxic orb
+PASS PR14 Verdiales uses the original CrawlerBullet_Base Square_0 SpriteMask texture
+PASS PR14 Verdiales loads the source recolor_FireToBlue material and its blue palette
+PASS PR14 Verdiales imports the source CrawlerOrbParticles material and FervourBarSparks sheet
+PASS PR14 Verdiales applies the original projectile SpriteMask dimensions, offset and sorting range
+PASS PR14 projectile remains visibly active with its source frames and mask after launch
+PASS PR14 projectile emits the source blue spark sheet while travelling
+PASS Verdiales source blue-fire impact plays as an animated clip
+PASS Verdiales explosion renders on the source Player layer above the character
+PASS Forest monsters have stable unique draw order so crossing sprites do not z-flicker
+PASS MudCrawler rises at the source Body sprite offset instead of sinking into mud
+PASS MudCrawler switches from source appearing clip to crawling pursuit
+PASS MudCrawler melts after the source two-second target-loss interval
+PASS MudCrawler hides and returns to its original spawn after melting
+PASS WheelCarrier honours the source half-second attack preparation
+PASS WheelCarrier uses its source attack inside the 2.8-unit range
+PASS Fool uses the original turnaround clip when reversing pursuit
+PASS Source forest monsters remain separate after six seconds of simultaneous pursuit
+PASS Three original mud areas restored in D01Z01S02
+PASS Mud uses original movement, jump and dash values
+PASS Both original village parallax controllers retain their layers
+PASS Source village background residents animate
+PASS Outdoor villagers follow their LOGIC parallax group from the original scene
+PASS Tirso and eight indoor villagers use their original idle clips
+PASS Indoor item plays the original 19-frame pickup-world animation
+PASS Source Mea Culpa altar and its interaction sensor restored
+PASS Source altar trigger exposes the contextual USE control
+PASS Altar begins the original kneeling animation
+PASS Altar opens the existing Mea Culpa skill inventory after kneeling
+PASS Leaving Mea Culpa skills plays the original stand-up animation
+PASS Original D01Z01S02 collectibles and sensors restored
+PASS Original collectible sensor exposes the contextual USE control
+PASS Picking up original item unlocks it and removes its world object
+PASS Picking up uses the original Penitent collection animation
+PASS Acquisition popup shows the collected item after the animation
+PASS Acquisition popup includes the source item icon
+PASS Acquisition canvas and original-source artwork render in hierarchy
+PASS The opening source room connects to another playable map
+PASS Door transition covers the old room before swapping maps
+PASS Starting a room fade while running immediately returns the Penitent to Idle
+PASS New room activates behind the source black fade instead of exposing empty map space
+PASS Destination room keeps Idle rather than a carried-over running frame during the black fade
+PASS Room fade blocks movement without forgetting a held touch joystick
+PASS Crossing a source door marks the previous map complete
+PASS Room transition fully reveals the destination after its camera settles
+PASS A touch joystick still held after the fade resumes movement input
+PASS Map transition persists current room and completed-room history
+PASS Ordinary sword damage does not incorrectly expose an execution
+PASS Successful parry grants the mobile 5 second execution window
+PASS Execution-ready enemy shows original animated prompt above its head
+PASS Execution prompt renders a restored source animation frame
+PASS Execution exposes the contextual USE button
+PASS Enemy execution uses family-specific original animation
+PASS Original composite execution hides duplicate live player renderer
+PASS Execution crosses Player to the far-side mobile endpoint
+PASS Execution grants Fervour and source enemy Tears
+PASS Completed composite execution frame is disposed before live Player returns
+PASS Player renderer and normal camera return after complete original execution clip
+PASS Player remains on the far side shown by the final execution frame
+PASS Execution endpoint mirrors correctly for approaches from both sides
+PASS Original Penitent charging start and loop frames are restored
+PASS Initial Attack press starts a normal attack, not a charging frame
+PASS Quick tap keeps the ordinary attack and never enters charging
+PASS Long hold enters original charging animation after the source 0.5 second threshold
+PASS Charging stays on original character loop despite movement input and reaching full charge
+PASS Fully charged flash plays in a separate effect renderer
+PASS Releasing full charge plays the original attack frames
+PASS Releasing charge removes the overlapping charging-character effect before the strike
+PASS Dash plus Attack triggers source-tier lunge and damages target
+PASS Held Attack releases original charged clip at source tier timing
+PASS Charged hit fires at source 0.36 second animation event
+PASS Charged strike uses its own source sprite frames without a second charging character overlay
+Charged projectile candidates before isolation: acolyte (-939.30, 8.03, 0.00) HP=60; flagellant (-939.15, 8.03, 0.00) HP=24; 
+PASS Tier-three charged projectile uses the fixed effect pool
+PASS Charged projectile flies and resolves against an isolated enemy; life=60 -> 0, result=Enemy, Player=(-942.30, 8.03, 0.00), target=(-939.30, 8.03, 0.00)
+PASS Charged projectile resolves against terrain before its range limit
+PASS Fervorous Blood uses the fixed effect pool
+PASS RANGED_3 explodes at the far point before returning
+PASS RANGED_2 and RANGED_3 complete their boomerang return
+PASS Three source-linked blood platforms (actual 3)
+PASS Relic absent disables every blood collider
+PASS Owned but unequipped relic stays disabled
+PASS Player falls through disabled platform
+PASS Equipped relic reveals first platform
+PASS Equipping does not reveal the whole chain
+PASS Player lands on enabled blood platform
+PASS Standing on first platform reveals linked successor
+PASS Linked platform expires after source delay
+PASS Unequipping immediately disables all colliders
+PASS Right wall preserves source Tiled height 12
+PASS Idle player does not drift sideways on terrain
+PASS Player walks using runtime motor
+PASS Dash lowers the player collision capsule
+PASS Dash invulnerability does not flash the Player damage tint
+PASS Dash starts the original running-dust animation
+PASS Dash creates the source-style pooled afterimage trail
+PASS Low dash passes beneath a confined opening
+PASS Player cannot stand while full capsule intersects low wall
+PASS Standing capsule returns after leaving low opening
+PASS Player settles on ground after low dash verification
+PASS Buffered jump raises player
+PASS Player lands after jump
+PASS Down + jump activates one-way drop-through window
+PASS Basic attack raises its original separate sword-slash renderer
+PASS Locked dash input is rejected
+PASS Player climbs restored ladder trigger
+PASS Proximity to Prie Dieu does not auto-trigger prayer
+PASS Proximity to Prie Dieu exposes interaction
+PASS Short interaction hold does not save/heal
+PASS Held Prie Dieu interaction completes animation and restores
+PASS Forward attack parried
+PASS Damage reduces health
+PASS Damage invulnerability blocks immediate repeat
+PASS Flask consumes charge and heals by the mobile source amount
+PASS Checkpoint restores flask charges
+PASS Heavy damage starts the original throwback transition
+PASS Heavy damage launches Player into the throwback arc
+PASS Death displays the original Game Over card
+PASS Game Over waits for a player choice instead of automatically respawning
+PASS Game Over offers Respawn, Home and Settings buttons
+PASS Game Over Settings button opens the settings screen
+PASS Closing Settings returns to Game Over without revealing gameplay controls
+PASS Respawn button returns to the saved checkpoint
+PASS High step blocks standing up after dash but leaves the short dash capsule clear
+PASS Penitent can walk out from under a high step after dash without a second dash
+PASS Warden chooses a facing once when the source AREA windup starts
+PASS Dashing behind Warden cannot flip the ongoing downward smash or its shockwaves
+PASS Warden finishes its source one-second AREA recovery while the 1.4-second shockwave sequence continues
+PASS Source JUMP preparation keeps its previous facing rather than snapping to the player
+PASS Warden predicts the landing position after JUMP preparation, following a dash during windup
+PASS Warden does not turn during the first part of its jump
+PASS Warden turns toward the target near 90 percent of its source jump
+PASS Boss intro switches the Penitent from running to idle before freezing movement
+PASS Warden exists
+PASS Warden cutscene uses the exact elderBroDummy source silhouette tint
+PASS Warden source intro completes visibly before health UI and combat activate
+PASS Warden finishes the deterministic intro jump on the arena floor before landing audio/combat
+PASS Boss HUD scales and centers the source 450x20 layout correctly for the 1280x720 canvas
+PASS Boss health frame is full-size and horizontally centered
+PASS Downward combo finisher retains its complete 1.70 second source animation
+PASS Warden combat boundaries use source 4x32 colliders
+PASS Warden AREA attack uses source six-area timing
+PASS Combo finisher playback is not truncated by the former 1.10 second attack clamp
+PASS Warden defeat opens encounter
+PASS Warden death resolves to the original corpse and cleansing beat
+PASS Warden defeat and AC01 persist in player progress
+PASS Warden victory shows the original boss-defeated artwork
+PASS Warden victory remains on screen until the player chooses a destination
+PASS Warden objective and completed boss room persist in player progress
+PASS Victory presents three functional source-art navigation buttons
+PASS Achievements button opens the original AC01 artwork on its own screen
+PASS Back returns to the victory navigation screen
+PASS Continue returns control to the cleared boss room
+PASS Post-Warden D01Z01S07 contains the source Deosgracias object
+PASS Original Deogracias idle, stand and back clips restored
+PASS Original CTS07 video and dialogue background load from source assets
+PASS Deogracias exposes the contextual USE interaction after the Warden
+PASS Deogracias source dialogue starts through gameplay interaction
+PASS Deogracias cinematic has a non-crashing source-subtitle fallback for unsafe video backends
+PASS Completing the source dialogue grants and saves the original QI31 Thorn
+PASS Closing the Thorn reward returns control to gameplay
+PASS Mobile RangeAttack (SPECIAL) touch button instantiated above Dash
+PASS RangeAttack placed at exact mobile source coordinates (-101, -179.6)
+PASS RangeAttack button uses authentic 171x171 source scale
+PASS Player HUD Health, Fervour and Flasks instantiated and positioned
+PASS UI_BOSS_HEALTH root instantiated in Static UI Canvas
+PASS Bile flask full and empty textures load from Resources
+PASS BlasInventoryUI, BlasMapUI, BlasOptionsUI initialized on TouchControls
+PASS BlasInventoryUI opens with seven source inventory categories
+PASS Inventory page indicator is visible and localized
+PASS Inventory equip button changes rosary state
+PASS All seven inventory tabs can be opened without closing gameplay UI
+PASS All seven source category tabs respond to button clicks
+PASS Inventory next and previous buttons change pages
+PASS Thorn lore modal popup opens with authentic Deosgracias text
+PASS BlasInventoryUI closes cleanly
+PASS BlasMapUI opens with FondoMapa mountain background and Metroidvania grid
+PASS Map uses source cells for all imported rooms instead of placeholder rows
+PASS Map player marker remains visible when recentered
+PASS BlasMapUI closes cleanly
+PASS BlasOptionsUI opens with twisted column statue and diamond selector
+PASS BlasOptionsUI closes cleanly
+PASS HUD and touch controls remain inside 16x9 safe display
+PASS HUD and touch controls remain inside 18x9 safe display
+PASS HUD and touch controls remain inside 19_5x9 safe display
+PASS HUD and touch controls remain inside 20x9 safe display
+PASS Game Over Home button opens the separate main-menu scene
+RESULT: PASSED

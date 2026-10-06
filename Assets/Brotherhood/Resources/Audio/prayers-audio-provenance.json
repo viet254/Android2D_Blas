@@ -1,0 +1,585 @@
+{
+  "sourceSelection": "Newest Android combined Master Bank contains the DLC samples. The location export DLC folder is empty.",
+  "mappingLimit": "Runtime aliases use the actual named source sample; FMOD event mixes and random/layer routing are not exported. MAGIC_SHOT for PrayerShot and shard spike samples for MiriamPrayerShardIn/Out are inferred from the matching event/sample role. Separate source variants/layers are retained.",
+  "scannedBanks": [
+    "D:\\game\\Blasphemous_Android_Extracted\\assets\\BackgroundLayer.bank",
+    "D:\\game\\Blasphemous_Android_Extracted\\assets\\BossMusic.bank",
+    "D:\\game\\Blasphemous_Android_Extracted\\assets\\CutScenes.bank",
+    "D:\\game\\Blasphemous_Android_Extracted\\assets\\KeyEvents.bank",
+    "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+    "D:\\game\\Blasphemous_Android_Extracted\\assets\\VoiceOver_EN.bank",
+    "D:\\game\\Blasphemous_Android_Extracted\\assets\\VoiceOver_ES.bank",
+    "D:\\game\\Bla_loc_map\\ExportedProject\\Assets\\StreamingAssets\\BackgroundLayer.bank",
+    "D:\\game\\Bla_loc_map\\ExportedProject\\Assets\\StreamingAssets\\BossMusic.bank",
+    "D:\\game\\Bla_loc_map\\ExportedProject\\Assets\\StreamingAssets\\CutScenes.bank",
+    "D:\\game\\Bla_loc_map\\ExportedProject\\Assets\\StreamingAssets\\KeyEvents.bank",
+    "D:\\game\\Bla_loc_map\\ExportedProject\\Assets\\StreamingAssets\\Master Bank.bank",
+    "D:\\game\\Bla_loc_map\\ExportedProject\\Assets\\StreamingAssets\\VoiceOver_EN.bank"
+  ],
+  "scanErrors": [
+    {
+      "bank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Voices.bank",
+      "error": "Command '['D:\\\\game\\\\Android2D_Blas\\\\Tools\\\\vgmstream\\\\vgmstream-cli.exe', '-m', '-s', '1', '-S', '0', 'D:\\\\game\\\\Blasphemous_Android_Extracted\\\\assets\\\\Voices.bank']' returned non-zero exit status 1."
+    },
+    {
+      "bank": "D:\\game\\Bla_loc_map\\ExportedProject\\Assets\\StreamingAssets\\VoiceOver_ES.bank",
+      "error": "Command '['D:\\\\game\\\\Android2D_Blas\\\\Tools\\\\vgmstream\\\\vgmstream-cli.exe', '-m', '-s', '1', '-S', '0', 'D:\\\\game\\\\Bla_loc_map\\\\ExportedProject\\\\Assets\\\\StreamingAssets\\\\VoiceOver_ES.bank']' returned non-zero exit status 1."
+    },
+    {
+      "bank": "D:\\game\\Bla_loc_map\\ExportedProject\\Assets\\StreamingAssets\\Voices.bank",
+      "error": "Command '['D:\\\\game\\\\Android2D_Blas\\\\Tools\\\\vgmstream\\\\vgmstream-cli.exe', '-m', '-s', '1', '-S', '0', 'D:\\\\game\\\\Bla_loc_map\\\\ExportedProject\\\\Assets\\\\StreamingAssets\\\\Voices.bank']' returned non-zero exit status 1."
+    }
+  ],
+  "samples": [
+    {
+      "runtimeKey": "GUARDIAN_APPEAR",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/GuardianAppear",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 585,
+      "sourceSample": "GUARDIAN_APPEAR",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\GUARDIAN_APPEAR.wav",
+      "status": "imported",
+      "duration": 4.479146,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "GUARDIAN_ATTACK",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/GuardianAttack",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 609,
+      "sourceSample": "GUARDIAN_ATTACK",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\GUARDIAN_ATTACK.wav",
+      "status": "imported",
+      "duration": 3.394979,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "GUARDIAN_PARRY",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/GuardianParry",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 183,
+      "sourceSample": "GUARDIAN_PARRY",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\GUARDIAN_PARRY.wav",
+      "status": "imported",
+      "duration": 2.117604,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "GUARDIAN_MOVE",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/GuardianMovement",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 877,
+      "sourceSample": "GUARDIAN_MOVEMENT_LOOP",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\GUARDIAN_MOVE.wav",
+      "status": "imported",
+      "duration": 20.0,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "GUARDIAN_MOVEMENT",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/GuardianMovement",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 877,
+      "sourceSample": "GUARDIAN_MOVEMENT_LOOP",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\GUARDIAN_MOVEMENT.wav",
+      "status": "imported",
+      "duration": 20.0,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "GUARDIAN_VANISH",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/GuardianDisappear",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 356,
+      "sourceSample": "GUARDIAN_DISAPPEAR",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\GUARDIAN_VANISH.wav",
+      "status": "imported",
+      "duration": 4.354188,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "GUARDIAN_DISAPPEAR",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/GuardianDisappear",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 356,
+      "sourceSample": "GUARDIAN_DISAPPEAR",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\GUARDIAN_DISAPPEAR.wav",
+      "status": "imported",
+      "duration": 4.354188,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "GUARDIAN_TURN",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/GuardianTurn",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 420,
+      "sourceSample": "GUARDIAN_TURN",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\GUARDIAN_TURN.wav",
+      "status": "imported",
+      "duration": 3.186875,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "GUARDIAN_MOVE_TO_ATTACK",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/GuardianMovement",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1457,
+      "sourceSample": "GUARDIAN_MOVE_TO_ATTACK",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\GUARDIAN_MOVE_TO_ATTACK.wav",
+      "status": "imported",
+      "duration": 2.660271,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_APPEAR",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerGlass",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1047,
+      "sourceSample": "MIRIAM_PRAYER_GLASS-002",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_APPEAR.wav",
+      "status": "imported",
+      "duration": 1.796333,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_GLASS",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerGlass",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1047,
+      "sourceSample": "MIRIAM_PRAYER_GLASS-002",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_GLASS.wav",
+      "status": "imported",
+      "duration": 1.796333,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_ATTACK",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerExecution",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 434,
+      "sourceSample": "MIRIAM_PRAYER_EXECUTION",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_ATTACK.wav",
+      "status": "imported",
+      "duration": 3.266271,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_EXECUTION",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerExecution",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 434,
+      "sourceSample": "MIRIAM_PRAYER_EXECUTION",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_EXECUTION.wav",
+      "status": "imported",
+      "duration": 3.266271,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_VANISH",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerGlassVanish",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 261,
+      "sourceSample": "MIRIAM_PRAYER_GLASS_VANISH",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_VANISH.wav",
+      "status": "imported",
+      "duration": 1.796333,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_EXECUTION_GLASS",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerExecution",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 157,
+      "sourceSample": "MIRIAM_PRAYER_GLASS_EXECUTION-002",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_EXECUTION_GLASS.wav",
+      "status": "imported",
+      "duration": 2.934625,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_SHARD_IN",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerShardIn",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 995,
+      "sourceSample": "PRAYER_SHARD_SPIKE_1",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_SHARD_IN.wav",
+      "status": "imported",
+      "duration": 1.867396,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_SHARD_OUT",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerShardOut",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 702,
+      "sourceSample": "Prayer_Shard_SPIKE_T2_S1_vanish",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_SHARD_OUT.wav",
+      "status": "imported",
+      "duration": 0.392229,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_IDLE",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireIdle",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 119,
+      "sourceSample": "ElmsFireTrap - IDLE",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_IDLE.wav",
+      "status": "imported",
+      "duration": 5.5,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_CHARGE",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireCharge",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1216,
+      "sourceSample": "ELMS_TRAP_CHARGE_LOOP_2",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_CHARGE.wav",
+      "status": "imported",
+      "duration": 3.5,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_SHOT",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1308,
+      "sourceSample": "ElmFireTrap_SHOT_A_-001",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_SHOT.wav",
+      "status": "imported",
+      "duration": 1.362542,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_SHOT_LAYER",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 327,
+      "sourceSample": "ELMS_TRAP_SHOT_LAYER",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_SHOT_LAYER.wav",
+      "status": "imported",
+      "duration": 1.724938,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_IN",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireIn",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 699,
+      "sourceSample": "ElMFIRETRAP_IN",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_IN.wav",
+      "status": "imported",
+      "duration": 1.943354,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_OUT",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireOut",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1356,
+      "sourceSample": "ElMFIRETRAP_OUT",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_OUT.wav",
+      "status": "imported",
+      "duration": 1.399271,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_IDLE_PULSES",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireIdlePulses",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1088,
+      "sourceSample": "ElMFIRETRAP_IDLE_PULSES_LOOP",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_IDLE_PULSES.wav",
+      "status": "imported",
+      "duration": 3.964521,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_CHARGE_B_LAYER",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireCharge",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 639,
+      "sourceSample": "ELMS_TRAP_CHARGE_LOOP_2_B_LAYER",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_CHARGE_B_LAYER.wav",
+      "status": "imported",
+      "duration": 0.616667,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_CHARGE_C_LAYER",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireCharge",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 993,
+      "sourceSample": "ELMS_TRAP_CHARGE_LOOP_2_C_LAYER",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_CHARGE_C_LAYER.wav",
+      "status": "imported",
+      "duration": 0.616667,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_CHARGE_D_LAYER",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireCharge",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 98,
+      "sourceSample": "ELMS_TRAP_CHARGE_D_LAYER",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_CHARGE_D_LAYER.wav",
+      "status": "imported",
+      "duration": 0.5,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "BLOOD_CLOUDS",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/BloodClouds",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 833,
+      "sourceSample": "BLOOD_CLOUD",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\BLOOD_CLOUDS.wav",
+      "status": "imported",
+      "duration": 1.705,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "PENITENT_RAY_FIRE",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/PenitentRayFire",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 976,
+      "sourceSample": "PENITENT_RAY_FIRE",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\PENITENT_RAY_FIRE.wav",
+      "status": "imported",
+      "duration": 3.442375,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "PRAYER_SHOT",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/PrayerShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 808,
+      "sourceSample": "MAGIC_SHOT",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\PRAYER_SHOT.wav",
+      "status": "imported",
+      "duration": 1.406,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "CHERUB_ATTACK",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/PrayerShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1123,
+      "sourceSample": "CHERUB_ATTACK",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\CHERUB_ATTACK.wav",
+      "status": "imported",
+      "duration": 2.566063,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "FIREBALL_FLY",
+      "sourceEvent": "event:/SFX/Level/FireballTrapFireFly",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1273,
+      "sourceSample": "FIREBALL_FLY",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\FIREBALL_FLY.wav",
+      "status": "imported",
+      "duration": 4.676,
+      "channels": 1
+    },
+    {
+      "runtimeKey": "FIREBALL_FLY_LOOP",
+      "sourceEvent": "event:/SFX/Level/FireballTrapFireFly",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 769,
+      "sourceSample": "FIREBALL_FLY_LOOP",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\FIREBALL_FLY_LOOP.wav",
+      "status": "imported",
+      "duration": 2.0,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "WATER_PRAYER",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/WaterPrayer",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 206,
+      "sourceSample": "Water Prayer",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\WATER_PRAYER.wav",
+      "status": "imported",
+      "duration": 2.893771,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_SHOT_A_1",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1308,
+      "sourceSample": "ElmFireTrap_SHOT_A_-001",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_SHOT_A_1.wav",
+      "status": "imported",
+      "duration": 1.362542,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_SHOT_B_1",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1094,
+      "sourceSample": "ElmFireTrap_SHOT_B_-001",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_SHOT_B_1.wav",
+      "status": "imported",
+      "duration": 1.362542,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_LIGHT_1",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 951,
+      "sourceSample": "ElmFireTrap_LIGHT_-001",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_LIGHT_1.wav",
+      "status": "imported",
+      "duration": 1.362542,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_SHOT_A_2",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 742,
+      "sourceSample": "ElmFireTrap_SHOT_A_-002",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_SHOT_A_2.wav",
+      "status": "imported",
+      "duration": 1.5,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_SHOT_B_2",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 32,
+      "sourceSample": "ElmFireTrap_SHOT_B_-002",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_SHOT_B_2.wav",
+      "status": "imported",
+      "duration": 1.5,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_LIGHT_2",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1347,
+      "sourceSample": "ElmFireTrap_LIGHT_-002",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_LIGHT_2.wav",
+      "status": "imported",
+      "duration": 1.5,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_SHOT_A_3",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 301,
+      "sourceSample": "ElmFireTrap_SHOT_A_-003",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_SHOT_A_3.wav",
+      "status": "imported",
+      "duration": 1.306125,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_SHOT_B_3",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 712,
+      "sourceSample": "ElmFireTrap_SHOT_B_-003",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_SHOT_B_3.wav",
+      "status": "imported",
+      "duration": 1.306125,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "ELM_FIRE_LIGHT_3",
+      "sourceEvent": "event:/SFX/Level/ElmFireTrap/ElmFireShot",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 811,
+      "sourceSample": "ElmFireTrap_LIGHT_-003",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\ELM_FIRE_LIGHT_3.wav",
+      "status": "imported",
+      "duration": 1.306125,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_SHARD_IN_2",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerShardIn",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1167,
+      "sourceSample": "PRAYER_SHARD_SPIKE_2",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_SHARD_IN_2.wav",
+      "status": "imported",
+      "duration": 1.867396,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_SHARD_OUT_2",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerShardOut",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1388,
+      "sourceSample": "Prayer_Shard_SPIKE_T2_S2_vanish",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_SHARD_OUT_2.wav",
+      "status": "imported",
+      "duration": 0.392229,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_SHARD_IN_3",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerShardIn",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 923,
+      "sourceSample": "PRAYER_SHARD_SPIKE_3",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_SHARD_IN_3.wav",
+      "status": "imported",
+      "duration": 1.867396,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_SHARD_OUT_3",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerShardOut",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 749,
+      "sourceSample": "Prayer_Shard_SPIKE_T2_S3_vanish",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_SHARD_OUT_3.wav",
+      "status": "imported",
+      "duration": 0.392229,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_SHARD_IN_4",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerShardIn",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 954,
+      "sourceSample": "PRAYER_SHARD_SPIKE_4",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_SHARD_IN_4.wav",
+      "status": "imported",
+      "duration": 1.867396,
+      "channels": 2
+    },
+    {
+      "runtimeKey": "MIRIAM_SHARD_OUT_4",
+      "sourceEvent": "event:/SFX/Penitent/Prayers/MiriamPrayerShardOut",
+      "sourceBank": "D:\\game\\Blasphemous_Android_Extracted\\assets\\Master Bank.bank",
+      "stream": 1258,
+      "sourceSample": "Prayer_Shard_SPIKE_T2_S4_vanish",
+      "file": "Assets\\Brotherhood\\Resources\\Audio\\MIRIAM_SHARD_OUT_4.wav",
+      "status": "imported",
+      "duration": 0.392229,
+      "channels": 2
+    }
+  ],
+  "missingAliases": [
+    {
+      "runtimeKey": "PENITENT_MAGIC_DAMAGE",
+      "sourceEvent": "event:/SFX/Penitent/Damage/PenitentMagicDamage",
+      "reason": "No exact named sample or exported FMOD event routing; all local bank metadata was searched."
+    },
+    {
+      "runtimeKey": "SHIELD_PRAYER",
+      "reason": "No source event/sample with this name; PenitentShieldSystem instead uses existing PenitentRangeAttackHit."
+    }
+  ]
+}

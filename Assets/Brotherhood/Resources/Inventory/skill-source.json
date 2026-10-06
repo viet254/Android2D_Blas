@@ -1,0 +1,94 @@
+{
+  "skills": [
+    {
+      "id": "CHARGED_1",
+      "cost": 500,
+      "parentSkill": "NO DEPENDENCY",
+      "tier": 1
+    },
+    {
+      "id": "CHARGED_2",
+      "cost": 8000,
+      "parentSkill": "CHARGED_1",
+      "tier": 3
+    },
+    {
+      "id": "CHARGED_3",
+      "cost": 15000,
+      "parentSkill": "CHARGED_2",
+      "tier": 6
+    },
+    {
+      "id": "COMBO_1",
+      "cost": 2000,
+      "parentSkill": "NO DEPENDENCY",
+      "tier": 1
+    },
+    {
+      "id": "COMBO_2",
+      "cost": 7000,
+      "parentSkill": "COMBO_1",
+      "tier": 2
+    },
+    {
+      "id": "COMBO_3",
+      "cost": 11000,
+      "parentSkill": "COMBO_2",
+      "tier": 4
+    },
+    {
+      "id": "LUNGE_1",
+      "cost": 1500,
+      "parentSkill": "NO DEPENDENCY",
+      "tier": 1
+    },
+    {
+      "id": "LUNGE_2",
+      "cost": 2300,
+      "parentSkill": "LUNGE_1",
+      "tier": 2
+    },
+    {
+      "id": "LUNGE_3",
+      "cost": 9000,
+      "parentSkill": "LUNGE_2",
+      "tier": 4
+    },
+    {
+      "id": "RANGED_1",
+      "cost": 2000,
+      "parentSkill": "NO DEPENDENCY",
+      "tier": 2
+    },
+    {
+      "id": "RANGED_2",
+      "cost": 7000,
+      "parentSkill": "RANGED_1",
+      "tier": 5
+    },
+    {
+      "id": "RANGED_3",
+      "cost": 20000,
+      "parentSkill": "RANGED_2",
+      "tier": 7
+    },
+    {
+      "id": "VERTICAL_1",
+      "cost": 500,
+      "parentSkill": "NO DEPENDENCY",
+      "tier": 1
+    },
+    {
+      "id": "VERTICAL_2",
+      "cost": 2700,
+      "parentSkill": "VERTICAL_1",
+      "tier": 3
+    },
+    {
+      "id": "VERTICAL_3",
+      "cost": 13000,
+      "parentSkill": "VERTICAL_2",
+      "tier": 6
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+Run UTC: 2026-10-06T11:20:52.6605652Z
+PASS Generated scene starts
+PASS New pilgrimage starts with zero Tears and no free ranged skill
+PASS New pilgrimage has two rosary slots and source Mea Culpa level zero
+PASS Enough Tears cannot bypass the Mea Culpa gate
+PASS Mea Culpa level one allows its first source skill
+PASS Owned prerequisite cannot bypass Mea Culpa level three
+PASS Level three purchase deducts the source cost exactly once
+PASS v5 migration removes the unpurchased ranged grant and retains purchased skills, currency and equipped beads
+PASS v5 migration keeps a purchased ranged skill
+PASS Two unlocked knots reject a third bead without replacing an equipped bead
+PASS Persisted rosary progression makes its newly opened slot usable
+PASS Save v6 persists source progression and acquired skills in the isolated save
+PASS Generated catalog retains all 124 null sprite keys
+PASS Animation events and all source float tracks survive extraction
+PASS Runtime clears and restores the renderer through every source null window
+PASS Door exit alpha follows the source float curve halfway through its fade
+PASS Changing clips restores animation-owned alpha and visibility
+PASS Flagellant animation emits no hit before 0.52 seconds
+PASS Flagellant first hit is emitted at the source 0.52-second event
+PASS Flagellant second hit waits until the source 1.10-second event
+PASS Nonlooping hit events fire exactly twice and never replay after completion
+PASS A large time step dispatches source events once in each completed loop
+PASS S05 restores LOGIC_166 as the source one-way floor at height nine
+PASS S05 contains no authored replacement bridge
+PASS S05 preserves the source closed passage and blocks its inactive ladder sensor
+PASS Player walks over the restored source floor at five units per second
+PASS S05 open passage retains the original LadderTrigger with its parent rotation and usable sensor
+PASS Player also crosses the source one-way floor in the open passage state
+PASS Source floor supports dropping through instead of acting as a solid replacement block; feet=(-836.00, 7.84, 0.00), first surface=GEO_BlockOWD (128x32) (1) layer 9
+PASS Jump launches with the source ten-unit impulse
+PASS Parry remains active inside its source chance window
+PASS Parry chance closes after 0.30 seconds
+PASS PR01 equip does not refill Fervour
+PASS PR01 cast applies its source cost and real ten-second duration
+PASS PR01 applies the source maximum attack animation speed of 1.5
+PASS PR01 effect remains active before ten seconds
+PASS PR01 effect expires at its source duration
+PASS PR04 equip does not refill Fervour
+PASS PR04 cast applies its source cost and real ten-second duration
+PASS PR04 effect remains active before ten seconds
+PASS PR04 effect expires at its source duration
+PASS PR04 restores the source fifteen percent of dealt damage
+PASS PR101 retains its source cost, effect type and complete component settings
+PASS PR101 uses its explicit adapter or refuses the cast without spending resources
+PASS PR201 retains its source cost, effect type and complete component settings
+PASS PR201 uses its explicit adapter or refuses the cast without spending resources
+PASS PR202 retains its source cost, effect type and complete component settings
+PASS PR202 uses its explicit adapter or refuses the cast without spending resources
+PASS PR203 retains its source cost, effect type and complete component settings
+PASS PR203 uses its explicit adapter or refuses the cast without spending resources
+PASS Flagellant combat fixture exists
+PASS Flagellant deals no premature timer-based damage
+PASS Flagellant event applies source Strength ten on its first hit
+PASS Flagellant second source event applies ten damage without a duplicate timer hit
+PASS The shared Penance/ranged control is visible at full opacity before buying a skill
+PASS Tapping the locked control explains its unlock gate without granting or casting a skill
+PASS Shared control does not sacrifice resources before the source 0.25-second hold
+PASS New-game Penance trades exactly fifteen Life and twenty-five Tears for twenty-five Fervour
+PASS Penance plays the source animation without requiring or granting RANGED_1
+PASS Penance uses its decoded original FervorSelfDamage audio sample
+PASS Penance blocks movement while its source animation is playing
+PASS Penance retains its animation lock through the source 1.5-second clip
+PASS Holding past animation completion cannot sacrifice again without a fresh press
+PASS Releasing a Penance hold cannot also fire a projectile or show the tap-only unlock hint
+PASS A fresh press allows another Penance after the first animation completes
+PASS Self-sacrifice bypasses damage invulnerability and clamps restored Fervour to its maximum
+PASS Penance refuses Life equal to its cost and cannot kill the player
+PASS Life just above the source cost can pay for Penance safely
+PASS Penance preserves the source strict Tears-greater-than-cost condition
+PASS One Tear above the starting Penance cost permits the sacrifice
+PASS Mea Culpa level two raises the Penance cost to seventy-five Tears with the same strict gate
+PASS Penance consumes the source twenty-five plus twenty-five times Mea Culpa level cost
+PASS Penance cannot begin in the air
+PASS An airborne hold cannot queue a sacrifice upon landing
+PASS An attack in progress blocks Penance without consuming resources
+PASS A blocked hold cannot turn into a delayed sacrifice after the attack ends
+PASS Blocked gameplay input cannot initiate Penance
+PASS Enemy damage interrupts Penance without leaving the input locked
+PASS Learning ranged preserves Penance on hold and suppresses ranged casting on its release
+PASS Clearing gameplay input cancels a partial hold without sacrificing or firing
+PASS Keyboard F does not fire the shared skill on key down
+PASS A quick keyboard F press fires a learned ranged attack on release
+PASS Holding keyboard F performs Penance once and suppresses ranged on release
+PASS Clearing input disarms keyboard F until a new press and prevents a release-only cast
+PASS Restore clears the Penance animation lock without repeating its resource exchange
+PASS Ranged skill can be earned through the source level-two, 2000-Tears purchase
+PASS Purchasing ranged preserves the mobile button appearance
+PASS The restored touch button spends seven source Fervour and launches one sword projectile
+PASS Insufficient ranged Fervour gives feedback without silently substituting a lunge
+PASS Pressing the learned shared control waits for tap/hold resolution before firing
+PASS Sliding off the shared touch control cancels rather than firing a projectile
+PASS acolyte starts a real pending attack before the interruption test
+PASS acolyte ordinary player slash enters Hurt without granting an execution
+PASS acolyte Hurt blocks both overlapping contact and the cancelled pending attack
+PASS acolyte AI preserves the full Hurt clip/recovery and stops horizontal movement
+PASS acolyte another hit renews Hurt without leaking damage
+PASS acolyte recovers and starts fresh AI without resuming a cancelled hit
+PASS acolyte healthy contact becomes dangerous again after Hurt ends
+PASS acolyte stun suppresses contact even without an execution prompt
+PASS acolyte expired stun returns to a working AI state
+PASS acolyte damage during parry stun preserves the execution window and cannot hurt Player
+PASS acolyte death cannot leave contact damage enabled
+PASS acolyte inactive enemy cannot cause contact damage
+PASS flagellant starts a real pending attack before the interruption test
+PASS flagellant ordinary player slash enters Hurt without granting an execution
+PASS flagellant Hurt blocks both overlapping contact and the cancelled pending attack
+PASS flagellant AI preserves the full Hurt clip/recovery and stops horizontal movement
+PASS flagellant another hit renews Hurt without leaking damage
+PASS flagellant recovers and starts fresh AI without resuming a cancelled hit
+PASS flagellant healthy contact becomes dangerous again after Hurt ends
+PASS flagellant stun suppresses contact even without an execution prompt
+PASS flagellant expired stun returns to a working AI state
+PASS flagellant damage during parry stun preserves the execution window and cannot hurt Player
+PASS flagellant death cannot leave contact damage enabled
+PASS flagellant inactive enemy cannot cause contact damage
+PASS fool ordinary player slash enters Hurt without granting an execution
+PASS fool Hurt blocks both overlapping contact and the cancelled pending attack
+PASS fool AI preserves the full Hurt clip/recovery and stops horizontal movement
+PASS fool another hit renews Hurt without leaking damage
+PASS fool recovers and starts fresh AI without resuming a cancelled hit
+PASS fool healthy contact becomes dangerous again after Hurt ends
+PASS fool stun suppresses contact even without an execution prompt
+PASS fool expired stun returns to a working AI state
+PASS fool death cannot leave contact damage enabled
+PASS fool inactive enemy cannot cause contact damage
+PASS wheelcarrier starts a real pending attack before the interruption test
+PASS wheelcarrier ordinary player slash enters Hurt without granting an execution
+PASS wheelcarrier Hurt blocks both overlapping contact and the cancelled pending attack
+PASS wheelcarrier AI preserves the full Hurt clip/recovery and stops horizontal movement
+PASS wheelcarrier another hit renews Hurt without leaking damage
+PASS wheelcarrier recovers and starts fresh AI without resuming a cancelled hit
+PASS wheelcarrier healthy contact becomes dangerous again after Hurt ends
+PASS wheelcarrier stun suppresses contact even without an execution prompt
+PASS wheelcarrier expired stun returns to a working AI state
+PASS wheelcarrier death cannot leave contact damage enabled
+PASS wheelcarrier inactive enemy cannot cause contact damage
+PASS Hidden MudCrawler cannot inflict invisible contact damage
+PASS mudcrawler ordinary player slash enters Hurt without granting an execution
+PASS mudcrawler Hurt blocks both overlapping contact and the cancelled pending attack
+PASS mudcrawler AI preserves the full Hurt clip/recovery and stops horizontal movement
+PASS mudcrawler another hit renews Hurt without leaking damage
+PASS mudcrawler recovers and starts fresh AI without resuming a cancelled hit
+PASS mudcrawler healthy contact becomes dangerous again after Hurt ends
+PASS mudcrawler stun suppresses contact even without an execution prompt
+PASS mudcrawler expired stun returns to a working AI state
+PASS mudcrawler death cannot leave contact damage enabled
+PASS mudcrawler inactive enemy cannot cause contact damage
+PASS First visit activates the source altar and grants one Mea Culpa level
+PASS Reusing the same altar cannot grant repeated Mea Culpa levels
+RESULT: PASSED

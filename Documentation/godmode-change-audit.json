@@ -1,0 +1,123 @@
+{
+  "baseline_time": "2026-09-29T09:56:56.598467+07:00",
+  "checked_at": "2026-09-29T10:10:00.660105+07:00",
+  "baseline_count": 3097,
+  "asset_settings_changed": [
+    "Assets/Brotherhood/Editor/BrotherhoodVerification.cs",
+    "Assets/Brotherhood/Runtime/DevelopmentDebugMenu.cs",
+    "Assets/Brotherhood/Runtime/EnemyController.cs"
+  ],
+  "project_settings_checked": 28,
+  "project_settings_unchanged": true,
+  "code_hashes": {
+    "Assets/Brotherhood/Editor/BrotherhoodVerification.cs": {
+      "before": "6f0855d659ada709c6eed888db3fe940b4a504c1ca4eec1352ea501dcee23ef3",
+      "after": "2851332e209a81a2ced093b011a06102c26b78fa97f8fcc7c3014a2a21b59cfa"
+    },
+    "Assets/Brotherhood/Runtime/DevelopmentDebugMenu.cs": {
+      "before": "14096b47260dcb6819bd96e4ce877a61fe8eefa8fe6f9b71f353e761f24c71cd",
+      "after": "a00ecb2476e8853438e576471db71862ee809f9c9212e912233a00bc99a55ebc"
+    },
+    "Assets/Brotherhood/Runtime/EnemyController.cs": {
+      "before": "474a934252243ad56c3eb2f84a105d85d04c411d0448c22b8f45f0204e680d11",
+      "after": "19d7318ca28e5a7242835bdbb63fc0673754b9704c52c315eaa4e31bb0a20b2d"
+    }
+  },
+  "verification": {
+    "Documentation/godmode-playtest-results.txt": {
+      "pass": 608,
+      "p1_pass": 0,
+      "fail": 0,
+      "written_utc": "2026-09-29T03:06:57.054617+00:00",
+      "sha256": "4419f229388027ead3054981ee47ca680db6b92700c6c5e7fdbc1bfa11cddebe"
+    },
+    "Documentation/prayers-playtest-results.txt": {
+      "pass": 262,
+      "p1_pass": 0,
+      "fail": 0,
+      "written_utc": "2026-09-29T03:07:24.967305+00:00",
+      "sha256": "52449aad4a3d3e9fc0862bccef28f027bd70cd11c19b0a7d647461a195f63c35"
+    },
+    "Documentation/priority-two-playtest-results.txt": {
+      "pass": 227,
+      "p1_pass": 149,
+      "fail": 0,
+      "written_utc": "2026-09-29T03:08:16.959061+00:00",
+      "sha256": "9a42a13fd59f72f2c600948007363764a42094de9902ac8180bf4718885ebcd0"
+    }
+  },
+  "changed": [
+    "Assets/Brotherhood/Editor/BrotherhoodVerification.cs",
+    "Assets/Brotherhood/Runtime/DevelopmentDebugMenu.cs",
+    "Assets/Brotherhood/Runtime/EnemyController.cs",
+    "Documentation/PROJECT_PROGRESS_REVIEW.md",
+    "Documentation/Previews/D01Z01S01.png",
+    "Documentation/Previews/D01Z01S02.png",
+    "Documentation/Previews/D01Z01S03.png",
+    "Documentation/Previews/D01Z01S07.png",
+    "Documentation/Previews/D01Z02S01.png",
+    "Documentation/Previews/D01Z02S02.png",
+    "Documentation/Previews/D17Z01S02.png",
+    "Documentation/Previews/D17Z01S05.png",
+    "Documentation/Previews/D17Z01S07.png",
+    "Documentation/Previews/D17Z01S09.png",
+    "Documentation/Previews/Prayers/PR01.png",
+    "Documentation/Previews/Prayers/PR03.png",
+    "Documentation/Previews/Prayers/PR04.png",
+    "Documentation/Previews/Prayers/PR05-effect.png",
+    "Documentation/Previews/Prayers/PR05.png",
+    "Documentation/Previews/Prayers/PR07.png",
+    "Documentation/Previews/Prayers/PR08-effect.png",
+    "Documentation/Previews/Prayers/PR08.png",
+    "Documentation/Previews/Prayers/PR09.png",
+    "Documentation/Previews/Prayers/PR10.png",
+    "Documentation/Previews/Prayers/PR101-effect.png",
+    "Documentation/Previews/Prayers/PR101.png",
+    "Documentation/Previews/Prayers/PR11-effect.png",
+    "Documentation/Previews/Prayers/PR11.png",
+    "Documentation/Previews/Prayers/PR12-effect.png",
+    "Documentation/Previews/Prayers/PR12.png",
+    "Documentation/Previews/Prayers/PR14.png",
+    "Documentation/Previews/Prayers/PR15-effect.png",
+    "Documentation/Previews/Prayers/PR15.png",
+    "Documentation/Previews/Prayers/PR16-effect.png",
+    "Documentation/Previews/Prayers/PR16.png",
+    "Documentation/Previews/Prayers/PR201-effect.png",
+    "Documentation/Previews/Prayers/PR201-shards.png",
+    "Documentation/Previews/Prayers/PR201.png",
+    "Documentation/Previews/Prayers/PR202.png",
+    "Documentation/Previews/Prayers/PR203-effect.png",
+    "Documentation/Previews/Prayers/PR203.png",
+    "Documentation/Previews/aspect-20x9.png",
+    "Documentation/Previews/awakening-playtest.png",
+    "Documentation/Previews/blas-inventory-tab-4.png",
+    "Documentation/Previews/blas-inventory-tab-5.png",
+    "Documentation/Previews/blas-options-playtest.png",
+    "Documentation/Previews/blood-platforms-enabled.png",
+    "Documentation/Previews/character-menu-playtest.png",
+    "Documentation/Previews/cheat-hud.png",
+    "Documentation/Previews/cheat-panel.png",
+    "Documentation/Previews/collectible-animation.png",
+    "Documentation/Previews/collectible-popup-screen.png",
+    "Documentation/Previews/collectible-popup.png",
+    "Documentation/Previews/dash-active.png",
+    "Documentation/Previews/deogracias-dialog-playtest.png",
+    "Documentation/Previews/execution-active.png",
+    "Documentation/Previews/hud-playtest.png",
+    "Documentation/Previews/priedieu-lit.png",
+    "Documentation/Previews/priedieu-unlit.png",
+    "Documentation/Previews/priority-two-tutorial.png",
+    "Documentation/Previews/right-wall-before-tiled-fix.png",
+    "Documentation/Previews/right-wall-source-region.png",
+    "Documentation/Previews/verdiales-source-mask.png",
+    "Documentation/Previews/warden-fight-hud.png",
+    "Documentation/Previews/warden-victory-playtest.png",
+    "Documentation/automation-result.txt",
+    "Documentation/prayers-playtest-results.txt",
+    "Documentation/priority-two-playtest-results.txt"
+  ],
+  "removed": [],
+  "added": [
+    "Documentation/godmode-playtest-results.txt"
+  ]
+}
