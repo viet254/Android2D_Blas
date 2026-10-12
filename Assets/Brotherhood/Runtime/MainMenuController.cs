@@ -31,7 +31,8 @@ namespace Brotherhood
             OptionsTouch,
             OptionsTutorial,
             Extras,
-            DeleteConfirm
+            DeleteConfirm,
+            Difficulty
         }
 
         // These states and timings mirror Landing.cs and NewMainMenu.cs from
@@ -161,7 +162,7 @@ namespace Brotherhood
                 if (current == Page.ModeSelect) Show(Page.Title);
                 else if (current == Page.SaveSlots || current == Page.Options || current == Page.Extras) Show(Page.ModeSelect);
                 else if (IsOptionsSubpage(current)) Show(Page.Options);
-                else if (current == Page.DeleteConfirm) Show(Page.SaveSlots);
+                else if (current == Page.DeleteConfirm || current == Page.Difficulty) Show(Page.SaveSlots);
                 return;
             }
             if (current == Page.SaveSlots) UpdateSaveSlotInput();
@@ -289,6 +290,7 @@ namespace Brotherhood
                 case Page.OptionsTutorial: BuildOptionsTutorial(); break;
                 case Page.Extras: BuildExtras(); break;
                 case Page.DeleteConfirm: BuildDeleteConfirm(); break;
+                case Page.Difficulty: BuildDifficulty(); break;
             }
             if (firstButton != null && EventSystem.current != null && EventSystem.current.currentSelectedGameObject != firstButton.gameObject)
                 EventSystem.current.SetSelectedGameObject(firstButton.gameObject);
@@ -391,6 +393,8 @@ namespace Brotherhood
             float completion = preview != null && preview.progress != null ? Mathf.Clamp01(preview.progress.mapPercentage) * 100f : 0f;
             string info = "PILGRIMAGE SAVED  ·  " + completion.ToString("0.00") + "% COMPLETED";
             LabelAt(page, info, new Vector2(-56, y - 188), new Vector2(390, 20), 16, new Color(1f, .73333335f, .49411765f), TextAnchor.MiddleLeft);
+            if (preview != null && preview.progress != null)
+                LabelAt(page, GameDifficulty.Name(preview.progress.difficulty), new Vector2(110, y - 171), new Vector2(90, 20), 14, new Color(1f, .73333335f, .49411765f), TextAnchor.MiddleRight);
             if (preview != null && preview.progress != null)
                 LabelAt(page, Mathf.RoundToInt(preview.progress.tears).ToString(), new Vector2(172, y - 190), new Vector2(80, 20), 16, valueColor, TextAnchor.MiddleRight);
 
@@ -559,6 +563,32 @@ namespace Brotherhood
             Label(page, "The selected save slot and its backup will be erased.", new Vector2(.5f, .54f), new Vector2(440, 22), 13, new Color(.7137255f, .043137256f, .043137256f));
             MenuChoice("CANCEL", .37f, () => Show(Page.SaveSlots), true, .37f);
             MenuChoice("DELETE", .37f, DeleteSelectedSlot, false, .63f);
+        }
+
+        void BuildDifficulty()
+        {
+            // Shown only for an empty slot; the choice is stored in the new save
+            // and cannot change afterwards, mirroring a classic new-game prompt.
+            Fill(page, new Color(.07058824f, .039215688f, .05882353f));
+            SourceArtAt(page, "Menu/SaveHeader", new Vector2(0, 152), new Vector2(640, 32), Color.white, false);
+            LabelAt(page, "SELECT DIFFICULTY", new Vector2(0, 152), new Vector2(320, 20), 20, Gold, TextAnchor.MiddleCenter);
+            Label(page, "The difficulty is saved with this pilgrimage.", new Vector2(.5f, .7f), new Vector2(440, 22), 13, OptionNormal);
+
+            int[] levels = { GameDifficulty.Easy, GameDifficulty.Normal, GameDifficulty.Hard };
+            float[] columns = { .23f, .5f, .77f };
+            string[] details =
+            {
+                "Enemy damage -40%\nYour damage +30%",
+                "Original balance",
+                "Enemy damage +50%\nYour damage -20%"
+            };
+            for (int i = 0; i < levels.Length; i++)
+            {
+                int level = levels[i];
+                MenuChoice(GameDifficulty.Name(level), .5f, () => StartNewPilgrimage(level), level == GameDifficulty.Normal, columns[i]);
+                Label(page, details[i], new Vector2(columns[i], .37f), new Vector2(150, 40), 11, new Color(.71f, .52f, .49f));
+            }
+            MenuChoice("BACK", .18f, () => Show(Page.SaveSlots), false, .5f);
         }
 
         void BuildMenuBackdrop(string title)
@@ -901,8 +931,23 @@ namespace Brotherhood
         void StartSelectedPilgrimage()
         {
             PlayerPrefs.SetInt(SlotPreference, selectedSlot);
-            if (SlotExists(selectedSlot)) PlayerPrefs.DeleteKey("BrotherhoodNewPilgrimage");
-            else PlayerPrefs.SetInt("BrotherhoodNewPilgrimage", 1);
+            if (!SlotExists(selectedSlot))
+            {
+                PlayerPrefs.Save();
+                Show(Page.Difficulty);
+                return;
+            }
+            PlayerPrefs.DeleteKey("BrotherhoodNewPilgrimage");
+            PlayerPrefs.DeleteKey(GameDifficulty.PendingKey);
+            PlayerPrefs.Save();
+            StartCoroutine(LoadPilgrimage());
+        }
+
+        void StartNewPilgrimage(int difficulty)
+        {
+            PlayerPrefs.SetInt(SlotPreference, selectedSlot);
+            PlayerPrefs.SetInt("BrotherhoodNewPilgrimage", 1);
+            PlayerPrefs.SetInt(GameDifficulty.PendingKey, GameDifficulty.Clamp(difficulty));
             PlayerPrefs.Save();
             StartCoroutine(LoadPilgrimage());
         }

@@ -2800,7 +2800,7 @@ MonoBehaviour:
   doors:
   - key: W
     target: D17Z01S06
-    targetDoor: E
+    targetDoor: W
     trigger: {fileID: 8194841719432074062}
     spawn: {fileID: 3122916895076757386}
   - key: SE

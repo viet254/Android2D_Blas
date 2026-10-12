@@ -10,6 +10,7 @@ namespace Brotherhood
         public bool hasFlask=true,hasMap=true,hasPrayer,hasSpecial,bloodOwned,bloodEquipped;
         public bool wardenDefeated,achievementAC01,deograciasMet,thornGranted,shockGateOpened;
         public bool campaignWon;
+        public int difficulty=GameDifficulty.Normal;
         public string[] completedRooms=Array.Empty<string>();
         public int chargedTier,lungeTier,rangedTier,comboTier,verticalTier,specialMode;
         public int meaCulpaLevel,rosarySlots=2;

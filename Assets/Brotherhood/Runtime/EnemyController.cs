@@ -521,6 +521,7 @@ namespace Brotherhood
         public void Damage(float amount,bool trialMelee)
         {
             if(Dead||(boss&&(!bossEncounterReady||!game.BossFightActive)))return;
+            if(game!=null&&game.progress!=null)amount*=GameDifficulty.EnemyDamageTaken(game.progress.difficulty);
             if(game?.controls?.debugUI!=null)amount=game.controls.debugUI.EnemyHitDamage(amount,health);
             if(trialMelee&&trialAI!=null&&trialAI.TryGuardHit(amount))return;
             health=Mathf.Max(0,health-amount);

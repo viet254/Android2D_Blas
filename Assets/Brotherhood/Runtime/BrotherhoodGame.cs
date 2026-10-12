@@ -5,7 +5,7 @@ namespace Brotherhood
 {
     public sealed class BrotherhoodGame : MonoBehaviour
     {
-        public RoomState[] rooms;public PlayerController player;public TouchControls controls;public EffectPool effects;public Camera view;public RestoredAudio audioBank;public PlayerProgress progress=new PlayerProgress();public GuiltRuntime guilt;public ForbiddenZone forbiddenZone;public GameOverUI gameOverUI;public SourceItemPopup itemPopup;public ElderBrotherEncounter bossEncounter;public DeograciasEncounter deograciasEncounter;
+        public RoomState[] rooms;public PlayerController player;public TouchControls controls;public EffectPool effects;public Camera view;public RestoredAudio audioBank;public PlayerProgress progress=new PlayerProgress();public GuiltRuntime guilt;public ForbiddenZone forbiddenZone;public GameOverUI gameOverUI;public SourceItemPopup itemPopup;public CandelariaShopUI candelariaShop;public ElderBrotherEncounter bossEncounter;public DeograciasEncounter deograciasEncounter;
         public RoomState Current {get;private set;}
         public bool BossFightActive {get;private set;}
         public bool InputBlocked {get;private set;}
@@ -76,13 +76,15 @@ namespace Brotherhood
             player.actor.visual.sortingLayerName="Player";player.actor.visual.sortingOrder=1;
             gameOverUI=gameObject.AddComponent<GameOverUI>();gameOverUI.Initialize(this);
             itemPopup=gameObject.AddComponent<SourceItemPopup>();itemPopup.Initialize(this);
+            candelariaShop=gameObject.AddComponent<CandelariaShopUI>();candelariaShop.Initialize(this);
             foreach(var room in rooms){foreach(var s in room.checkpoints){var l2=s.Find("Interactable Animation_level2");if(l2!=null)l2.gameObject.SetActive(false);var l3=s.Find("Interactable Animation_level3");if(l3!=null)l3.gameObject.SetActive(false);var l1=s.Find("Interactable Animation_level1");if(l1!=null)l1.gameObject.SetActive(true);}foreach(var enemy in room.enemies){enemy.game=this;enemy.Initialize();}foreach(var p in room.parallax)p.origin=p.target.position;room.gameObject.SetActive(false);}
             bossEncounter=gameObject.AddComponent<ElderBrotherEncounter>();bossEncounter.Initialize(this);
             deograciasEncounter=gameObject.AddComponent<DeograciasEncounter>();deograciasEncounter.Initialize(this);
             checkpoint=rooms[0].start.position;
             bool fullVerification=Application.isEditor&&System.IO.File.Exists(System.IO.Path.Combine(Application.dataPath,"../Temp/brotherhood-verify-play"));
             verification=fullVerification||Application.isEditor&&(System.IO.File.Exists(System.IO.Path.Combine(Application.dataPath,"../Temp/brotherhood-priority-one-verify"))||System.IO.File.Exists(System.IO.Path.Combine(Application.dataPath,"../Temp/brotherhood-priority-two-verify"))||System.IO.File.Exists(System.IO.Path.Combine(Application.dataPath,"../Temp/brotherhood-prayers-verify"))||System.IO.File.Exists(System.IO.Path.Combine(Application.dataPath,"../Temp/brotherhood-trial-verify")));
-            if(!verification){if(PlayerPrefs.GetInt("BrotherhoodNewPilgrimage",0)==1){PlayerPrefs.DeleteKey("BrotherhoodNewPilgrimage");TryDeleteSave();}else LoadSave();}
+            if(!verification){if(PlayerPrefs.GetInt("BrotherhoodNewPilgrimage",0)==1){PlayerPrefs.DeleteKey("BrotherhoodNewPilgrimage");TryDeleteSave();progress.difficulty=GameDifficulty.Clamp(PlayerPrefs.GetInt(GameDifficulty.PendingKey,GameDifficulty.Normal));PlayerPrefs.DeleteKey(GameDifficulty.PendingKey);PlayerPrefs.Save();}else LoadSave();}
+            progress.difficulty=GameDifficulty.Clamp(progress.difficulty);
             // Keep the full catalog available only to automated verification.
             // A normal pilgrimage receives QI31 from Deogracias' source FSM.
             var cat = InventoryCatalog.Load();
@@ -194,7 +196,7 @@ namespace Brotherhood
             roomFade.color=Color.black;
             Enter(target,targetDoor,arrival);progress.CompleteRoom(completed);SaveGame();
             InputBlocked=true;
-            yield return new WaitForEndOfFrame();
+            yield return null;
             const float revealDuration=.6f;
             for(float elapsed=0;elapsed<revealDuration;elapsed+=Time.unscaledDeltaTime)
             {roomFade.color=new Color(0,0,0,1f-Mathf.Clamp01(elapsed/revealDuration));yield return null;}
@@ -209,9 +211,26 @@ namespace Brotherhood
             view.transform.position=new Vector3(x,y,-10);cameraVelocity=Vector3.zero;
             PositionParallax();
         }
-        public RoomState Find(string id){foreach(var room in rooms)if(room.id==id)return room;return null;}
+        public RoomState Find(string id)
+        {
+            foreach(var room in rooms)if(room.id==id)return room;
+            if(id=="D17Z01S06")
+            {
+                var prefab=Resources.Load<GameObject>("Rooms/D17Z01S06")??Resources.Load<GameObject>("Rooms/PriorityTwo/D17Z01S06");
+                if(prefab!=null)
+                {
+                    var mRoom=Instantiate(prefab,transform).GetComponent<RoomState>();
+                    mRoom.name="D17Z01S06";mRoom.gameObject.SetActive(false);
+                    var list=new System.Collections.Generic.List<RoomState>(rooms){mRoom};
+                    rooms=list.ToArray();
+                    return mRoom;
+                }
+            }
+            return null;
+        }
         public void Enter(string id,string door,Vector2? location)
         {
+            if(candelariaShop!=null)candelariaShop.Close();
             if(bloodyBaptism!=null&&bloodyBaptism.IsPlaying)bloodyBaptism.Cancel();
             var next=Find(id);if(next==null)return;player.StopPrayers();if(Current!=null)Current.gameObject.SetActive(false);
             Current=next;Current.gameObject.SetActive(true);Current.EnsureFloorContinuity();Current.RefreshShockGate(progress,player.actor.catalog);Current.ResetCameraZone();Physics2D.SyncTransforms();
@@ -222,7 +241,7 @@ namespace Brotherhood
             // Keep arrival clear of the door sensor and snap to nearby floor when available.
             if(entry!=null && location==null)spawn.x+=entry.key=="W"?1:-1;
             if(trials!=null&&location==null)spawn=trials.ResolveSourceArrival(next,entry,spawn);
-            var floor=Physics2D.Raycast(spawn+Vector2.up*1.5f,Vector2.down,5,1<<8);
+            var floor=Physics2D.Raycast(spawn+Vector2.up*1.5f,Vector2.down,5,(1<<8)|(1<<9));
             if(floor.collider!=null)spawn.y=floor.point.y+.03f;
             player.motor.Teleport(spawn);player.EnterRoomTransitionIdle();SnapCameraToRoom(spawn);transitionCooldown=1.2f;
             if(bossDead && Current.Boss!=null)Current.Boss.health=0;

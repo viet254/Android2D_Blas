@@ -110,6 +110,12 @@ namespace Brotherhood
             ["The selected save slot and its backup will be erased."] =
                 "Ô lưu đã chọn và bản sao lưu của nó sẽ bị xóa.",
             ["DELETE PILGRIMAGE?"] = "XÓA HÀNH TRÌNH?",
+            ["SELECT DIFFICULTY"] = "CHỌN ĐỘ KHÓ",
+            ["EASY"] = "DỄ", ["NORMAL"] = "THƯỜNG", ["HARD"] = "KHÓ",
+            ["The difficulty is saved with this pilgrimage."] = "Độ khó được lưu cùng hành trình này.",
+            ["Enemy damage -40%\nYour damage +30%"] = "Sát thương địch -40%\nSát thương bạn +30%",
+            ["Original balance"] = "Cân bằng gốc",
+            ["Enemy damage +50%\nYour damage -20%"] = "Sát thương địch +50%\nSát thương bạn -20%",
             ["PRAYER EQUIPPED\nConsumes Fervour and invokes its source effect."] =
                 "ĐÃ TRANG BỊ LỜI CẦU NGUYỆN\nTiêu hao Nhiệt huyết để kích hoạt hiệu ứng.",
             ["NO PRAYER FOUND"] = "CHƯA CÓ LỜI CẦU NGUYỆN",

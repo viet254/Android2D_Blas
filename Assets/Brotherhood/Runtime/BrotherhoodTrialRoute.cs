@@ -194,6 +194,7 @@ namespace Brotherhood
         {
             if (room.id != "D17Z01S07") return true;
             if (door.key == "NW") return Done(ArenaFlag);
+            if (door.key == "W") return true;
             if (door.key == "SW") return BossDefeated;
             return true;
         }
@@ -338,9 +339,21 @@ namespace Brotherhood
 
         public Vector2 ResolveSourceArrival(RoomState room, RoomDoor door, Vector2 arrival)
         {
-            // The imported north spawn of S07 is embedded in its solid roof.
-            // Keep that source door/ladder, but arrive on its clear upper landing.
-            return room.id == "D17Z01S07" && door != null && door.key == "N" ? new Vector2(-861, -9.97f) : arrival;
+            // When arriving in S07 from the upper ladder (door N), arrive directly at the ladder base
+            // on the landing platform (x=-866.5) instead of far away in the middle of the room.
+            if (room.id == "D17Z01S07" && door != null && door.key == "N")
+                return new Vector2(-866.5f, -9.975f);
+            // When climbing up to S04 from the S07 ladder (door S), arrive on the floor at the ladder mouth
+            // (x=-865.5, y=-4.975) so the player does not drop from mid-air.
+            if (room.id == "D17Z01S04" && door != null && door.key == "S")
+                return new Vector2(-865.5f, -4.975f);
+            if (room.id == "D17Z01S07" && door != null && door.key == "NW")
+                return new Vector2(-867.0f, -14.6875f);
+            if (room.id == "D17Z01S07" && door != null && door.key == "W")
+                return new Vector2(-867.0f, -24.975f);
+            if (room.id == "D17Z01S06")
+                return new Vector2(-885.5f, -24.975f);
+            return arrival;
         }
 
         public Vector2 ClampLadderStep(LadderZone ladder, Vector2 position, float vertical, out bool landed)
@@ -418,7 +431,7 @@ namespace Brotherhood
         void LateUpdate()
         {
             if (hud == null || game.Current == null) return;
-            bool branch = game.Current.id == "D17Z01S04" || game.Current.id == "D17Z01S07" || game.Current.id == "D17Z01S08" || game.Current.id == "D17Z01S09";
+            bool branch = game.Current.id == "D17Z01S04" || game.Current.id == "D17Z01S07" || game.Current.id == "D17Z01S08" || game.Current.id == "D17Z01S09" || game.Current.id == "D17Z01S06";
             var near = NearPassage(true);
             hud.enabled = (branch || near != null) && !game.player.Dead && !game.InputBlocked && game.controls.Visible;
             if (!hud.enabled) return;
@@ -430,6 +443,7 @@ namespace Brotherhood
                 safeArea.anchorMax = new Vector2(oldSafeArea.xMax / screen.x, oldSafeArea.yMax / screen.y); safeArea.offsetMin = safeArea.offsetMax = Vector2.zero;
             }
             string instruction = near != null ? (near.walkDirection == 0 ? "Tương tác: " : "Đi vào cổng: ") + near.label :
+                game.Current.id == "D17Z01S06" ? "Cửa hàng Candelaria · Tương tác để nói chuyện hoặc mua đồ" :
                 game.Current.id == "D17Z01S07" ? (Done(ArenaFlag) ? "Đội gác đã bị hạ · lối đi bên phải đã mở" : "1/3 · Hạ trinh sát và vệ binh · chém sau lưng khi vệ binh phòng thủ") :
                 game.Current.id == "D17Z01S09" ? (BossDefeated ? "Lavia đã bị hạ · cổng bên trái tới bàn thờ đã mở" : "2/3 · Hạ Lavia · né cú lao, cánh chém và cầu lửa") :
                 game.Current.id == "D17Z01S08" ? (Done(AltarFlag) ? "Bàn Mea Culpa đã được lưu" : "3/3 · Tương tác tại bàn thờ Mea Culpa") : "Dùng cửa có sẵn để đi tới sân gác, phòng boss và bàn thờ";

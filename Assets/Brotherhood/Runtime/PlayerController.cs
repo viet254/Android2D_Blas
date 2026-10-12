@@ -663,7 +663,7 @@ namespace Brotherhood
             if(invincible>0)return false;
             if(game.itemEffects!=null&&game.itemEffects.HasTemporalFlag(1)){if(game.legacyPrayers!=null)game.legacyPrayers.PlayerDamaged(fromX);return false;}
             CancelPrayerCast();penanceTime=verticalStartTime=verticalHoldClock=0;plunging=false;prieDieuPrayer=false;prieDieuPhase=0;prieDieuTimer=0;
-            amount=Mods.DamageTaken(amount);health=Mathf.Max(0,health-amount);invincible=.40f;hurtFlash=.35f;lockTime=.3f;healPending=false;attackTime=0;dashTime=0;attackHoldArmed=chargePending=chargeLoaded=chargedAttack=false;attackHoldClock=charge=0;game.effects.StopClip("penitent_charged_attack_effect");
+            amount=Mods.DamageTaken(amount)*GameDifficulty.PlayerDamageTaken(game.progress.difficulty);if(amount>0)Haptics.Pulse(Dead||health<=amount?120:45);health=Mathf.Max(0,health-amount);invincible=.40f;hurtFlash=.35f;lockTime=.3f;healPending=false;attackTime=0;dashTime=0;attackHoldArmed=chargePending=chargeLoaded=chargedAttack=false;attackHoldClock=charge=0;game.effects.StopClip("penitent_charged_attack_effect");
             game.Sfx("PENITENT_SIMPLE_DAMAGE_DEFAULT");game.Sfx("PENITENT_PUSHBACK",.8f);game.effects.Animation("penitent_pushback_grounded_dust_effect_anim",transform.position,facing);
             ItemEvent(5,amount);if(!Dead&&amount>=24){throwbackTime=.8f;throwbackLanded=false;float away=Mathf.Sign(transform.position.x-fromX);if(away==0)away=-facing;motor.velocity=new Vector2(away*6,7);actor.Play("penitent_throwback_transition_anim",false,true);}else actor.Play(Dead?"penitent_death_blood":"penitent_pushback_grounded",false,true);
             if(Dead){deathTime=1.8f;if(game.guilt!=null)game.guilt.OnPlayerDeath();StopPrayers();ItemEvent(10);game.Message("YOU HAVE FALLEN");}return false;
@@ -674,7 +674,7 @@ namespace Brotherhood
             if(game.itemEffects!=null&&game.itemEffects.HasTemporalFlag(1)){if(game.legacyPrayers!=null)game.legacyPrayers.PlayerDamaged(fromX);return;}
             if(game.prayerEffects!=null&&game.prayerEffects.BlocksAttack(fromX,true))return;
             CancelPrayerCast();penanceTime=verticalStartTime=verticalHoldClock=0;plunging=false;prieDieuPrayer=false;prieDieuPhase=0;prieDieuTimer=0;
-            amount=Mods.DamageTaken(amount,29);health=Mathf.Max(0,health-amount);invincible=1.25f;hurtFlash=.35f;lockTime=.35f;healPending=false;attackTime=0;dashTime=0;lungeTime=0;parryState=0;attackHoldArmed=chargePending=chargeLoaded=chargedAttack=false;attackHoldClock=charge=0;game.effects.StopClip("penitent_charged_attack_effect");
+            amount=Mods.DamageTaken(amount,29)*GameDifficulty.PlayerDamageTaken(game.progress.difficulty);if(amount>0)Haptics.Pulse(health<=amount?120:45);health=Mathf.Max(0,health-amount);invincible=1.25f;hurtFlash=.35f;lockTime=.35f;healPending=false;attackTime=0;dashTime=0;lungeTime=0;parryState=0;attackHoldArmed=chargePending=chargeLoaded=chargedAttack=false;attackHoldClock=charge=0;game.effects.StopClip("penitent_charged_attack_effect");
             float away=Mathf.Sign(transform.position.x-fromX);if(away==0)away=-facing;
             motor.velocity=new Vector2(away*5.5f,6.5f);
             throwbackTime=.75f;throwbackLanded=false;

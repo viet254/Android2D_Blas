@@ -12,6 +12,7 @@ namespace Brotherhood
         public static readonly string[] Herbs={"QI19","QI20","QI37","QI63","QI64","QI65"};
         public static readonly string[] Knots={"QI44","QI52","QI53","QI54","QI55","QI56"};
         BrotherhoodGame game;GameObject root,choices;Text title,body;readonly Queue<string> lines=new Queue<string>();Action afterLines,confirm;string npc;float inputClock;
+        Text choice1Label, choice2Label; Action choice1Action, choice2Action; int candelariaTalkIndex;
         public bool IsOpen=>root!=null&&root.activeSelf;
         public Canvas Canvas{get;private set;}
         public string NearNpc
@@ -19,6 +20,12 @@ namespace Brotherhood
             get
             {
                 if(game.Current==null||game.player.Dead||!game.player.motor.grounded)return null;
+                if(game.Current.id=="D17Z01S06")
+                {
+                    foreach(var node in game.Current.GetComponentsInChildren<SourceObjectId>(true))
+                        if((node.name=="Candelaria"||node.node=="Candelaria")&&node.gameObject.activeInHierarchy&&Mathf.Abs(node.transform.position.x-game.player.transform.position.x)<2.5f&&Mathf.Abs(node.transform.position.y-game.player.transform.position.y)<2.5f)
+                            return "Candelaria";
+                }
                 string name=game.Current.id=="D01Z02S02"?"Tirso":game.Current.id=="D17Z01S09"&&!game.progress.HasFlag("ST21_JAILED_GHOST/JAILED_QUEST_COMPLETED")?"Jailed Ghost":null;
                 if(name==null)return null;
                 foreach(var node in game.Current.GetComponentsInChildren<SourceObjectId>(true))if(node.name==name&&node.gameObject.activeInHierarchy&&Mathf.Abs(node.transform.position.x-game.player.transform.position.x)<1.8f&&Mathf.Abs(node.transform.position.y-game.player.transform.position.y)<2)return name=="Tirso"?"Tirso":"Soledad";
@@ -32,10 +39,17 @@ namespace Brotherhood
             title=Label(root.transform,"Speaker",new Vector2(.06f,.78f),new Vector2(.94f,.96f),23,new Color(.94f,.69f,.33f));body=Label(root.transform,"Source line",new Vector2(.06f,.22f),new Vector2(.94f,.77f),23,new Color(.93f,.89f,.78f));
             var next=Rect(root.transform,"Advance",new Vector2(.65f,.01f),new Vector2(.94f,.18f));next.gameObject.AddComponent<Image>().color=new Color(.25f,.13f,.05f,.65f);next.gameObject.AddComponent<Button>().onClick.AddListener(Advance);Label(next,"Advance label",Vector2.zero,Vector2.one,20,Color.white).text="Tiếp tục";
             choices=Rect(root.transform,"Quest choice",Vector2.zero,new Vector2(1,.20f)).gameObject;
-            Choice("Đưa vật phẩm",new Vector2(.10f,.02f),new Vector2(.48f,.95f),()=>{var action=confirm;Close();action?.Invoke();});Choice("Giữ lại",new Vector2(.52f,.02f),new Vector2(.90f,.95f),Close);
+            choice1Label=Choice("Đưa vật phẩm",new Vector2(.10f,.02f),new Vector2(.48f,.95f),()=>{choices.SetActive(false);var action=choice1Action;action?.Invoke();});
+            choice2Label=Choice("Giữ lại",new Vector2(.52f,.02f),new Vector2(.90f,.95f),()=>{choices.SetActive(false);var action=choice2Action;action?.Invoke();});
             root.SetActive(false);
         }
-        void Choice(string caption,Vector2 min,Vector2 max,UnityEngine.Events.UnityAction action){var rect=Rect(choices.transform,caption,min,max);rect.gameObject.AddComponent<Image>().color=new Color(.25f,.13f,.05f,.96f);rect.gameObject.AddComponent<Button>().onClick.AddListener(action);Label(rect,caption,Vector2.zero,Vector2.one,20,Color.white).text=caption;}
+        Text Choice(string caption,Vector2 min,Vector2 max,UnityEngine.Events.UnityAction action){var rect=Rect(choices.transform,caption,min,max);rect.gameObject.AddComponent<Image>().color=new Color(.25f,.13f,.05f,.96f);rect.gameObject.AddComponent<Button>().onClick.AddListener(action);var lbl=Label(rect,caption,Vector2.zero,Vector2.one,20,Color.white);lbl.text=caption;lbl.alignment=TextAnchor.MiddleCenter;return lbl;}
+        public void ShowChoices(string opt1, Action act1, string opt2, Action act2)
+        {
+            choice1Label.text=opt1; choice1Action=act1;
+            choice2Label.text=opt2; choice2Action=act2;
+            choices.SetActive(true);
+        }
         Text Label(Transform parent,string name,Vector2 min,Vector2 max,int size,Color color){var t=Rect(parent,name,min,max).gameObject.AddComponent<Text>();t.font=VietnameseSource.DynamicFont??Resources.Load<Font>("Fonts/Caudex-Bold")??Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");t.fontSize=size;t.color=color;t.alignment=TextAnchor.MiddleLeft;t.raycastTarget=false;return t;}
         static RectTransform Rect(Transform parent,string name,Vector2 min,Vector2 max){var o=new GameObject(name,typeof(RectTransform));var r=(RectTransform)o.transform;r.SetParent(parent,false);r.anchorMin=min;r.anchorMax=max;r.offsetMin=r.offsetMax=Vector2.zero;return r;}
         public bool TryInteract()
@@ -46,8 +60,31 @@ namespace Brotherhood
                 bool first=!game.progress.HasFlag("ST03_TIRSO/TIRSO_FIRSTCONVERSATION_DONE");
                 Show(first?new[]{"DLG_0301","DLG_0311","DLG_0312"}:new[]{"DLG_0311","DLG_0302"},"ST03_TIRSO",()=>{game.progress.SetFlag("ST03_TIRSO/TIRSO_FIRSTCONVERSATION_DONE");game.SaveGame();OfferTirso();});
             }
-            else Show(game.progress.HasFlag("ST21_JAILED_GHOST/JAILED_FIRSTCONVERSATION_DONE")?Array.Empty<string>():new[]{"DLG_2101"},"ST21_JAILED_GHOST",()=>{game.progress.SetFlag("ST21_JAILED_GHOST/JAILED_FIRSTCONVERSATION_DONE");game.SaveGame();OfferKnot();});
+            else if(npc=="Soledad")
+            {
+                Show(game.progress.HasFlag("ST21_JAILED_GHOST/JAILED_FIRSTCONVERSATION_DONE")?Array.Empty<string>():new[]{"DLG_2101"},"ST21_JAILED_GHOST",()=>{game.progress.SetFlag("ST21_JAILED_GHOST/JAILED_FIRSTCONVERSATION_DONE");game.SaveGame();OfferKnot();});
+            }
+            else if(npc=="Candelaria")
+            {
+                bool met=game.progress.HasFlag("ST10_CANDELARIA/CANDELARIA_MET");
+                if(!met)
+                {
+                    Show(new[]{"DLG_1010"},"ST10_CANDELARIA",()=>{game.progress.SetFlag("ST10_CANDELARIA/CANDELARIA_MET");game.SaveGame();Close();});
+                }
+                else
+                {
+                    Show(new[]{"DLG_1002"},"ST10_CANDELARIA",()=>{
+                        ShowChoices("Cửa hàng",()=>{Close();CandelariaShopUI.Instance?.Open();},"Nói chuyện",()=>{TalkCandelariaLore();});
+                    });
+                }
+            }
             return true;
+        }
+        void TalkCandelariaLore()
+        {
+            string[] loreDialogs=new[]{"DLG_1003","DLG_1004","DLG_1005","DLG_1006","DLG_1007"};
+            string dId=loreDialogs[(candelariaTalkIndex++)%loreDialogs.Length];
+            Show(new[]{dId},"ST10_CANDELARIA",Close);
         }
         void Show(string[] dialogs,string group,Action complete)
         {
@@ -55,7 +92,7 @@ namespace Brotherhood
             afterLines=complete;Advance();
         }
         public void Advance(){if(!IsOpen||choices.activeSelf)return;inputClock=.2f;if(lines.Count>0){body.text=lines.Dequeue();return;}var action=afterLines;afterLines=null;if(action!=null)action();else Close();}
-        void Question(string group,string id,Action action){Show(new[]{id},group,()=>{confirm=action;choices.SetActive(true);});}
+        void Question(string group,string id,Action action){Show(new[]{id},group,()=>{confirm=action;ShowChoices("Đưa vật phẩm",()=>{var a=confirm;Close();a?.Invoke();},"Giữ lại",Close);});}
         void OfferTirso()
         {
             int index=Array.FindIndex(Herbs,id=>game.progress.Owns(id)&&!game.progress.HasFlag("ST03_TIRSO/TIRSO_"+id+"_DELIVERED"));

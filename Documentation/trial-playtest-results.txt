@@ -1,4 +1,4 @@
-Run UTC: 2026-10-06T11:17:06.8703293Z
+Run UTC: 2026-10-12T17:08:42.1826086Z
 PASS Saved scene initializes the separate custom trial route without rebuilding
 PASS Trial verification reads and writes only its isolated save
 PASS Only the trial driver runs in this isolated Play Mode session
@@ -17,7 +17,7 @@ PASS No handmade portal rectangle, ordered relay actor or pulse trap remains in 
 PASS D17Z01S03 has an explicit trial passage to D17Z01S04
 PASS D17Z01S03 → D17Z01S04 wall doorway is reached by real movement input on the room's terrain
 PASS D17Z01S03 → D17Z01S04 wall doorway records physical player travel when the target is outside its starting tolerance
-PASS D17Z01S03 → D17Z01S04 keeps the authored back-wall doorway available through USE; feet=(-778.17, 8.03, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-0.6038693
+PASS D17Z01S03 → D17Z01S04 keeps the authored back-wall doorway available through USE; feet=(-778.16, 8.03, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-0.5874947
 PASS D17Z01S03 back-wall doorway waits for actual USE instead of auto-transitioning
 PASS USE crosses D17Z01S03 → D17Z01S04 through the normal room fade
 PASS D17Z01S04 passage arrival is clear of the return interaction and rests on real floor
@@ -25,7 +25,7 @@ PASS D17Z01S04 stays in the destination room after the entry cooldown without bo
 PASS D17Z01S04 has an explicit trial passage to D17Z01S07
 PASS D17Z01S04 → D17Z01S07 safe gate approach is reached by real movement input on the room's terrain
 PASS D17Z01S04 → D17Z01S07 safe gate approach records physical player travel when the target is outside its starting tolerance
-PASS D17Z01S04 → D17Z01S07 side gate starts on safe floor without requiring the USE action; feet=(-867.59, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-2.766797
+PASS D17Z01S04 → D17Z01S07 side gate starts on safe floor without requiring the USE action; feet=(-867.58, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-2.751629
 PASS D17Z01S04 → D17Z01S07 changes room by held horizontal movement alone; feet=(-866.80, -24.97, 0.00), health=88, flasks=2, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS Walking left through S04 W crosses before the floor edge without fall damage or death; minOriginY=-4.975, feet=(-866.80, -24.97, 0.00), health=88, flasks=2, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS Walking crosses D17Z01S04 → D17Z01S07 through the normal room fade
@@ -36,10 +36,10 @@ PASS The alternate authored S07 exits cannot bypass the incomplete arena or boss
 PASS Approach to the arena has a physical lower ladder connecting the authored floors
 PASS Approach to the arena ladder approach is reached by real movement input on the room's terrain
 PASS Approach to the arena ladder approach records physical player travel when the target is outside its starting tolerance
-PASS Approach to the arena reaches its starting floor without teleporting; feet=(-864.64, -24.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-1.371851
-PASS Approach to the arena crosses the lower ladder with held Down and lands safely; elapsed=4.3, targetY=-36.975, feet=(-862.67, -36.98, 0.00), health=74, flasks=2, grounded=True, blocked=False, lock=0.01663987, altar=0, ladder=False, cooldown=-5.48097
+PASS Approach to the arena reaches its starting floor without teleporting; feet=(-864.64, -24.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-1.38735
+PASS Approach to the arena crosses the lower ladder with held Down and lands safely; elapsed=4.1, targetY=-36.975, feet=(-862.58, -36.98, 0.00), health=74, flasks=2, grounded=True, blocked=False, lock=0.0001042075, altar=0, ladder=False, cooldown=-5.505099
 PASS One actual arena kill cannot complete the two-target objective
-PASS Two custom arena NPCs are defeated by actual melee input with Godmode disabled; health=74, position=(-864.58, -36.98, 0.00)
+PASS Two custom arena NPCs are defeated by actual melee input with Godmode disabled; health=74, position=(-864.55, -36.98, 0.00)
 PASS Only defeating both arena NPCs completes the arena objective
 PASS Arena objective writes its own gameplay objective flag into the actual save
 PASS Arena objective survives actual LoadSave with its resources, exploration and earlier objectives intact
@@ -48,7 +48,7 @@ PASS Reloading the cleared arena does not respawn its quest targets
 PASS D17Z01S07 has an explicit trial passage to D17Z01S09
 PASS D17Z01S07 → D17Z01S09 safe gate approach is reached by real movement input on the room's terrain
 PASS D17Z01S07 → D17Z01S09 safe gate approach records physical player travel when the target is outside its starting tolerance
-PASS D17Z01S07 → D17Z01S09 side gate starts on safe floor without requiring the USE action; feet=(-852.46, -32.98, 0.00), health=74, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-2.699439
+PASS D17Z01S07 → D17Z01S09 side gate starts on safe floor without requiring the USE action; feet=(-852.44, -32.98, 0.00), health=74, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-2.703696
 PASS D17Z01S07 → D17Z01S09 changes room by held horizontal movement alone; feet=(-874.00, -12.97, 0.00), health=74, flasks=2, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS Walking crosses D17Z01S07 → D17Z01S09 through the normal room fade
 PASS D17Z01S09 passage arrival is clear of the return interaction and rests on real floor
@@ -58,8 +58,8 @@ PASS Lavia uses the supplied animated sprite atlas at readable boss scale in the
 PASS Before the custom boss dies, the S09 rubble still visibly seals the authored left gate and its source crumble texture is ready
 PASS Locked authored boss exit approach is reached by real movement input on the room's terrain
 PASS Locked authored boss exit approach records physical player travel when the target is outside its starting tolerance
-PASS Walking into the locked S09 art-only gate cannot bypass the living custom boss or drop the player; feet=(-887.32, -12.98, 0.00), health=60, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-4.425268
-PASS S09 Lavia is defeated through actual sword, dodge and Flask input with Godmode disabled; attacks=29, flasks=1, bossLife=0, phases=Hover,DiveWindup,Dive,Recover,WingWindup,WingStrike, feet=(-879.96, -12.98, 0.00), health=38, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-12.50424
+PASS Walking into the locked S09 art-only gate cannot bypass the living custom boss or drop the player; feet=(-887.32, -12.98, 0.00), health=60, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-4.403336
+PASS S09 Lavia is defeated through actual sword, dodge and Flask input with Godmode disabled; attacks=27, flasks=1, bossLife=0, phases=Hover,DiveWindup,Dive,Recover,WingWindup,WingStrike, feet=(-880.49, -12.98, 0.00), health=38, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-11.99397
 PASS The real Lavia fight presents a visible attack telegraph before defeat
 PASS Only the custom boss defeat completes the second objective and unlocks its altar door
 PASS The custom boss grants its ordinary source-scaled Purge once without an additional relay or mission payout
@@ -74,7 +74,7 @@ PASS Reloading the saved boss victory keeps the S09 rubble gone without replayin
 PASS D17Z01S09 has an explicit trial passage to D17Z01S08
 PASS D17Z01S09 → D17Z01S08 safe gate approach is reached by real movement input on the room's terrain
 PASS D17Z01S09 → D17Z01S08 safe gate approach records physical player travel when the target is outside its starting tolerance
-PASS D17Z01S09 → D17Z01S08 side gate starts on safe floor without requiring the USE action; feet=(-885.54, -12.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-2.315067
+PASS D17Z01S09 → D17Z01S08 side gate starts on safe floor without requiring the USE action; feet=(-885.49, -12.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-2.203872
 PASS D17Z01S09 → D17Z01S08 changes room by held horizontal movement alone; feet=(-873.50, -34.97, 0.00), health=78, flasks=1, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS Walking crosses D17Z01S09 → D17Z01S08 through the normal room fade
 PASS D17Z01S08 passage arrival is clear of the return interaction and rests on real floor
@@ -99,7 +99,7 @@ PASS Viewing the trial map leaves exploration and saved mission flags unchanged
 PASS D17Z01S08 has an explicit trial passage to D17Z01S09
 PASS D17Z01S08 → D17Z01S09 safe gate approach is reached by real movement input on the room's terrain
 PASS D17Z01S08 → D17Z01S09 safe gate approach records physical player travel when the target is outside its starting tolerance
-PASS D17Z01S08 → D17Z01S09 side gate starts on safe floor without requiring the USE action; feet=(-872.87, -34.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-2.83603
+PASS D17Z01S08 → D17Z01S09 side gate starts on safe floor without requiring the USE action; feet=(-872.82, -34.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-2.879995
 PASS D17Z01S08 → D17Z01S09 changes room by held horizontal movement alone; feet=(-885.50, -12.97, 0.00), health=78, flasks=1, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS Walking crosses D17Z01S08 → D17Z01S09 through the normal room fade
 PASS D17Z01S09 passage arrival is clear of the return interaction and rests on real floor
@@ -107,7 +107,7 @@ PASS D17Z01S09 stays in the destination room after the entry cooldown without bo
 PASS D17Z01S09 has an explicit trial passage to D17Z01S07
 PASS D17Z01S09 → D17Z01S07 safe gate approach is reached by real movement input on the room's terrain
 PASS D17Z01S09 → D17Z01S07 safe gate approach records physical player travel when the target is outside its starting tolerance
-PASS D17Z01S09 → D17Z01S07 side gate starts on safe floor without requiring the USE action; feet=(-873.33, -12.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-3.382958
+PASS D17Z01S09 → D17Z01S07 side gate starts on safe floor without requiring the USE action; feet=(-873.29, -12.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-3.405039
 PASS D17Z01S09 → D17Z01S07 changes room by held horizontal movement alone; feet=(-852.50, -32.97, 0.00), health=78, flasks=1, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS Walking crosses D17Z01S09 → D17Z01S07 through the normal room fade
 PASS D17Z01S07 passage arrival is clear of the return interaction and rests on real floor
@@ -115,20 +115,20 @@ PASS D17Z01S07 stays in the destination room after the entry cooldown without bo
 PASS Return to the authored west door has a physical lower ladder connecting the authored floors
 PASS Return to the authored west door ladder approach is reached by real movement input on the room's terrain
 PASS Return to the authored west door ladder approach records physical player travel when the target is outside its starting tolerance
-PASS Return to the authored west door reaches its starting floor without teleporting; feet=(-864.33, -36.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-3.317153
-PASS Return to the authored west door crosses the lower ladder with held Up and lands safely; elapsed=3.9, targetY=-24.975, feet=(-864.50, -24.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-7.200284
+PASS Return to the authored west door reaches its starting floor without teleporting; feet=(-864.33, -36.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-3.319517
+PASS Return to the authored west door crosses the lower ladder with held Up and lands safely; elapsed=3.9, targetY=-24.975, feet=(-864.50, -24.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-7.206543
 PASS D17Z01S07 has an explicit trial passage to D17Z01S04
 PASS D17Z01S07 → D17Z01S04 safe gate approach is reached by real movement input on the room's terrain
 PASS D17Z01S07 → D17Z01S04 safe gate approach records physical player travel when the target is outside its starting tolerance
-PASS D17Z01S07 → D17Z01S04 side gate starts on safe floor without requiring the USE action; feet=(-867.58, -24.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-7.90016
-PASS D17Z01S07 → D17Z01S04 changes room by held horizontal movement alone; feet=(-867.20, -4.98, 0.00), health=78, flasks=1, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
+PASS D17Z01S07 → D17Z01S04 side gate starts on safe floor without requiring the USE action; feet=(-867.59, -24.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-7.905242
+PASS D17Z01S07 → D17Z01S04 changes room by held horizontal movement alone; feet=(-867.20, -4.97, 0.00), health=78, flasks=1, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS Walking crosses D17Z01S07 → D17Z01S04 through the normal room fade
 PASS D17Z01S04 passage arrival is clear of the return interaction and rests on real floor
 PASS D17Z01S04 stays in the destination room after the entry cooldown without bouncing back
 PASS D17Z01S04 has an explicit trial passage to D17Z01S03
 PASS D17Z01S04 → D17Z01S03 wall doorway is reached by real movement input on the room's terrain
 PASS D17Z01S04 → D17Z01S03 wall doorway records physical player travel when the target is outside its starting tolerance
-PASS D17Z01S04 → D17Z01S03 keeps the authored back-wall doorway available through USE; feet=(-860.11, -4.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-2.340954
+PASS D17Z01S04 → D17Z01S03 keeps the authored back-wall doorway available through USE; feet=(-860.12, -4.98, 0.00), health=78, flasks=1, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-2.367427
 PASS D17Z01S04 back-wall doorway waits for actual USE instead of auto-transitioning
 PASS USE crosses D17Z01S04 → D17Z01S03 through the normal room fade
 PASS D17Z01S03 passage arrival is clear of the return interaction and rests on real floor
@@ -140,78 +140,78 @@ PASS The old right-hand S04 save position has an escape bound to its existing Fr
 PASS Actual LoadSave restores the legacy S04 position on the right of its sealed middle wall
 PASS Legacy S04 FrontR escape is reached by real movement input on the room's terrain
 PASS Legacy S04 FrontR escape records physical player travel when the target is outside its starting tolerance
-PASS The authored FrontR doorway waits for interaction instead of automatically routing to its missing source destination; feet=(-839.83, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-1.538156
+PASS The authored FrontR doorway waits for interaction instead of automatically routing to its missing source destination; feet=(-839.84, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-1.538693
 PASS A real FrontR interaction escapes the old S04 save to a safe source S03 floor
 PASS Escaping the legacy S04 save preserves its earned objectives and Mea Culpa level without granting the new boss defeat
 PASS The real legacy escape saves the new current room and preserves its independent boss lock
 PASS The legacy FrontR escape preserves the source RoomDoor destination, trigger and spawn transforms
 PASS The live touch-input fixture uses the existing S04 FrontR doorway
 PASS The actual USE touch button and EventSystem exist in the saved scene
-PASS The USE button is offered at the authored doorway while the room-entry cooldown is still active; feet=(-840.00, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.167516
+PASS The USE button is offered at the authored doorway while the room-entry cooldown is still active; feet=(-840.00, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.161426
 PASS The visible USE control is the foremost UI raycast target at its screen center; top=USE
 PASS A real USE PointerDown queues one press and begins touch hold before gameplay samples input
 PASS Gameplay consumes the one-shot USE press and PointerUp ends the hold without a second press
-PASS One actual touch USE press during cooldown crosses the authored door when cooldown ends; feet=(-780.00, 8.03, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.5667207
-PASS The second touch starts inside the same authored doorway during a fresh cooldown; feet=(-839.55, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.166676
+PASS One actual touch USE press during cooldown crosses the authored door when cooldown ends; feet=(-780.00, 8.03, 0.00), health=88, flasks=2, grounded=False, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.563319
+PASS The second touch starts inside the same authored doorway during a fresh cooldown; feet=(-839.55, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.162219
 PASS The USE control remains a raycast target after returning to the authored door
-PASS Touch movement leaves the door interaction radius before the buffered press can execute; feet=(-838.64, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.9669041
-PASS Walking out of the doorway cancels its pending USE press instead of changing rooms later; feet=(-838.64, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-0.2670539
+PASS Touch movement leaves the door interaction radius before the buffered press can execute; feet=(-838.64, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.9660102
+PASS Walking out of the doorway cancels its pending USE press instead of changing rooms later; feet=(-838.64, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-0.282867
 PASS All three back-wall touch fixtures start with the arena, boss and altar objectives genuinely unlocked by the walkthrough
 PASS Back-wall touch fixtures use the gameplay EventSystem and visible USE control
-PASS D17Z01S03 → D17Z01S04 relic offers its real USE control while standing at the authored doorway; feet=(-778.00, 8.03, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.166432
+PASS D17Z01S03 → D17Z01S04 relic offers its real USE control while standing at the authored doorway; feet=(-778.00, 8.03, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.16469
 PASS D17Z01S03 → D17Z01S04 relic USE is the top UI raycast target; top=USE
 PASS D17Z01S03 → D17Z01S04 relic PointerDown queues the one-shot touch action
 PASS D17Z01S03 → D17Z01S04 relic USE is sampled by gameplay and PointerUp releases the hold
-PASS D17Z01S03 → D17Z01S04 relic changes room from a single real UI tap, including the source fade and cooldown; feet=(-858.50, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.5832427
-PASS D17Z01S04 → D17Z01S03 FrontL offers its real USE control while standing at the authored doorway; feet=(-860.00, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.166519
+PASS D17Z01S03 → D17Z01S04 relic changes room from a single real UI tap, including the source fade and cooldown; feet=(-858.50, -4.97, 0.00), health=88, flasks=2, grounded=False, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.5653061
+PASS D17Z01S04 → D17Z01S03 FrontL offers its real USE control while standing at the authored doorway; feet=(-860.00, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.165975
 PASS D17Z01S04 → D17Z01S03 FrontL USE is the top UI raycast target; top=USE
 PASS D17Z01S04 → D17Z01S03 FrontL PointerDown queues the one-shot touch action
 PASS D17Z01S04 → D17Z01S03 FrontL USE is sampled by gameplay and PointerUp releases the hold
-PASS D17Z01S04 → D17Z01S03 FrontL changes room from a single real UI tap, including the source fade and cooldown; feet=(-780.00, 8.03, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.5831066
-PASS D17Z01S04 → D17Z01S03 FrontR offers its real USE control while standing at the authored doorway; feet=(-840.00, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.1668
+PASS D17Z01S04 → D17Z01S03 FrontL changes room from a single real UI tap, including the source fade and cooldown; feet=(-780.00, 8.03, 0.00), health=88, flasks=2, grounded=False, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.5632387
+PASS D17Z01S04 → D17Z01S03 FrontR offers its real USE control while standing at the authored doorway; feet=(-840.00, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.166281
 PASS D17Z01S04 → D17Z01S03 FrontR USE is the top UI raycast target; top=USE
 PASS D17Z01S04 → D17Z01S03 FrontR PointerDown queues the one-shot touch action
 PASS D17Z01S04 → D17Z01S03 FrontR USE is sampled by gameplay and PointerUp releases the hold
-PASS D17Z01S04 → D17Z01S03 FrontR changes room from a single real UI tap, including the source fade and cooldown; feet=(-780.00, 8.03, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.5831918
+PASS D17Z01S04 → D17Z01S03 FrontR changes room from a single real UI tap, including the source fade and cooldown; feet=(-780.00, 8.03, 0.00), health=88, flasks=2, grounded=False, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.5860997
 PASS Six side-gate movement fixtures start after real arena and boss victories
 PASS Side-gate fixtures drive the same sampled horizontal axis as the touch joystick
-PASS D17Z01S04 → D17Z01S07 W begins on safe floor away from the gate, without an available USE action; feet=(-867.60, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.187261
+PASS D17Z01S04 → D17Z01S07 W begins on safe floor away from the gate, without an available USE action; feet=(-867.60, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.177636
 PASS D17Z01S04 → D17Z01S07 W crosses by held joystick movement with no USE press; minOriginY=-4.975, feet=(-866.80, -24.97, 0.00), health=88, flasks=2, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS S04 W opens before the left floor edge with no fall damage; minOriginY=-4.975, feet=(-866.80, -24.97, 0.00), health=88, flasks=2, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS D17Z01S04 → D17Z01S07 W reaches its intended arrival after the room fade without manual input or teleporting mid-crossing
-PASS Keeping the same joystick direction after arrival cannot bounce through the reverse W gate; feet=(-869.37, -24.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-0.6842484
+PASS Keeping the same joystick direction after arrival cannot bounce through the reverse W gate; feet=(-869.37, -24.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-0.6878276
 PASS Releasing the joystick leaves the Penitent in the arrived room before another crossing
-PASS Releasing and pressing the same joystick direction again intentionally returns through the W gate; feet=(-867.20, -4.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.5842538
-PASS D17Z01S07 → D17Z01S04 W begins on safe floor away from the gate, without an available USE action; feet=(-867.60, -24.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.183435
-PASS D17Z01S07 → D17Z01S04 W crosses by held joystick movement with no USE press; minOriginY=-24.975, feet=(-867.20, -4.98, 0.00), health=88, flasks=2, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
+PASS Releasing and pressing the same joystick direction again intentionally returns through the W gate; feet=(-867.20, -4.97, 0.00), health=88, flasks=2, grounded=False, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.5795795
+PASS D17Z01S07 → D17Z01S04 W begins on safe floor away from the gate, without an available USE action; feet=(-867.60, -24.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.179966
+PASS D17Z01S07 → D17Z01S04 W crosses by held joystick movement with no USE press; minOriginY=-24.975, feet=(-867.20, -4.97, 0.00), health=88, flasks=2, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS D17Z01S07 → D17Z01S04 W reaches its intended arrival after the room fade without manual input or teleporting mid-crossing
 PASS D17Z01S07 → D17Z01S04 W does not bounce back after the destination cooldown while the joystick is released
-PASS D17Z01S07 → D17Z01S09 SE begins on safe floor away from the gate, without an available USE action; feet=(-852.40, -32.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.183408
+PASS D17Z01S07 → D17Z01S09 SE begins on safe floor away from the gate, without an available USE action; feet=(-852.40, -32.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.18454
 PASS D17Z01S07 → D17Z01S09 SE crosses by held joystick movement with no USE press; minOriginY=-32.975, feet=(-874.00, -12.97, 0.00), health=88, flasks=2, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS D17Z01S07 → D17Z01S09 SE reaches its intended arrival after the room fade without manual input or teleporting mid-crossing
 PASS D17Z01S07 → D17Z01S09 SE does not bounce back after the destination cooldown while the joystick is released
-PASS D17Z01S09 → D17Z01S07 E begins on safe floor away from the gate, without an available USE action; feet=(-873.30, -12.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.183594
+PASS D17Z01S09 → D17Z01S07 E begins on safe floor away from the gate, without an available USE action; feet=(-873.30, -12.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.183311
 PASS D17Z01S09 → D17Z01S07 E crosses by held joystick movement with no USE press; minOriginY=-12.975, feet=(-852.50, -32.97, 0.00), health=88, flasks=2, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS D17Z01S09 → D17Z01S07 E reaches its intended arrival after the room fade without manual input or teleporting mid-crossing
 PASS D17Z01S09 → D17Z01S07 E does not bounce back after the destination cooldown while the joystick is released
-PASS D17Z01S09 → D17Z01S08 DECO_151 begins on safe floor away from the gate, without an available USE action; feet=(-885.55, -12.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.183525
+PASS D17Z01S09 → D17Z01S08 DECO_151 begins on safe floor away from the gate, without an available USE action; feet=(-885.55, -12.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.182466
 PASS D17Z01S09 → D17Z01S08 DECO_151 crosses by held joystick movement with no USE press; minOriginY=-12.975, feet=(-873.50, -34.97, 0.00), health=88, flasks=2, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS D17Z01S09 → D17Z01S08 DECO_151 reaches its intended arrival after the room fade without manual input or teleporting mid-crossing
 PASS D17Z01S09 → D17Z01S08 DECO_151 does not bounce back after the destination cooldown while the joystick is released
-PASS D17Z01S08 → D17Z01S09 E begins on safe floor away from the gate, without an available USE action; feet=(-872.80, -34.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.183143
+PASS D17Z01S08 → D17Z01S09 E begins on safe floor away from the gate, without an available USE action; feet=(-872.80, -34.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=1.182252
 PASS D17Z01S08 → D17Z01S09 E crosses by held joystick movement with no USE press; minOriginY=-34.975, feet=(-885.50, -12.97, 0.00), health=88, flasks=2, grounded=False, blocked=True, lock=0, altar=0, ladder=False, cooldown=1.2
 PASS D17Z01S08 → D17Z01S09 E reaches its intended arrival after the room fade without manual input or teleporting mid-crossing
 PASS D17Z01S08 → D17Z01S09 E does not bounce back after the destination cooldown while the joystick is released
 PASS The locked-gate fixture respawns both living arena NPCs before gameplay can evaluate its completion flag
-PASS Walking into locked S07 SE cannot cross the arena gate or fall off the right floor; minY=-32.975, feet=(-850.54, -32.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.2591774
-PASS Locked S07 SE dash fixture reaches the gate with positive high-speed motor velocity before reversing the joystick; feet=(-850.51, -32.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.193211
-PASS The locked S07 SE gate stops an active dash despite opposite joystick input, keeping the player alive on its safe floor; feet=(-850.63, -32.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.1766053
-PASS The reversed dash cannot cross the locked arena gate or fall after its remaining momentum expires; feet=(-850.63, -32.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-0.2237702
+PASS Walking into locked S07 SE cannot cross the arena gate or fall off the right floor; minY=-32.975, feet=(-850.54, -32.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.2589761
+PASS Locked S07 SE dash fixture reaches the gate with positive high-speed motor velocity before reversing the joystick; feet=(-850.49, -32.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.1919566
+PASS The locked S07 SE gate stops an active dash despite opposite joystick input, keeping the player alive on its safe floor; feet=(-850.63, -32.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=0.1776722
+PASS The reversed dash cannot cross the locked arena gate or fall after its remaining momentum expires; feet=(-850.63, -32.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-0.2404284
 PASS Loading an actual old relay-and-altar save preserves its earned flags but does not defeat or hide the new S09 boss
 PASS Loading an old save without the custom boss flag restores the visible S09 rubble gate
 PASS The retired relay flag does not count as the new boss objective in current trial progress
 PASS Legacy arena completion permits its original northwestern exit while the original altar exit still requires the new boss defeat
-PASS Walking into the art-only gate remains safe and locked after loading an old relay-completion save; feet=(-887.41, -12.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-0.8228814
+PASS Walking into the art-only gate remains safe and locked after loading an old relay-completion save; feet=(-887.32, -12.98, 0.00), health=88, flasks=2, grounded=True, blocked=False, lock=0, altar=0, ladder=False, cooldown=-0.8472604
 PASS Legacy trial migration does not award the original Warden story victory
 PASS A saved source Warden victory leaves the independent custom boss alive and its new objective incomplete
 PASS The unrelated source Warden victory does not clear the custom S09 rubble gate
